@@ -15,7 +15,7 @@ public class Logger {
     private static FileWriter escribir;
 
     public Logger(String ruta){
-        File log = new File(ruta);
+        log = new File(ruta);
         try {
             log.createNewFile();
             escribir = new FileWriter(log,true);
