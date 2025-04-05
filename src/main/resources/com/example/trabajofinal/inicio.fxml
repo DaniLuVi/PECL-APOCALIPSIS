@@ -9,10 +9,28 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-
-    <Label fx:id="welcomeText" prefHeight="26.0" prefWidth="286.0" text="APOCALIPSIS ZOMBIE" textAlignment="CENTER">
-      <font>
-         <Font size="14.0" />
-      </font></Label>
-    <Button onAction="#iniciarJuego" text="Iniciar juego" />
+   <VBox prefHeight="110.0" prefWidth="345.0">
+      <children>
+      
+          <Label fx:id="welcomeText" prefHeight="26.0" prefWidth="286.0" text="APOCALIPSIS ZOMBIE" textAlignment="RIGHT">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <opaqueInsets>
+               <Insets bottom="100.0" top="1000.0" />
+            </opaqueInsets>
+            <VBox.margin>
+               <Insets left="200.0" />
+            </VBox.margin>
+         </Label>
+          <Button onAction="#iniciarJuego" text="Iniciar juego" textAlignment="CENTER">
+            <opaqueInsets>
+               <Insets top="2000.0" />
+            </opaqueInsets>
+            <VBox.margin>
+               <Insets left="230.0" top="60.0" />
+            </VBox.margin>
+         </Button>
+      </children>
+   </VBox>
 </VBox>
