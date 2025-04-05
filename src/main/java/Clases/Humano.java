@@ -17,18 +17,19 @@ public class Humano extends Thread{
 
 
     public void run() {
-      /*   try {
+        try {
             while(true) {
-               refugio.entrarZona(nombre);
+                refugio.entrarZona(nombre, true);
                 Thread.sleep((int)Math.random() * 1000 + 1000);
                 int tunel_escogido = ((int)Math.random() * 5) - 1;
-                tunel.paso(tunel_escogido, this, true);
+                refugio.entrarTunel(tunel_escogido, this);
+                refugio.entrarZona(nombre, false);
                 comida = comida + 2;
                 Thread.sleep((int)Math.random() * 2000 + 3000);
 
             }
         } catch (InterruptedException e) {
             System.out.println(e.getMessage());
-        } */
+        }
     }
 }
