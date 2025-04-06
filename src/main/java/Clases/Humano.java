@@ -8,10 +8,11 @@ public class Humano extends Thread{
     private Logger log;
     private int comida;
 
-    public Humano(String nombre, Refugio refugio) {
-        super(nombre);
+    public Humano(Refugio refugio) {
+        super();
+        this.nombre = "H" + this.getId();
         this.refugio = refugio;
-        log = new Logger("apocalipsis.txt");
+       // log = new Logger("apocalipsis.txt");
 
     }
 

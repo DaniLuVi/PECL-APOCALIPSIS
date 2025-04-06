@@ -9,6 +9,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.concurrent.atomic.AtomicReference;
 
+import static java.lang.Thread.currentThread;
+
 public class ControladorPantallaJuego implements Initializable {
 
     private Stage scene;
@@ -17,10 +19,12 @@ public class ControladorPantallaJuego implements Initializable {
         ZonaInsegura zona = new ZonaInsegura();
         Tunel[] tunel = new Tunel[4];
         Refugio refugio = new Refugio(0, tunel);
-        Zombie zombie = new Zombie("Z", zona);
+        Zombie zombie = new Zombie(zona);
         AtomicReference zombie0 = new AtomicReference(zombie);
+        System.out.println(zombie.getName());
         for (int i = 1; i < 1000; i++) {
-            Humano humano = new Humano("H", refugio);
+            Humano humano = new Humano(refugio);
+            System.out.println(humano.getName());
         }
     }
 

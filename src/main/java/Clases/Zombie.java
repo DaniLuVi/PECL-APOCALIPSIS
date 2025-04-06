@@ -6,8 +6,8 @@ public class Zombie extends Thread{
     private ZonaInsegura zona;
     private int muertes = 0;
 
-    public Zombie(String nombre, ZonaInsegura zona) {
-        this.nombre = nombre;
+    public Zombie(ZonaInsegura zona) {
+        this.nombre = "Z" + this.getId();
         this.zona = zona;
     }
 
