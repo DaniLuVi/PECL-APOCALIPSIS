@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -20,6 +21,15 @@ public class ControladorPantallaJuego implements Initializable {
     private Label[] centroTunel = new Label[4];
     private Label[] dentroTunel = new Label[4];
     private Label[] fueraTunel = new Label[4];
+    // vamos a añadir los ids de los humanos y zombies con TextArea
+    @FXML
+    private TextArea[] txtTunel = new TextArea[4];
+
+    @FXML
+    private TextArea[] txtFuera = new TextArea[4];
+
+    @FXML
+    private TextArea[] txtDentro = new TextArea[4];
 
     private Stage scene;
 
