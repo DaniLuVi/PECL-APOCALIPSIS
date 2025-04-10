@@ -18,12 +18,6 @@ public class Logger {
     public Logger(String ruta){
         this.ruta = ruta;
         log = new File(ruta);
-        try {
-            log.createNewFile();
-            escribir = new FileWriter(log,true);
-        } catch (IOException e) {
-            System.out.println(e);
-        }
     }
 
     public static void escribir(String mensaje) {
