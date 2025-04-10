@@ -42,7 +42,7 @@ public class ControladorPantallaJuego implements Initializable {
         }
 
         Refugio refugio = new Refugio(0, tunel);
-        Zombie zombie = new Zombie(zona);
+        Zombie zombie = new Zombie(0, zona);
         AtomicReference zombie0 = new AtomicReference(zombie);
         System.out.println(zombie.getName());
 

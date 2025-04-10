@@ -11,9 +11,13 @@ public class Humano extends Thread{
     private Refugio refugio;
     private Exchanger<Boolean> exchanger = new Exchanger<>();
 
+    private static Logger log;
+
     public Humano(int nombre, Refugio refugio) {
         super("H" +nombre);
         this.refugio = refugio;
+        this.start();
+        log = new Logger("apocalipsis.txt");
     }
 
 
@@ -81,6 +85,7 @@ public class Humano extends Thread{
            */
 
             refugio.entrarZona(this, true);
+            log.escribir("El humano " + this.getName() + " entra a la zona común.");
             try {
                 Thread.sleep((int)Math.random() * 1000 + 1000);
             } catch (InterruptedException e) {

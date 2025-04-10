@@ -4,13 +4,14 @@ import javafx.scene.control.TableColumn;
 
 public class Zombie extends Thread{
 
-    private String nombre;
+    private int nombre;
     private ZonaInsegura zona;
     private int muertes = 0;
 
-    public Zombie(ZonaInsegura zona) {
-        this.nombre = "Z" + this.getId();
+    public Zombie(int nombre, ZonaInsegura zona) {
+        super("Z" + nombre);
         this.zona = zona;
+        this.start();
     }
 
     public void run() {
@@ -45,7 +46,7 @@ public class Zombie extends Thread{
         ts[0] = t;
         Refugio r = new Refugio(20,ts ) ;
         Humano h = new Humano(1, r);
-        Zombie z = new Zombie(null);
+        Zombie z = new Zombie(0, null);
 
         h.start();
         for (int i = 0; i < 15; i++) {
