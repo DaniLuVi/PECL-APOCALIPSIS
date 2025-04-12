@@ -20,11 +20,11 @@ public class Humano extends Thread{
 //Voy a ir factorizando
     private int buscar(int n){
 
-        //if (n == -1){n = (int)( Math.random()*4); }
-        //System.out.println(this.getName()+"Elige tunel " +n);
-        //refugio.entrarTunel(n, this, false);
-        try{Thread.sleep(30000 + (int) (2000* Math.random()));
-           refugio.tuneles[n].paso(this,false);
+        if (n == -1){n = (int)( Math.random()*4); }
+        System.out.println(this.getName()+"Elige tunel " +n);
+        refugio.entrarTunel(n, this, false);
+        try{Thread.sleep(3000 + (int) (2000* Math.random()));
+           refugio.tuneles[n].paso(this,true);
            refugio.setComida(2);
            return 1; // Tod0 ha ido bien
         } catch (InterruptedException e){
@@ -35,16 +35,24 @@ public class Humano extends Thread{
                 //boolean ataque = false;
                 if (resultado == true){
                     System.out.println("He muerto.");
+                    crearZombie();
+                    return 0;
                 }else{
                     System.out.println("Sobrevivo al ataque.");
+                    return 2;
                 }
             } catch (InterruptedException ex) {
                 throw new RuntimeException(ex);
             }
         }
-            return 0;
+
     }
 
+    public void crearZombie(){
+
+
+
+    }
     public boolean morder(boolean b){
         try {
             return exchanger.exchange(b);
@@ -58,10 +66,10 @@ public class Humano extends Thread{
     public void run() {
         int n;
         boolean ataque;
-        while (true){
-            this.buscar(1);
-            if (1 +2 == 39) break;
-        }
+//        while (true){
+//            this.buscar(-1);
+//            if (1 +2 == 39) break;
+//        }
         while(true) {
         /*
             n = (int)(Math.random()*4);
@@ -86,10 +94,11 @@ public class Humano extends Thread{
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }       // esta es la entrada a la zona común antes de elegir el túnel
-
+            refugio.entrarZona(this, false);
             n = (int)(Math.random()*4);
             System.out.println(this.getName()+"Elige tunel " +n);
-            refugio.entrarZona(this, false);    // sale de la zona común
+            buscar(1);
+            /*refugio.entrarZona(this, false);    // sale de la zona común
             refugio.entrarTunel(n, this, false);
 
             try{Thread.sleep(3000 + (int) (2000* Math.random()));
@@ -105,16 +114,7 @@ public class Humano extends Thread{
                 } catch (InterruptedException ex) {
                     throw new RuntimeException(ex);
                 }
-            } // Ha sido atacado.
-
-            refugio.entrarTunel(n, this, false);
-            refugio.tuneles[n].paso(this,false);    // entra del tunel al refugio
-
-            try {
-                Thread.sleep(2000 + (int) Math.random() *2000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }       // se va a la zona de descanso
+            } // Ha sido atacado.*/
 
             refugio.comer(1);
             try {

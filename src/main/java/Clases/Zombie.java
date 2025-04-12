@@ -15,11 +15,12 @@ public class Zombie extends Thread{
 
     public void run() {
         try {
+            Humano elegido;
             while(true) {
-                Humano elegido = zona.getVictima();
+                elegido = zona.getVictima();
                 if (elegido != null) {
-                    int elegido = (int) (Math.random() * zona.getNumHumanos());
-                    morder(zona.humanos[elegido]);
+                    elegido=zona.getVictima();
+                    morder(elegido);
                     Thread.sleep((int) (Math.random() * 2000) + 1000);
                 }
                 int numero_zona = (int) (Math.random() * 4);
@@ -39,27 +40,7 @@ public class Zombie extends Thread{
     }
 
 
-    public static void main(String[] args ){
-        Tunel t = new Tunel();
-        Tunel[] ts = new Tunel[1];
-        ts[0] = t;
-        Refugio r = new Refugio(20,ts ) ;
-        Humano h = new Humano(1, r);
-        Zombie z = new Zombie(null);
 
-        h.start();
-        for (int i = 0; i < 15; i++) {
-            try {
-            z.morder(h);
-
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-        }
-
-
-    }
 
 
 

@@ -1,5 +1,7 @@
 package Clases;
 
+import javafx.scene.control.TextArea;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.BrokenBarrierException;
@@ -14,11 +16,13 @@ public class Refugio {
     private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
     private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
+    ListaThreads zona;
 
-    private List<Humano> humanos;
 
-    public Refugio(int comida, Tunel[] tuneles) {
+    private ListaThreads humanos;
 
+    public Refugio(int comida, Tunel[] tuneles, TextArea zona) {
+        this.zona =new ListaThreads(zona);
         for (int i = 0; i < 4; i++) {
             accesoTunel[i] = new CyclicBarrier(3);
             this.tuneles = tuneles;
@@ -52,7 +56,7 @@ public class Refugio {
         // Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel
         //h.move()
         System.out.println("Pasa al tunel" + n + " "+ h.getName());
-        tuneles[n].paso(h,entra);
+        tuneles[n]. paso(h,entra);
 
     }
 
@@ -60,10 +64,10 @@ public class Refugio {
         cerrojo.lock();
         try {
             if (entra) {
-                humanos.add(humano);
+                zona.meter(humano);
                 System.out.println(humano.getName() + " ha entrado a la zona común.");
             } else {
-                humanos.remove(humano);
+                zona.sacar(humano);
                 System.out.println(humano.getName() + " ha salido de la zona común.");
             }
         } catch (Exception e) {
@@ -80,34 +84,14 @@ public class Refugio {
     public void comer(int n){
         try {
             comida.acquire(n);
+            System.out.println(comida.availablePermits());
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
 
 
-    public static void main(String[] args){
-        Tunel tuneles[] = new Tunel[4];
-        Humano humanos[] = new Humano[30];
 
-        for (int i = 0; i < 4; i++) {
-            tuneles[i] = new Tunel();
-            tuneles[i].nTunel = i+1;
-        }
-
-        Refugio r = new Refugio(20,tuneles);
-        for (int i = 0; i < 30 ; i++) {
-            humanos[i] = new Humano(i+1,r);
-            humanos[i].start();
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-        }
-
-
-    }
 
 
 

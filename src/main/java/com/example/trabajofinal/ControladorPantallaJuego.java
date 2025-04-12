@@ -3,8 +3,8 @@ package com.example.trabajofinal;
 import Clases.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -12,37 +12,67 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.concurrent.atomic.AtomicReference;
 
-import static java.lang.Thread.currentThread;
-
 public class ControladorPantallaJuego implements Initializable {
     @FXML
     protected GridPane tuneles;
-    private Label[] centroTunel = new Label[4];
-    private Label[] dentroTunel = new Label[4];
+    @FXML
+    private TextArea[] dentro;
+    @FXML
+    private TextArea[] izquierda;
+    @FXML
+    private TextArea[] fuera;
+
+
+    @FXML
+    private TextArea dentro1, dentro2, dentro3, dentro4;
+
+    @FXML
+    private TextArea izquierda1, izquierda2, izquierda3, izquierda4;
+    @FXML
+    private TextArea fuera1, fuera2,fuera3, fuera4;
+
+    @FXML
+    private TextArea[] exterior;
+    @FXML
+    private TextArea exterior1,exterior2,exterior3,exterior4;
+    @FXML
+    private TextArea zona;
+
+
+
+
+
+    private Label[] izquierdaTunel = new Label[4];
     private Label[] fueraTunel = new Label[4];
 
     private Stage scene;
 
     private void comienzo() {
-        ZonaInsegura zona = new ZonaInsegura();
+        dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
+        izquierda = new TextArea[]{izquierda1, izquierda2, izquierda3, izquierda4};
+        fuera = new TextArea[]{fuera1, fuera2, fuera3, fuera4};
+        exterior = new TextArea[]{exterior1, exterior2, exterior3,exterior3};
+        ZonaInsegura[] zonas = new ZonaInsegura[4];
         Tunel[] tunel = new Tunel[4];
         for (int i = 0; i < 4; i++) {
-            tunel[i] = new Tunel();
+            zonas[i] = new ZonaInsegura(exterior[i]);
+            tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], zonas[i]);
             tunel[i].nTunel = i + 1;
+
         }
+        Refugio refugio = new Refugio(0, tunel,zona);
+        //Zombie zombie = new Zombie(zona);
+        //AtomicReference zombie0 = new AtomicReference(zombie);
+        //System.out.println(zombie.getName());
 
-        Refugio refugio = new Refugio(0, tunel);
-        Zombie zombie = new Zombie(zona);
-        AtomicReference zombie0 = new AtomicReference(zombie);
-        System.out.println(zombie.getName());
 
-
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 1; i <= 9; i++) {
             Humano humano = new Humano(i, refugio);
             System.out.println(humano.getName());
+            humano.start();
         }
 
-        for (int i = 0; i < 3; i++) {
+        /*for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 4; j++) {
                 // Aquí podrías instanciar tu LetrasColoresGrid
                 //LetrasColoresGrid customComponent = new LetrasColoresGrid();
@@ -54,13 +84,13 @@ public class ControladorPantallaJuego implements Initializable {
                 placeholder.setMinSize(100, 60); // Tamaño mínimo para visualización
                 placeholder.setStyle("-fx-border-color: black; -fx-text-alignment: center;");
                 tuneles.add(placeholder, i, j);
-                if (i == 0)dentroTunel[j] = placeholder;
+                if (i == 0) izquierdaTunel[j] = placeholder;
                 if (i == 1)centroTunel[j] = placeholder;
                 if (i == 2)fueraTunel [j] = placeholder;
 
 
             }
-        }
+        }*/
 
 
 
