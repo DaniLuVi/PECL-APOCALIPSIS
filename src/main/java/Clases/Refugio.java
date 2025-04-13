@@ -15,7 +15,7 @@ public class Refugio {
     private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
 
-    private List<Humano> humanos;
+    private ArrayList<Humano> humanos;
 
     public Refugio(int comida, Tunel[] tuneles) {
 
@@ -24,6 +24,7 @@ public class Refugio {
             this.tuneles = tuneles;
         }
         this.comida = new Semaphore(comida, true);
+        humanos = new ArrayList<>();
     }
 
     public void entrarTunel(int n, Humano h) {

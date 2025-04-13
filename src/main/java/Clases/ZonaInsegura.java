@@ -22,7 +22,7 @@ public class ZonaInsegura {
 
         }catch (Exception e){System.out.println(e);}
         finally {c.unlock();}
-
+        return null;
     }
 
     public void transformacion(Humano h){

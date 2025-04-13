@@ -18,11 +18,11 @@ public class Zombie extends Thread{
         try {
             while(true) {
                 Humano elegido = zona.getVictima();
-                if (elegido != null) {
+                /*if (elegido != null) {
                     int elegido = (int) (Math.random() * zona.getNumHumanos());
-                    morder(zona.humanos[elegido]);
+                    morder(zona.humanos[elegido]);*/
                     Thread.sleep((int) (Math.random() * 2000) + 1000);
-                }
+                //}
                 int numero_zona = (int) (Math.random() * 4);
             }
         } catch (InterruptedException e) {

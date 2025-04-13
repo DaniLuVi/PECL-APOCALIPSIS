@@ -16,7 +16,7 @@ public class Humano extends Thread{
     public Humano(int nombre, Refugio refugio) {
         super("H" +nombre);
         this.refugio = refugio;
-        this.start();
+        //this.start();
         log = new Logger("apocalipsis.txt");
     }
 
@@ -62,10 +62,10 @@ public class Humano extends Thread{
     public void run() {
         int n;
         boolean ataque;
-        while (true){
+        /*while (true){
             this.buscar(1);
             if (1 +2 == 39) break;
-        }
+        }*/
         while(true) {
         /*
             n = (int)(Math.random()*4);
@@ -93,8 +93,9 @@ public class Humano extends Thread{
             }       // esta es la entrada a la zona común antes de elegir el túnel
 
             n = (int)(Math.random()*4);
-            System.out.println(this.getName()+"Elige tunel " +n);
-            refugio.entrarZona(this, false);    // sale de la zona común
+            log.escribir(this.getName()+"Elige tunel " +n);
+            refugio.entrarZona(this, false);
+            log.escribir("El humano " + this.getName() + " sale de la zona común.");
             refugio.entrarTunel(n, this, false);
 
             try{Thread.sleep(3000 + (int) (2000* Math.random()));
@@ -119,9 +120,11 @@ public class Humano extends Thread{
                 Thread.sleep(2000 + (int) Math.random() *2000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
-            }       // se va a la zona de descanso
+            }
+            log.escribir(this.getName() + "descansa.");// se va a la zona de descanso
 
             refugio.comer(1);
+            log.escribir(this.getName() + " se come una pieza de comida.");
             try {
                 Thread.sleep(3000 + (int) Math.random() * 2000);
             } catch (InterruptedException e) {

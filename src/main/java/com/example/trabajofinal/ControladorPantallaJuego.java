@@ -49,6 +49,7 @@ public class ControladorPantallaJuego implements Initializable {
 
         for (int i = 1; i <= 20; i++) {
             Humano humano = new Humano(i, refugio);
+            humano.start();
             System.out.println(humano.getName());
         }
 
