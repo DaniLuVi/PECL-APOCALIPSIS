@@ -15,6 +15,8 @@ public class Refugio {
     private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
 
+    private static Logger log;
+
     private ArrayList<Humano> humanos;
 
     public Refugio(int comida, Tunel[] tuneles) {
@@ -25,22 +27,9 @@ public class Refugio {
         }
         this.comida = new Semaphore(comida, true);
         humanos = new ArrayList<>();
+        log = new Logger("apocalipsis.txt");
     }
 
-    public void entrarTunel(int n, Humano h) {
-
-        try {
-            accesoTunel[n].await();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        } catch (BrokenBarrierException e) {
-            throw new RuntimeException(e);
-        }
-        // Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel
-        //h.move()
-        tuneles[n].paso(h,true);
-
-    }
     public void entrarTunel(int n, Humano h, boolean entra) {
 
         try {
@@ -50,9 +39,9 @@ public class Refugio {
         } catch (BrokenBarrierException e) {
             throw new RuntimeException(e);
         }
-        // Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel
+        log.escribir("Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel");
         //h.move()
-        System.out.println("Pasa al tunel" + n + " "+ h.getName());
+        log.escribir("Pasa al tunel" + n + " "+ h.getName());
         tuneles[n].paso(h,entra);
 
     }
@@ -62,10 +51,10 @@ public class Refugio {
         try {
             if (entra) {
                 humanos.add(humano);
-                System.out.println(humano.getName() + " ha entrado a la zona común.");
+                log.escribir(humano.getName() + " ha entrado a la zona común.");
             } else {
                 humanos.remove(humano);
-                System.out.println(humano.getName() + " ha salido de la zona común.");
+                log.escribir(humano.getName() + " ha salido de la zona común.");
             }
         } catch (Exception e) {
             throw new RuntimeException(e);

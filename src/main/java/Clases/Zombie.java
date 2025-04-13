@@ -8,10 +8,13 @@ public class Zombie extends Thread{
     private ZonaInsegura zona;
     private int muertes = 0;
 
+    private static Logger log;
+
     public Zombie(int nombre, ZonaInsegura zona) {
         super("Z" + nombre);
         this.zona = zona;
         this.start();
+        log = new Logger("apocalipsis.txt");
     }
 
     public void run() {
