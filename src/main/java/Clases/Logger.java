@@ -1,5 +1,6 @@
 package Clases;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,30 +16,21 @@ public class Logger {
     private static FileWriter escribir;
 
     public Logger(String ruta){
+        this.ruta = ruta;
         log = new File(ruta);
-        try {
-            log.createNewFile();
-            escribir = new FileWriter(log,true);
-        } catch (IOException e) {
-            System.out.println(e);
-        }
     }
-    public static void escribir(String texto){
+
+    public static void escribir(String mensaje) {
         c.lock();
-        try {
-
-            System.out.println(new Date() + ": " + texto);
-            //escribir.append(new Date() + ": " + texto + "\n");
-
-            //escribir.write(new Date() + ": " + texto + "\n");
-            //escribir.close();
-            //escribir.flush();
-        } catch (Exception e){
-            System.out.println(e);
-        }finally {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(ruta, true))) {
+            writer.write(new Date() + ":" + mensaje + "\n");
+        } catch (IOException e) {
+            System.err.println("Error al escribir en el log: " + e.getMessage());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
             c.unlock();
         }
-
     }
 
     public static void main(String[] args){
@@ -46,9 +38,6 @@ public class Logger {
         log.escribir("Esto es una prueba");
         log.escribir("Esto es una prueba2");
         log.escribir("Esto es una prueba3");
-
-
-
 
     }
 
