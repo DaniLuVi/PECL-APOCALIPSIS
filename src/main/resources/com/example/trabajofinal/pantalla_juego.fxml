@@ -6,7 +6,7 @@
 
 <AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
    <children>
-      <HBox layoutX="12.0" layoutY="19.0" prefHeight="525.0" prefWidth="806.0">
+      <HBox layoutX="12.0" layoutY="19.0" prefHeight="703.0" prefWidth="1130.0">
          <children>
             <VBox prefHeight="312.0" prefWidth="208.0">
                <HBox.margin>
@@ -14,6 +14,16 @@
                </HBox.margin>
                <children>
                   <TextArea fx:id="zona" prefHeight="200.0" prefWidth="200.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="222.0" text="Comedor" textAlignment="CENTER" />
+                  <HBox prefHeight="17.0" prefWidth="208.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="105.0" text="Víveres sobrante: " />
+                        <Label fx:id="ncomida" alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="111.0" text="Label" />
+                     </children>
+                  </HBox>
+                  <TextArea fx:id="comedor" prefHeight="200.0" prefWidth="200.0" />
+                  <Label text="Camas" />
+                  <TextArea fx:id="camas" prefHeight="200.0" prefWidth="200.0" />
                </children>
             </VBox>
             <VBox prefHeight="312.0" prefWidth="201.0">
@@ -28,24 +38,26 @@
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="20.0" prefWidth="63.0" />
                     </columnConstraints>
                     <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints />
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <TextArea fx:id="izquierda1" />
-                        <TextArea fx:id="dentro1" GridPane.columnIndex="1" />
-                        <TextArea fx:id="fuera1" GridPane.columnIndex="2" />
-                        <TextArea fx:id="izquierda2" GridPane.rowIndex="1" />
-                        <TextArea fx:id="dentro2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <TextArea fx:id="fuera2" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                        <TextArea fx:id="izquierda3" GridPane.rowIndex="2" />
-                        <TextArea fx:id="dentro3" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <TextArea fx:id="fuera3" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                        <TextArea fx:id="izquierda4" prefHeight="122.0" prefWidth="110.0" GridPane.rowIndex="3" />
-                        <TextArea fx:id="dentro4" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <TextArea fx:id="fuera4" prefHeight="119.0" prefWidth="92.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <TextArea fx:id="izquierda1" GridPane.rowIndex="1" />
+                        <TextArea fx:id="dentro1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextArea fx:id="fuera1" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <TextArea fx:id="izquierda2" GridPane.rowIndex="2" />
+                        <TextArea fx:id="dentro2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextArea fx:id="fuera2" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <TextArea fx:id="izquierda3" GridPane.rowIndex="3" />
+                        <TextArea fx:id="dentro3" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextArea fx:id="fuera3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <TextArea fx:id="izquierda4" prefHeight="122.0" prefWidth="110.0" GridPane.rowIndex="4" />
+                        <TextArea fx:id="dentro4" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <TextArea fx:id="fuera4" prefHeight="119.0" prefWidth="92.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="76.0" text="Tuneles" GridPane.columnIndex="1" />
                      </children>
                   </GridPane>
                   <Button mnemonicParsing="false" onAction="#play" text="Jugar" textAlignment="CENTER" />

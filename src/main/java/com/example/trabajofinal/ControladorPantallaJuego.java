@@ -21,6 +21,13 @@ public class ControladorPantallaJuego implements Initializable {
     private TextArea[] izquierda;
     @FXML
     private TextArea[] fuera;
+    @FXML
+    private TextArea comedor;
+    @FXML
+    private TextArea camas;
+
+    @FXML
+    private Label ncomida;
 
 
     @FXML
@@ -51,7 +58,7 @@ public class ControladorPantallaJuego implements Initializable {
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
         izquierda = new TextArea[]{izquierda1, izquierda2, izquierda3, izquierda4};
         fuera = new TextArea[]{fuera1, fuera2, fuera3, fuera4};
-        exterior = new TextArea[]{exterior1, exterior2, exterior3,exterior3};
+        exterior = new TextArea[]{exterior1, exterior2, exterior3,exterior4};
         ZonaInsegura[] zonas = new ZonaInsegura[4];
         Tunel[] tunel = new Tunel[4];
         for (int i = 0; i < 4; i++) {
@@ -60,13 +67,14 @@ public class ControladorPantallaJuego implements Initializable {
             tunel[i].nTunel = i + 1;
 
         }
-        Refugio refugio = new Refugio(0, tunel,zona);
+        Refugio refugio = new Refugio(20, tunel,zona, comedor, ncomida, camas);
         //Zombie zombie = new Zombie(zona);
         //AtomicReference zombie0 = new AtomicReference(zombie);
         //System.out.println(zombie.getName());
 
-
-        for (int i = 1; i <= 9; i++) {
+        Zombie z = new Zombie(0000, zonas);
+        z.start();
+        for (int i = 1; i <= 12; i++) {
             Humano humano = new Humano(i, refugio);
             System.out.println(humano.getName());
             humano.start();

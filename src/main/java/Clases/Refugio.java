@@ -1,5 +1,7 @@
 package Clases;
 
+import javafx.application.Platform;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
 import java.util.ArrayList;
@@ -13,21 +15,31 @@ import java.util.concurrent.locks.Lock;
 public class Refugio {
 
     private Lock cerrojo = new ReentrantLock();
+
     private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
     private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
     ListaThreads zona;
+    ListaThreads comedor;
+    ListaThreads camas;
+    Label contadorComida;
 
 
     private ListaThreads humanos;
 
-    public Refugio(int comida, Tunel[] tuneles, TextArea zona) {
+    public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas) {
         this.zona =new ListaThreads(zona);
+        this.comedor = new ListaThreads(comedor);
+        this.camas = new ListaThreads(camas);
+
+        this.contadorComida = contadorComida;
+        contadorComida.setText(String.valueOf(comida));
+
         for (int i = 0; i < 4; i++) {
             accesoTunel[i] = new CyclicBarrier(3);
             this.tuneles = tuneles;
         }
-        this.comida = new Semaphore(comida, true);
+        this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
     }
 
     public void entrarTunel(int n, Humano h) {
@@ -77,17 +89,44 @@ public class Refugio {
         }
     }
 
-    public void setComida(int n){
+    public synchronized void setComida(int n){
+
         comida.release(n);
+        Platform.runLater(() ->
+                contadorComida.setText(String.valueOf(comida.availablePermits()))
+        );
+
     }
 
-    public void comer(int n){
+    public void comer(Humano h, int n){
+
         try {
+            comedor.meter(h);
             comida.acquire(n);
-            System.out.println(comida.availablePermits());
+            System.out.println("--------- COMIDA: " + comida.availablePermits());
+
+            Platform.runLater(() ->
+                    contadorComida.setText(String.valueOf(comida.availablePermits()))
+            );
+            Thread.sleep(3000+ (int)(Math.random()*2000));
+            comedor.sacar(h);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+            //System.out.println(comida.availablePermits());
+
+    }
+
+
+    public void descansa(Humano h, boolean largo){ // El booleano de largo es para cuando le ataquen que tiene que dormir más tiempo
+        camas.meter(h);
+        try {
+            Thread.sleep((largo? 3000: 2000) +(int)(Math.random()* 2000));
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        camas.sacar(h);
     }
 
 

@@ -20,9 +20,9 @@ public class ZonaInsegura {
     }
 
 
-    public void entrar(Humano h, boolean entra){
+    public void entrar(Humano h, boolean sale){
         c2.lock();
-        if (!entra){
+        if (!sale){
             humanos.add(h);
             zona.meter(h);
         } else {
@@ -32,19 +32,26 @@ public class ZonaInsegura {
 
         c2.unlock();
     }
+    public void entrar(Zombie h, boolean sale){
+        c2.lock();
+        if (!sale){
+            zona.meter(h);
+        } else {
+            zona.sacar(h);
+        }
+        c2.unlock();
+    }
 
-    public Humano getVictima(){
+    public synchronized Humano getVictima(){
         c.lock();
         try {
-
+            if (humanos.isEmpty()){return null;}
+            return humanos.remove((int) (Math.random() * humanos.size()));
         }catch (Exception e){System.out.println(e);}
         finally {c.unlock();}
         return null;
     }
 
-    public void transformacion(Humano h){
-        
-    }
 
 
     public synchronized Humano obtenerAleatorio() {
