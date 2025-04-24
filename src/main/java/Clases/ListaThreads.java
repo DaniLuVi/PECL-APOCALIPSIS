@@ -25,7 +25,7 @@ public class ListaThreads {
     public synchronized void meter(Thread t)
     {
         lista.add(t);
-        imprimir();
+        //imprimir();
     }
 
     public synchronized void sacar(Thread t)

@@ -25,12 +25,12 @@ public class Humano extends Thread{
            refugio.tuneles[n].paso(this,true);
            if( this.isInterrupted()){
                exchanger.exchange(false);
+               System.out.println("Me han llamdo fuera de tiempo " + this.getName());
            }
            refugio.setComida(2);
            return 1; // Tod0 ha ido bien
         } catch (InterruptedException e){
             try {
-
 
                 boolean resultado = exchanger.exchange(true);
                 //boolean ataque = false;
@@ -92,7 +92,7 @@ public class Humano extends Thread{
             refugio.entrarZona(this, true);
 
             try {
-                Thread.sleep((int)Math.random() * 1000 + 1000);
+                Thread.sleep((int)(Math.random() * 1000) + 1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }       // esta es la entrada a la zona común antes de elegir el túnel
@@ -133,4 +133,22 @@ public class Humano extends Thread{
         System.out.println("Mi id es: " + this.id);
         return this.id;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
