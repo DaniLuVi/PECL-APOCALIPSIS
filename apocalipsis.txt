@@ -57,3 +57,2630 @@ Fri Apr 11 11:24:41 CEST 2025:El humano H17 entra a la zona común.
 Fri Apr 11 11:24:41 CEST 2025:El humano H18 entra a la zona común.
 Fri Apr 11 11:24:41 CEST 2025:El humano H19 entra a la zona común.
 Fri Apr 11 11:24:41 CEST 2025:El humano H20 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H2 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H5 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H7 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H8 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H9 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H10 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H11 entra a la zona común.
+Tue Apr 22 21:30:26 CEST 2025:El humano H12 entra a la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H1Elige tunel 2
+Tue Apr 22 21:30:27 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H3Elige tunel 0
+Tue Apr 22 21:30:27 CEST 2025:H2Elige tunel 1
+Tue Apr 22 21:30:27 CEST 2025:H4Elige tunel 2
+Tue Apr 22 21:30:27 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H5Elige tunel 3
+Tue Apr 22 21:30:27 CEST 2025:El humano H2 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H6Elige tunel 2
+Tue Apr 22 21:30:27 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H7Elige tunel 3
+Tue Apr 22 21:30:27 CEST 2025:El humano H5 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H9Elige tunel 1
+Tue Apr 22 21:30:27 CEST 2025:H8Elige tunel 0
+Tue Apr 22 21:30:27 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:H10Elige tunel 3
+Tue Apr 22 21:30:27 CEST 2025:H11Elige tunel 3
+Tue Apr 22 21:30:27 CEST 2025:H12Elige tunel 0
+Tue Apr 22 21:30:27 CEST 2025:El humano H7 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:El humano H9 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:El humano H8 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:El humano H10 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:El humano H11 sale de la zona común.
+Tue Apr 22 21:30:27 CEST 2025:El humano H12 sale de la zona común.
+Tue Apr 22 23:29:45 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 23:29:46 CEST 2025:El humano H2 entra a la zona común.
+Tue Apr 22 23:29:46 CEST 2025:H1Elige tunel 3
+Tue Apr 22 23:29:46 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 23:29:47 CEST 2025:H2Elige tunel 0
+Tue Apr 22 23:29:47 CEST 2025:El humano H2 sale de la zona común.
+Tue Apr 22 23:29:48 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 23:29:49 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 23:29:49 CEST 2025:H3Elige tunel 0
+Tue Apr 22 23:29:49 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 23:29:50 CEST 2025:H4Elige tunel 3
+Tue Apr 22 23:29:50 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 23:29:51 CEST 2025:El humano H5 entra a la zona común.
+Tue Apr 22 23:29:52 CEST 2025:H5Elige tunel 2
+Tue Apr 22 23:29:52 CEST 2025:El humano H5 sale de la zona común.
+Tue Apr 22 23:29:52 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 23:29:53 CEST 2025:H6Elige tunel 0
+Tue Apr 22 23:29:53 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 23:29:54 CEST 2025:El humano H7 entra a la zona común.
+Tue Apr 22 23:29:55 CEST 2025:H7Elige tunel 0
+Tue Apr 22 23:29:55 CEST 2025:El humano H7 sale de la zona común.
+Tue Apr 22 23:29:56 CEST 2025:El humano H8 entra a la zona común.
+Tue Apr 22 23:29:57 CEST 2025:H8Elige tunel 2
+Tue Apr 22 23:29:57 CEST 2025:El humano H8 sale de la zona común.
+Tue Apr 22 23:29:57 CEST 2025:El humano H9 entra a la zona común.
+Tue Apr 22 23:29:57 CEST 2025:El humano H10 entra a la zona común.
+Tue Apr 22 23:29:58 CEST 2025:H9Elige tunel 0
+Tue Apr 22 23:29:58 CEST 2025:El humano H9 sale de la zona común.
+Tue Apr 22 23:29:58 CEST 2025:H10Elige tunel 1
+Tue Apr 22 23:29:58 CEST 2025:El humano H10 sale de la zona común.
+Tue Apr 22 23:29:58 CEST 2025:El humano H11 entra a la zona común.
+Tue Apr 22 23:29:59 CEST 2025:H11Elige tunel 2
+Tue Apr 22 23:29:59 CEST 2025:El humano H11 sale de la zona común.
+Tue Apr 22 23:30:00 CEST 2025:El humano H12 entra a la zona común.
+Tue Apr 22 23:30:01 CEST 2025:H12Elige tunel 2
+Tue Apr 22 23:30:01 CEST 2025:El humano H12 sale de la zona común.
+Tue Apr 22 23:30:01 CEST 2025:El humano H13 entra a la zona común.
+Tue Apr 22 23:30:02 CEST 2025:H13Elige tunel 0
+Tue Apr 22 23:30:02 CEST 2025:El humano H13 sale de la zona común.
+Tue Apr 22 23:30:02 CEST 2025:El humano H14 entra a la zona común.
+Tue Apr 22 23:30:03 CEST 2025:H14Elige tunel 3
+Tue Apr 22 23:30:03 CEST 2025:El humano H14 sale de la zona común.
+Tue Apr 22 23:30:04 CEST 2025:El humano H15 entra a la zona común.
+Tue Apr 22 23:30:05 CEST 2025:El humano H16 entra a la zona común.
+Tue Apr 22 23:30:05 CEST 2025:H15Elige tunel 0
+Tue Apr 22 23:30:05 CEST 2025:El humano H15 sale de la zona común.
+Tue Apr 22 23:30:06 CEST 2025:H16Elige tunel 3
+Tue Apr 22 23:30:06 CEST 2025:El humano H16 sale de la zona común.
+Tue Apr 22 23:30:06 CEST 2025:El humano H17 entra a la zona común.
+Tue Apr 22 23:30:07 CEST 2025:H17Elige tunel 1
+Tue Apr 22 23:30:07 CEST 2025:El humano H17 sale de la zona común.
+Tue Apr 22 23:30:08 CEST 2025:El humano H18 entra a la zona común.
+Tue Apr 22 23:30:09 CEST 2025:H18Elige tunel 2
+Tue Apr 22 23:30:09 CEST 2025:El humano H18 sale de la zona común.
+Tue Apr 22 23:30:10 CEST 2025:El humano H19 entra a la zona común.
+Tue Apr 22 23:30:11 CEST 2025:El humano H20 entra a la zona común.
+Tue Apr 22 23:30:11 CEST 2025:H19Elige tunel 2
+Tue Apr 22 23:30:11 CEST 2025:El humano H19 sale de la zona común.
+Tue Apr 22 23:30:12 CEST 2025:El humano H21 entra a la zona común.
+Tue Apr 22 23:30:12 CEST 2025:H20Elige tunel 3
+Tue Apr 22 23:30:12 CEST 2025:El humano H20 sale de la zona común.
+Tue Apr 22 23:30:12 CEST 2025:El humano H22 entra a la zona común.
+Tue Apr 22 23:30:13 CEST 2025:H21Elige tunel 3
+Tue Apr 22 23:30:13 CEST 2025:El humano H21 sale de la zona común.
+Tue Apr 22 23:30:29 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 23:30:30 CEST 2025:H1Elige tunel 3
+Tue Apr 22 23:30:30 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 23:30:31 CEST 2025:El humano H2 entra a la zona común.
+Tue Apr 22 23:30:32 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 23:30:32 CEST 2025:H2Elige tunel 3
+Tue Apr 22 23:30:32 CEST 2025:El humano H2 sale de la zona común.
+Tue Apr 22 23:30:32 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 23:30:33 CEST 2025:H3Elige tunel 2
+Tue Apr 22 23:30:33 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 23:30:33 CEST 2025:El humano H5 entra a la zona común.
+Tue Apr 22 23:30:33 CEST 2025:H4Elige tunel 3
+Tue Apr 22 23:30:33 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 23:30:34 CEST 2025:H5Elige tunel 1
+Tue Apr 22 23:30:34 CEST 2025:El humano H5 sale de la zona común.
+Tue Apr 22 23:30:35 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 23:30:36 CEST 2025:H6Elige tunel 2
+Tue Apr 22 23:30:36 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 23:30:36 CEST 2025:El humano H7 entra a la zona común.
+Tue Apr 22 23:30:37 CEST 2025:H7Elige tunel 2
+Tue Apr 22 23:30:37 CEST 2025:El humano H7 sale de la zona común.
+Tue Apr 22 23:30:58 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 23:30:59 CEST 2025:H1Elige tunel 1
+Tue Apr 22 23:30:59 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 23:31:00 CEST 2025:El humano H2 entra a la zona común.
+Tue Apr 22 23:31:01 CEST 2025:H2Elige tunel 2
+Tue Apr 22 23:31:01 CEST 2025:El humano H2 sale de la zona común.
+Tue Apr 22 23:31:02 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 23:31:02 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 23:31:03 CEST 2025:H3Elige tunel 3
+Tue Apr 22 23:31:03 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 23:31:03 CEST 2025:H4Elige tunel 0
+Tue Apr 22 23:31:03 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 23:31:04 CEST 2025:El humano H5 entra a la zona común.
+Tue Apr 22 23:31:04 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 23:31:05 CEST 2025:H5Elige tunel 0
+Tue Apr 22 23:31:05 CEST 2025:El humano H5 sale de la zona común.
+Tue Apr 22 23:31:05 CEST 2025:El humano H7 entra a la zona común.
+Tue Apr 22 23:31:05 CEST 2025:H6Elige tunel 1
+Tue Apr 22 23:31:05 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 23:31:06 CEST 2025:H7Elige tunel 0
+Tue Apr 22 23:31:06 CEST 2025:El humano H7 sale de la zona común.
+Tue Apr 22 23:31:07 CEST 2025:El humano H8 entra a la zona común.
+Tue Apr 22 23:31:08 CEST 2025:H8Elige tunel 2
+Tue Apr 22 23:31:08 CEST 2025:El humano H8 sale de la zona común.
+Tue Apr 22 23:31:09 CEST 2025:El humano H9 entra a la zona común.
+Tue Apr 22 23:31:09 CEST 2025:El humano H10 entra a la zona común.
+Tue Apr 22 23:31:10 CEST 2025:H9Elige tunel 2
+Tue Apr 22 23:31:10 CEST 2025:El humano H9 sale de la zona común.
+Tue Apr 22 23:32:06 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 23:32:07 CEST 2025:H1Elige tunel 1
+Tue Apr 22 23:32:07 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 23:32:08 CEST 2025:El humano H2 entra a la zona común.
+Tue Apr 22 23:32:09 CEST 2025:H2Elige tunel 2
+Tue Apr 22 23:32:09 CEST 2025:El humano H2 sale de la zona común.
+Tue Apr 22 23:32:10 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 23:32:10 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 23:32:11 CEST 2025:H3Elige tunel 1
+Tue Apr 22 23:32:11 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 23:32:11 CEST 2025:El humano H5 entra a la zona común.
+Tue Apr 22 23:32:11 CEST 2025:H4Elige tunel 2
+Tue Apr 22 23:32:11 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 23:32:12 CEST 2025:H5Elige tunel 3
+Tue Apr 22 23:32:12 CEST 2025:El humano H5 sale de la zona común.
+Tue Apr 22 23:32:12 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 23:32:13 CEST 2025:El humano H7 entra a la zona común.
+Tue Apr 22 23:32:13 CEST 2025:H6Elige tunel 0
+Tue Apr 22 23:32:13 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 23:32:14 CEST 2025:H7Elige tunel 0
+Tue Apr 22 23:32:14 CEST 2025:El humano H7 sale de la zona común.
+Tue Apr 22 23:32:14 CEST 2025:El humano H8 entra a la zona común.
+Tue Apr 22 23:32:15 CEST 2025:El humano H9 entra a la zona común.
+Tue Apr 22 23:32:15 CEST 2025:H8Elige tunel 3
+Tue Apr 22 23:32:15 CEST 2025:El humano H8 sale de la zona común.
+Tue Apr 22 23:32:16 CEST 2025:H9Elige tunel 0
+Tue Apr 22 23:32:16 CEST 2025:El humano H9 sale de la zona común.
+Tue Apr 22 23:32:17 CEST 2025:El humano H10 entra a la zona común.
+Tue Apr 22 23:32:18 CEST 2025:H10Elige tunel 2
+Tue Apr 22 23:32:18 CEST 2025:El humano H10 sale de la zona común.
+Tue Apr 22 23:32:40 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 23:32:41 CEST 2025:H1Elige tunel 0
+Tue Apr 22 23:32:41 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 23:32:41 CEST 2025:El humano H2 entra a la zona común.
+Tue Apr 22 23:32:42 CEST 2025:H2Elige tunel 0
+Tue Apr 22 23:32:42 CEST 2025:El humano H2 sale de la zona común.
+Tue Apr 22 23:32:43 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 23:32:44 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 23:32:44 CEST 2025:H3Elige tunel 2
+Tue Apr 22 23:32:44 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 23:32:44 CEST 2025:El humano H5 entra a la zona común.
+Tue Apr 22 23:32:45 CEST 2025:H4Elige tunel 1
+Tue Apr 22 23:32:45 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 23:32:45 CEST 2025:H5Elige tunel 0
+Tue Apr 22 23:32:45 CEST 2025:El humano H5 sale de la zona común.
+Tue Apr 22 23:32:45 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 23:32:46 CEST 2025:H6Elige tunel 3
+Tue Apr 22 23:32:46 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 23:32:47 CEST 2025:El humano H7 entra a la zona común.
+Tue Apr 22 23:32:48 CEST 2025:H7Elige tunel 3
+Tue Apr 22 23:32:48 CEST 2025:El humano H7 sale de la zona común.
+Tue Apr 22 23:32:48 CEST 2025:El humano H8 entra a la zona común.
+Tue Apr 22 23:32:49 CEST 2025:H8Elige tunel 1
+Tue Apr 22 23:32:49 CEST 2025:El humano H8 sale de la zona común.
+Tue Apr 22 23:32:49 CEST 2025:El humano H9 entra a la zona común.
+Tue Apr 22 23:32:50 CEST 2025:H9Elige tunel 1
+Tue Apr 22 23:32:50 CEST 2025:El humano H9 sale de la zona común.
+Tue Apr 22 23:32:51 CEST 2025:El humano H10 entra a la zona común.
+Tue Apr 22 23:32:52 CEST 2025:H10Elige tunel 2
+Tue Apr 22 23:32:52 CEST 2025:El humano H10 sale de la zona común.
+Tue Apr 22 23:33:08 CEST 2025:H3descansa.
+Tue Apr 22 23:33:14 CEST 2025:H3 se come una pieza de comida.
+Tue Apr 22 23:33:15 CEST 2025:H1descansa.
+Tue Apr 22 23:33:17 CEST 2025:El humano H3 entra a la zona común.
+Tue Apr 22 23:33:18 CEST 2025:H3Elige tunel 1
+Tue Apr 22 23:33:18 CEST 2025:El humano H3 sale de la zona común.
+Tue Apr 22 23:33:21 CEST 2025:H4descansa.
+Tue Apr 22 23:33:22 CEST 2025:H1 se come una pieza de comida.
+Tue Apr 22 23:33:22 CEST 2025:H10descansa.
+Tue Apr 22 23:33:23 CEST 2025:H6descansa.
+Tue Apr 22 23:33:25 CEST 2025:El humano H1 entra a la zona común.
+Tue Apr 22 23:33:26 CEST 2025:H1Elige tunel 3
+Tue Apr 22 23:33:26 CEST 2025:El humano H1 sale de la zona común.
+Tue Apr 22 23:33:29 CEST 2025:H10 se come una pieza de comida.
+Tue Apr 22 23:33:29 CEST 2025:H4 se come una pieza de comida.
+Tue Apr 22 23:33:30 CEST 2025:H7descansa.
+Tue Apr 22 23:33:30 CEST 2025:H6 se come una pieza de comida.
+Tue Apr 22 23:33:32 CEST 2025:El humano H10 entra a la zona común.
+Tue Apr 22 23:33:32 CEST 2025:H8descansa.
+Tue Apr 22 23:33:32 CEST 2025:El humano H4 entra a la zona común.
+Tue Apr 22 23:33:33 CEST 2025:H10Elige tunel 0
+Tue Apr 22 23:33:33 CEST 2025:El humano H10 sale de la zona común.
+Tue Apr 22 23:33:33 CEST 2025:El humano H6 entra a la zona común.
+Tue Apr 22 23:33:33 CEST 2025:H4Elige tunel 0
+Tue Apr 22 23:33:33 CEST 2025:El humano H4 sale de la zona común.
+Tue Apr 22 23:33:34 CEST 2025:H6Elige tunel 3
+Tue Apr 22 23:33:34 CEST 2025:El humano H6 sale de la zona común.
+Tue Apr 22 23:33:35 CEST 2025:H3descansa.
+Wed Apr 23 10:59:31 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 10:59:32 CEST 2025:H1Elige tunel 0
+Wed Apr 23 10:59:32 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 10:59:32 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 10:59:33 CEST 2025:H2Elige tunel 2
+Wed Apr 23 10:59:33 CEST 2025:El humano H2 sale de la zona común.
+Wed Apr 23 10:59:34 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 10:59:35 CEST 2025:H3Elige tunel 2
+Wed Apr 23 10:59:35 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 10:59:36 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 10:59:37 CEST 2025:H4Elige tunel 2
+Wed Apr 23 10:59:37 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 10:59:37 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 10:59:38 CEST 2025:H5Elige tunel 1
+Wed Apr 23 10:59:38 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 10:59:39 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 10:59:39 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 10:59:40 CEST 2025:H6Elige tunel 2
+Wed Apr 23 10:59:40 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 10:59:40 CEST 2025:H7Elige tunel 1
+Wed Apr 23 10:59:40 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 10:59:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:41 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 10:59:42 CEST 2025:H8Elige tunel 1
+Wed Apr 23 10:59:42 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 10:59:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:42 CEST 2025:El humano H9 entra a la zona común.
+Wed Apr 23 10:59:43 CEST 2025:H9Elige tunel 0
+Wed Apr 23 10:59:43 CEST 2025:El humano H9 sale de la zona común.
+Wed Apr 23 10:59:44 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 10:59:45 CEST 2025:H10Elige tunel 0
+Wed Apr 23 10:59:45 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 10:59:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:50 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:50 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:50 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 10:59:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:05 CEST 2025:H1descansa.
+Wed Apr 23 11:00:07 CEST 2025:H5descansa.
+Wed Apr 23 11:00:09 CEST 2025:H1 se come una pieza de comida.
+Wed Apr 23 11:00:10 CEST 2025:H4descansa.
+Wed Apr 23 11:00:11 CEST 2025:H5 se come una pieza de comida.
+Wed Apr 23 11:00:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:13 CEST 2025:H4 se come una pieza de comida.
+Wed Apr 23 11:00:13 CEST 2025:H8descansa.
+Wed Apr 23 11:00:13 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 11:00:14 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 11:00:14 CEST 2025:H1Elige tunel 1
+Wed Apr 23 11:00:14 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 11:00:15 CEST 2025:H5Elige tunel 1
+Wed Apr 23 11:00:15 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 11:00:15 CEST 2025:H8 se come una pieza de comida.
+Wed Apr 23 11:00:17 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 11:00:17 CEST 2025:H9descansa.
+Wed Apr 23 11:00:18 CEST 2025:H4Elige tunel 2
+Wed Apr 23 11:00:18 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 11:00:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:00:18 CEST 2025:H10descansa.
+Wed Apr 23 11:00:19 CEST 2025:H6descansa.
+Wed Apr 23 11:00:19 CEST 2025:H9 se come una pieza de comida.
+Wed Apr 23 11:00:20 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 11:00:21 CEST 2025:H8Elige tunel 0
+Wed Apr 23 11:00:21 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 11:00:21 CEST 2025:H10 se come una pieza de comida.
+Wed Apr 23 11:00:22 CEST 2025:H6 se come una pieza de comida.
+Wed Apr 23 11:52:34 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 11:52:35 CEST 2025:H1Elige tunel 2
+Wed Apr 23 11:52:35 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 11:52:36 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 11:52:37 CEST 2025:H2Elige tunel 1
+Wed Apr 23 11:52:37 CEST 2025:El humano H2 sale de la zona común.
+Wed Apr 23 11:52:37 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 11:52:38 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 11:52:38 CEST 2025:H3Elige tunel 0
+Wed Apr 23 11:52:38 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 11:52:39 CEST 2025:H4Elige tunel 0
+Wed Apr 23 11:52:39 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 11:52:39 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:39 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:39 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:39 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 11:52:40 CEST 2025:H5Elige tunel 1
+Wed Apr 23 11:52:40 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 11:52:41 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 11:52:42 CEST 2025:H6Elige tunel 1
+Wed Apr 23 11:52:42 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 11:52:42 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 11:52:43 CEST 2025:H7Elige tunel 2
+Wed Apr 23 11:52:43 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 11:52:44 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 11:52:44 CEST 2025:El humano H9 entra a la zona común.
+Wed Apr 23 11:52:45 CEST 2025:H8Elige tunel 0
+Wed Apr 23 11:52:45 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 11:52:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:45 CEST 2025:H9Elige tunel 1
+Wed Apr 23 11:52:45 CEST 2025:El humano H9 sale de la zona común.
+Wed Apr 23 11:52:46 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 11:52:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:47 CEST 2025:H10Elige tunel 0
+Wed Apr 23 11:52:47 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 11:52:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:52:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:08 CEST 2025:H1descansa.
+Wed Apr 23 11:53:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:11 CEST 2025:H1 se come una pieza de comida.
+Wed Apr 23 11:53:12 CEST 2025:H8descansa.
+Wed Apr 23 11:53:13 CEST 2025:H6descansa.
+Wed Apr 23 11:53:14 CEST 2025:H8 se come una pieza de comida.
+Wed Apr 23 11:53:15 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 11:53:15 CEST 2025:H5descansa.
+Wed Apr 23 11:53:16 CEST 2025:H1Elige tunel 0
+Wed Apr 23 11:53:16 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 11:53:16 CEST 2025:H6 se come una pieza de comida.
+Wed Apr 23 11:53:18 CEST 2025:H10descansa.
+Wed Apr 23 11:53:18 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 11:53:19 CEST 2025:H5 se come una pieza de comida.
+Wed Apr 23 11:53:19 CEST 2025:H2descansa.
+Wed Apr 23 11:53:19 CEST 2025:H8Elige tunel 2
+Wed Apr 23 11:53:19 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 11:53:20 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 11:53:21 CEST 2025:H10 se come una pieza de comida.
+Wed Apr 23 11:53:21 CEST 2025:H6Elige tunel 2
+Wed Apr 23 11:53:21 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 11:53:21 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:21 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:21 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:22 CEST 2025:H2 se come una pieza de comida.
+Wed Apr 23 11:53:23 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 11:53:24 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 11:53:24 CEST 2025:H5Elige tunel 2
+Wed Apr 23 11:53:25 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 11:53:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:53:25 CEST 2025:H10Elige tunel 1
+Wed Apr 23 11:53:25 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 11:53:26 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 11:58:00 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 11:58:01 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 11:58:01 CEST 2025:H1Elige tunel 1
+Wed Apr 23 11:58:01 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 11:58:02 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 11:58:02 CEST 2025:H2Elige tunel 1
+Wed Apr 23 11:58:02 CEST 2025:El humano H2 sale de la zona común.
+Wed Apr 23 11:58:03 CEST 2025:H3Elige tunel 2
+Wed Apr 23 11:58:03 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 11:58:03 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 11:58:04 CEST 2025:H4Elige tunel 1
+Wed Apr 23 11:58:05 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 11:58:05 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 11:58:06 CEST 2025:H5Elige tunel 2
+Wed Apr 23 11:58:06 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 11:58:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:58:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:58:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:58:06 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 11:58:07 CEST 2025:H6Elige tunel 0
+Wed Apr 23 11:58:07 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 11:58:08 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 11:58:08 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 11:58:09 CEST 2025:H7Elige tunel 2
+Wed Apr 23 11:58:09 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 11:58:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:58:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:58:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 11:58:09 CEST 2025:H8Elige tunel 2
+Wed Apr 23 11:58:09 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 11:58:09 CEST 2025:El humano H9 entra a la zona común.
+Wed Apr 23 12:01:36 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 12:01:37 CEST 2025:H1 Elige tunel 1
+Wed Apr 23 12:01:37 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 12:01:37 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 12:01:38 CEST 2025:H2 Elige tunel 1
+Wed Apr 23 12:01:38 CEST 2025:El humano H2 sale de la zona común.
+Wed Apr 23 12:01:39 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 12:01:40 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 12:01:40 CEST 2025:H3 Elige tunel 2
+Wed Apr 23 12:01:40 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 12:01:41 CEST 2025:H4 Elige tunel 0
+Wed Apr 23 12:01:41 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 12:01:41 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 12:02:08 CEST 2025:H5 Elige tunel 1
+Wed Apr 23 12:02:39 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 12:03:15 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 12:06:04 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 12:06:04 CEST 2025:El humano H9 entra a la zona común.
+Wed Apr 23 12:06:04 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 12:06:04 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 12:06:05 CEST 2025:H7 Elige tunel 1
+Wed Apr 23 12:06:12 CEST 2025:H6 Elige tunel 1
+Wed Apr 23 12:06:12 CEST 2025:H8 Elige tunel 2
+Wed Apr 23 12:06:12 CEST 2025:H9 Elige tunel 0
+Wed Apr 23 12:06:12 CEST 2025:H10 Elige tunel 2
+Wed Apr 23 12:06:12 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 12:06:12 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 12:06:12 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 12:06:12 CEST 2025:El humano H9 sale de la zona común.
+Wed Apr 23 12:06:12 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 12:06:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:32 CEST 2025:H10descansa.
+Wed Apr 23 12:06:32 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:32 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:32 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:33 CEST 2025:H7descansa.
+Wed Apr 23 12:06:34 CEST 2025:H10 se come una pieza de comida.
+Wed Apr 23 12:06:36 CEST 2025:H6descansa.
+Wed Apr 23 12:06:36 CEST 2025:H7 se come una pieza de comida.
+Wed Apr 23 12:06:37 CEST 2025:H10descansa.
+Wed Apr 23 12:06:38 CEST 2025:H1descansa.
+Wed Apr 23 12:06:40 CEST 2025:H6 se come una pieza de comida.
+Wed Apr 23 12:06:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:40 CEST 2025:H1 se come una pieza de comida.
+Wed Apr 23 12:06:41 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 12:06:42 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 12:06:42 CEST 2025:H7 Elige tunel 2
+Wed Apr 23 12:06:42 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 12:06:43 CEST 2025:H10 Elige tunel 1
+Wed Apr 23 12:06:43 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 12:06:44 CEST 2025:H5descansa.
+Wed Apr 23 12:06:44 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 12:06:44 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 12:06:45 CEST 2025:H6 Elige tunel 2
+Wed Apr 23 12:06:45 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 12:06:45 CEST 2025:H1 Elige tunel 0
+Wed Apr 23 12:06:45 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 12:06:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:46 CEST 2025:H2descansa.
+Wed Apr 23 12:06:47 CEST 2025:H8descansa.
+Wed Apr 23 12:06:47 CEST 2025:H5 se come una pieza de comida.
+Wed Apr 23 12:06:49 CEST 2025:H2 se come una pieza de comida.
+Wed Apr 23 12:06:50 CEST 2025:H8 se come una pieza de comida.
+Wed Apr 23 12:06:50 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:50 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:06:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:10:20 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 12:10:21 CEST 2025:H1 Elige tunel 0
+Wed Apr 23 12:10:21 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 12:10:21 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 12:10:22 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 12:10:22 CEST 2025:H2 Elige tunel 2
+Wed Apr 23 12:10:22 CEST 2025:El humano H2 sale de la zona común.
+Wed Apr 23 12:10:22 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 12:10:23 CEST 2025:H3 Elige tunel 2
+Wed Apr 23 12:10:23 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 12:10:23 CEST 2025:H4 Elige tunel 0
+Wed Apr 23 12:10:23 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 12:10:24 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 12:10:25 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 12:10:25 CEST 2025:H5 Elige tunel 1
+Wed Apr 23 12:10:25 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 12:10:26 CEST 2025:H6 Elige tunel 1
+Wed Apr 23 12:10:26 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 12:10:27 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 12:10:27 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 12:10:28 CEST 2025:H7 Elige tunel 2
+Wed Apr 23 12:10:28 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 12:10:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:10:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:10:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:10:28 CEST 2025:H8 Elige tunel 1
+Wed Apr 23 12:10:28 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 12:11:28 CEST 2025:El humano H9 entra a la zona común.
+Wed Apr 23 12:11:28 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 12:11:29 CEST 2025:H9 Elige tunel 2
+Wed Apr 23 12:11:41 CEST 2025:El humano H9 sale de la zona común.
+Wed Apr 23 12:11:42 CEST 2025:H10 Elige tunel 1
+Wed Apr 23 12:11:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:11:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:11:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:11:43 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 12:11:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:11:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:11:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:12:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:12:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:12:53 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:13:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:13:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 12:14:00 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:01 CEST 2025:El humano H1 entra a la zona común.
+Wed Apr 23 18:05:02 CEST 2025:El humano H2 entra a la zona común.
+Wed Apr 23 18:05:02 CEST 2025:H1 Elige tunel 0
+Wed Apr 23 18:05:02 CEST 2025:El humano H1 sale de la zona común.
+Wed Apr 23 18:05:03 CEST 2025:H2 Elige tunel 2
+Wed Apr 23 18:05:03 CEST 2025:El humano H2 sale de la zona común.
+Wed Apr 23 18:05:04 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 18:05:05 CEST 2025:H3 Elige tunel 1
+Wed Apr 23 18:05:05 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 18:05:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:06 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 18:05:07 CEST 2025:H4 Elige tunel 1
+Wed Apr 23 18:05:07 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 18:05:07 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 18:05:08 CEST 2025:H5 Elige tunel 0
+Wed Apr 23 18:05:08 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 18:05:08 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 18:05:09 CEST 2025:H6 Elige tunel 0
+Wed Apr 23 18:05:09 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 18:05:10 CEST 2025:El humano H7 entra a la zona común.
+Wed Apr 23 18:05:11 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 18:05:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:11 CEST 2025:H7 Elige tunel 0
+Wed Apr 23 18:05:11 CEST 2025:El humano H7 sale de la zona común.
+Wed Apr 23 18:05:11 CEST 2025:El humano H9 entra a la zona común.
+Wed Apr 23 18:05:12 CEST 2025:H8 Elige tunel 0
+Wed Apr 23 18:05:12 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 18:05:12 CEST 2025:El humano H10 entra a la zona común.
+Wed Apr 23 18:05:12 CEST 2025:H9 Elige tunel 2
+Wed Apr 23 18:05:12 CEST 2025:El humano H9 sale de la zona común.
+Wed Apr 23 18:05:13 CEST 2025:H10 Elige tunel 1
+Wed Apr 23 18:05:13 CEST 2025:El humano H10 sale de la zona común.
+Wed Apr 23 18:05:16 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:16 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:16 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:21 CEST 2025:H3descansa.
+Wed Apr 23 18:05:21 CEST 2025:H3 se come una pieza de comida.
+Wed Apr 23 18:05:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:26 CEST 2025:El humano H3 entra a la zona común.
+Wed Apr 23 18:05:27 CEST 2025:H3 Elige tunel 1
+Wed Apr 23 18:05:27 CEST 2025:El humano H3 sale de la zona común.
+Wed Apr 23 18:05:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:27 CEST 2025:H6descansa.
+Wed Apr 23 18:05:30 CEST 2025:H6 se come una pieza de comida.
+Wed Apr 23 18:05:32 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:32 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:32 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:33 CEST 2025:H6descansa.
+Wed Apr 23 18:05:36 CEST 2025:El humano H6 entra a la zona común.
+Wed Apr 23 18:05:37 CEST 2025:H4descansa.
+Wed Apr 23 18:05:37 CEST 2025:H6 Elige tunel 2
+Wed Apr 23 18:05:37 CEST 2025:El humano H6 sale de la zona común.
+Wed Apr 23 18:05:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:38 CEST 2025:H8descansa.
+Wed Apr 23 18:05:40 CEST 2025:H8 se come una pieza de comida.
+Wed Apr 23 18:05:40 CEST 2025:H4 se come una pieza de comida.
+Wed Apr 23 18:05:43 CEST 2025:H5descansa.
+Wed Apr 23 18:05:45 CEST 2025:El humano H8 entra a la zona común.
+Wed Apr 23 18:05:45 CEST 2025:El humano H4 entra a la zona común.
+Wed Apr 23 18:05:46 CEST 2025:H8 Elige tunel 1
+Wed Apr 23 18:05:46 CEST 2025:El humano H8 sale de la zona común.
+Wed Apr 23 18:05:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:46 CEST 2025:H5 se come una pieza de comida.
+Wed Apr 23 18:05:46 CEST 2025:H4 Elige tunel 1
+Wed Apr 23 18:05:46 CEST 2025:El humano H4 sale de la zona común.
+Wed Apr 23 18:05:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:50 CEST 2025:H9descansa.
+Wed Apr 23 18:05:50 CEST 2025:El humano H5 entra a la zona común.
+Wed Apr 23 18:05:51 CEST 2025:H5 Elige tunel 2
+Wed Apr 23 18:05:51 CEST 2025:El humano H5 sale de la zona común.
+Wed Apr 23 18:05:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:53 CEST 2025:H9 se come una pieza de comida.
+Wed Apr 23 18:05:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Wed Apr 23 18:05:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:41 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 10:35:43 CEST 2025:H1 Elige tunel 2
+Thu Apr 24 10:35:43 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 10:35:43 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 10:35:44 CEST 2025:H2 Elige tunel 2
+Thu Apr 24 10:35:44 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 10:35:44 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 10:35:46 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 10:35:46 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 10:35:46 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 10:35:47 CEST 2025:H4 Elige tunel 2
+Thu Apr 24 10:35:47 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 10:35:47 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 10:35:49 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 10:35:49 CEST 2025:H5 Elige tunel 0
+Thu Apr 24 10:35:49 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 10:35:50 CEST 2025:H6 Elige tunel 0
+Thu Apr 24 10:35:50 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 10:35:51 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 10:35:52 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 10:35:52 CEST 2025:H7 Elige tunel 0
+Thu Apr 24 10:35:52 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 10:35:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:53 CEST 2025:H8 Elige tunel 2
+Thu Apr 24 10:35:53 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 10:35:53 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 10:35:55 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 10:35:55 CEST 2025:H9 Elige tunel 2
+Thu Apr 24 10:35:55 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 10:35:55 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:55 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:55 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:56 CEST 2025:H10 Elige tunel 2
+Thu Apr 24 10:35:56 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 10:35:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:35:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:00 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:00 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:00 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:14 CEST 2025:H8descansa.
+Thu Apr 24 10:36:17 CEST 2025:H8 se come una pieza de comida.
+Thu Apr 24 10:36:19 CEST 2025:H7descansa.
+Thu Apr 24 10:36:21 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 10:36:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:22 CEST 2025:H8 Elige tunel 0
+Thu Apr 24 10:36:22 CEST 2025:H7 se come una pieza de comida.
+Thu Apr 24 10:36:22 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 10:36:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:22 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:26 CEST 2025:H10descansa.
+Thu Apr 24 10:36:27 CEST 2025:H4descansa.
+Thu Apr 24 10:36:27 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 10:36:28 CEST 2025:H5descansa.
+Thu Apr 24 10:36:28 CEST 2025:H7 Elige tunel 0
+Thu Apr 24 10:36:28 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 10:36:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:28 CEST 2025:H10 se come una pieza de comida.
+Thu Apr 24 10:36:30 CEST 2025:H4 se come una pieza de comida.
+Thu Apr 24 10:36:30 CEST 2025:H5 se come una pieza de comida.
+Thu Apr 24 10:36:31 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:31 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:31 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:31 CEST 2025:H6descansa.
+Thu Apr 24 10:36:32 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 10:36:33 CEST 2025:H10 Elige tunel 1
+Thu Apr 24 10:36:33 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 10:36:33 CEST 2025:H2descansa.
+Thu Apr 24 10:36:34 CEST 2025:H6 se come una pieza de comida.
+Thu Apr 24 10:36:34 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 10:36:35 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 10:36:36 CEST 2025:H4 Elige tunel 2
+Thu Apr 24 10:36:36 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 10:36:36 CEST 2025:H5 Elige tunel 2
+Thu Apr 24 10:36:36 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 10:36:36 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:36 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:36 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:36:37 CEST 2025:H2 se come una pieza de comida.
+Thu Apr 24 10:37:05 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 10:37:06 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 10:37:07 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 10:37:08 CEST 2025:H1 Elige tunel 2
+Thu Apr 24 10:37:08 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 10:37:09 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 10:37:09 CEST 2025:H2 Elige tunel 1
+Thu Apr 24 10:37:09 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 10:37:10 CEST 2025:H3 Elige tunel 0
+Thu Apr 24 10:37:10 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 10:37:10 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 10:37:11 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 10:37:11 CEST 2025:H4 Elige tunel 0
+Thu Apr 24 10:37:11 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 10:37:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:13 CEST 2025:H5 Elige tunel 2
+Thu Apr 24 10:37:13 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 10:37:13 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 10:37:13 CEST 2025:H6 Elige tunel 2
+Thu Apr 24 10:37:13 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 10:37:15 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 10:37:15 CEST 2025:H7 Elige tunel 2
+Thu Apr 24 10:37:15 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 10:37:16 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 10:37:17 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 10:37:17 CEST 2025:H8 Elige tunel 0
+Thu Apr 24 10:37:17 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 10:37:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:19 CEST 2025:H9 Elige tunel 0
+Thu Apr 24 10:37:19 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 10:37:19 CEST 2025:H10 Elige tunel 1
+Thu Apr 24 10:37:19 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 10:37:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:37:27 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:41 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 10:51:42 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 10:51:43 CEST 2025:H1 Elige tunel 2
+Thu Apr 24 10:51:43 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 10:51:43 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 10:51:44 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 10:51:44 CEST 2025:H2 Elige tunel 1
+Thu Apr 24 10:51:44 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 10:51:45 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 10:51:45 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 10:51:45 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 10:51:46 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 10:51:47 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 10:51:47 CEST 2025:H4 Elige tunel 0
+Thu Apr 24 10:51:47 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 10:51:48 CEST 2025:H5 Elige tunel 1
+Thu Apr 24 10:51:48 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 10:51:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:49 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 10:51:49 CEST 2025:H6 Elige tunel 1
+Thu Apr 24 10:51:49 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 10:51:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:50 CEST 2025:H7 Elige tunel 2
+Thu Apr 24 10:51:50 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 10:51:51 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 10:51:52 CEST 2025:H8 Elige tunel 1
+Thu Apr 24 10:51:52 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 10:51:52 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 10:51:54 CEST 2025:H9 Elige tunel 0
+Thu Apr 24 10:51:54 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 10:51:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:55 CEST 2025:H10 Elige tunel 2
+Thu Apr 24 10:51:55 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 10:51:55 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:55 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:55 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:51:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:08 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:08 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:08 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:09 CEST 2025:H4descansa.
+Thu Apr 24 10:52:10 CEST 2025:H5descansa.
+Thu Apr 24 10:52:12 CEST 2025:H4 se come una pieza de comida.
+Thu Apr 24 10:52:13 CEST 2025:H5 se come una pieza de comida.
+Thu Apr 24 10:52:15 CEST 2025:H1descansa.
+Thu Apr 24 10:52:15 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 10:52:16 CEST 2025:H6descansa.
+Thu Apr 24 10:52:17 CEST 2025:H1 se come una pieza de comida.
+Thu Apr 24 10:52:18 CEST 2025:H6 se come una pieza de comida.
+Thu Apr 24 10:52:18 CEST 2025:H4 Elige tunel 0
+Thu Apr 24 10:52:18 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 10:52:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:18 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 10:52:20 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 10:52:21 CEST 2025:H5 Elige tunel 0
+Thu Apr 24 10:52:21 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 10:52:21 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 10:52:22 CEST 2025:H9descansa.
+Thu Apr 24 10:52:23 CEST 2025:H1 Elige tunel 0
+Thu Apr 24 10:52:23 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 10:52:23 CEST 2025:H10descansa.
+Thu Apr 24 10:52:24 CEST 2025:H6 Elige tunel 2
+Thu Apr 24 10:52:24 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 10:52:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 10:52:25 CEST 2025:H9 se come una pieza de comida.
+Thu Apr 24 11:10:33 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 11:10:33 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 11:10:34 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 11:10:35 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 11:10:35 CEST 2025:H1 Elige tunel 1
+Thu Apr 24 11:10:35 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 11:10:36 CEST 2025:H2 Elige tunel 0
+Thu Apr 24 11:10:36 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 11:10:37 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 11:10:37 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 11:10:37 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 11:10:37 CEST 2025:H4 Elige tunel 1
+Thu Apr 24 11:10:37 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 11:10:39 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 11:10:40 CEST 2025:H5 Elige tunel 1
+Thu Apr 24 11:10:40 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 11:10:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:40 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:40 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 11:10:41 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 11:10:41 CEST 2025:H6 Elige tunel 1
+Thu Apr 24 11:10:41 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 11:10:42 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 11:10:43 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 11:10:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:43 CEST 2025:H7 Elige tunel 1
+Thu Apr 24 11:10:43 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 11:10:43 CEST 2025:H8 Elige tunel 2
+Thu Apr 24 11:10:43 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 11:10:44 CEST 2025:H9 Elige tunel 0
+Thu Apr 24 11:10:44 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 11:10:46 CEST 2025:H10 Elige tunel 0
+Thu Apr 24 11:10:46 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 11:10:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:48 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:50 CEST 2025:H5descansa.
+Thu Apr 24 11:10:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 11:10:53 CEST 2025:H5 se come una pieza de comida.
+Thu Apr 24 11:10:55 CEST 2025:H2descansa.
+Thu Apr 24 12:23:39 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:39 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 12:23:40 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 12:23:41 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:41 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:41 CEST 2025:H1 Elige tunel 0
+Thu Apr 24 12:23:41 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 12:23:42 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 12:23:42 CEST 2025:H2 Elige tunel 0
+Thu Apr 24 12:23:42 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 12:23:42 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 12:23:43 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 12:23:44 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:44 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:44 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 12:23:45 CEST 2025:H4 Elige tunel 2
+Thu Apr 24 12:23:45 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 12:23:45 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 12:23:45 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 12:23:46 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 12:23:46 CEST 2025:H5 Elige tunel 0
+Thu Apr 24 12:23:46 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 12:23:46 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:46 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:47 CEST 2025:H6 Elige tunel 2
+Thu Apr 24 12:23:47 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 12:23:47 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 12:23:49 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 12:23:49 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:49 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:49 CEST 2025:H7 Elige tunel 2
+Thu Apr 24 12:23:49 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 12:23:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:49 CEST 2025:H8 Elige tunel 2
+Thu Apr 24 12:23:49 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 12:23:50 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 12:23:50 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 12:23:51 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 12:23:51 CEST 2025:H9 Elige tunel 1
+Thu Apr 24 12:23:51 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 12:23:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:51 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:51 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:51 CEST 2025:El humano H11 entra a la zona común.
+Thu Apr 24 12:23:52 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 12:23:52 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 12:23:52 CEST 2025:El humano H12 entra a la zona común.
+Thu Apr 24 12:23:52 CEST 2025:H10 Elige tunel 2
+Thu Apr 24 12:23:52 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 12:23:53 CEST 2025:El humano H13 entra a la zona común.
+Thu Apr 24 12:23:53 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 12:23:53 CEST 2025:El humano H7 sale de la zona insegura
+Thu Apr 24 12:23:53 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:53 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:53 CEST 2025:El humano H14 entra a la zona común.
+Thu Apr 24 12:23:54 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 12:23:54 CEST 2025:H11 Elige tunel 0
+Thu Apr 24 12:23:54 CEST 2025:El humano H11 sale de la zona común.
+Thu Apr 24 12:23:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:54 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:23:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:55 CEST 2025:H12 Elige tunel 0
+Thu Apr 24 12:23:55 CEST 2025:El humano H12 sale de la zona común.
+Thu Apr 24 12:23:55 CEST 2025:El humano H15 entra a la zona común.
+Thu Apr 24 12:23:55 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 12:23:55 CEST 2025:El humano H4 sale de la zona insegura
+Thu Apr 24 12:23:55 CEST 2025:H13 Elige tunel 2
+Thu Apr 24 12:23:55 CEST 2025:El humano H13 sale de la zona común.
+Thu Apr 24 12:23:55 CEST 2025:El humano H9 sale de la zona insegura
+Thu Apr 24 12:23:55 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 12:23:56 CEST 2025:H14 Elige tunel 1
+Thu Apr 24 12:23:56 CEST 2025:El humano H14 sale de la zona común.
+Thu Apr 24 12:23:56 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:56 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:56 CEST 2025:El humano H2 sale de la zona insegura
+Thu Apr 24 12:23:56 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 12:23:56 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:23:56 CEST 2025:El humano H16 entra a la zona común.
+Thu Apr 24 12:23:56 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:23:57 CEST 2025:El humano H1 sale de la zona insegura
+Thu Apr 24 12:23:57 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 12:23:57 CEST 2025:El humano H5 sale de la zona insegura
+Thu Apr 24 12:23:57 CEST 2025:El humano H17 entra a la zona común.
+Thu Apr 24 12:23:57 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:23:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:57 CEST 2025:H15 Elige tunel 0
+Thu Apr 24 12:23:57 CEST 2025:El humano H15 sale de la zona común.
+Thu Apr 24 12:23:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:58 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:23:58 CEST 2025:El humano H18 entra a la zona común.
+Thu Apr 24 12:23:58 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 12:23:59 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:23:59 CEST 2025:H16 Elige tunel 0
+Thu Apr 24 12:23:59 CEST 2025:El humano H16 sale de la zona común.
+Thu Apr 24 12:23:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:23:59 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:23:59 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:23:59 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 12:24:00 CEST 2025:El humano H15 entra en la zona insegura
+Thu Apr 24 12:24:00 CEST 2025:H17 Elige tunel 2
+Thu Apr 24 12:24:00 CEST 2025:El humano H17 sale de la zona común.
+Thu Apr 24 12:24:00 CEST 2025:El humano H19 entra a la zona común.
+Thu Apr 24 12:24:00 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 12:24:01 CEST 2025:El humano H13 entra en la zona insegura
+Thu Apr 24 12:24:01 CEST 2025:El humano H3 sale de la zona insegura
+Thu Apr 24 12:24:01 CEST 2025:H18 Elige tunel 1
+Thu Apr 24 12:24:01 CEST 2025:El humano H18 sale de la zona común.
+Thu Apr 24 12:24:01 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:24:01 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:24:01 CEST 2025:El humano H20 entra a la zona común.
+Thu Apr 24 12:24:01 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 12:24:02 CEST 2025:El humano H14 entra en la zona insegura
+Thu Apr 24 12:24:02 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:02 CEST 2025:H19 Elige tunel 0
+Thu Apr 24 12:24:02 CEST 2025:El humano H19 sale de la zona común.
+Thu Apr 24 12:24:02 CEST 2025:El humano H21 entra a la zona común.
+Thu Apr 24 12:24:02 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 12:24:02 CEST 2025:El humano H8 sale de la zona insegura
+Thu Apr 24 12:24:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:03 CEST 2025:El humano H10 sale de la zona insegura
+Thu Apr 24 12:24:03 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 12:24:03 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:03 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:03 CEST 2025:El humano H15 sale de la zona insegura
+Thu Apr 24 12:24:04 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 12:24:04 CEST 2025:El humano H13 sale de la zona insegura
+Thu Apr 24 12:24:04 CEST 2025:El humano H22 entra a la zona común.
+Thu Apr 24 12:24:04 CEST 2025:H20 Elige tunel 0
+Thu Apr 24 12:24:04 CEST 2025:El humano H20 sale de la zona común.
+Thu Apr 24 12:24:04 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:04 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:04 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:04 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:04 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:05 CEST 2025:El humano H23 entra a la zona común.
+Thu Apr 24 12:24:05 CEST 2025:El humano H12 entra en la zona insegura
+Thu Apr 24 12:24:05 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:24:05 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:24:05 CEST 2025:H21 Elige tunel 2
+Thu Apr 24 12:24:05 CEST 2025:El humano H21 sale de la zona común.
+Thu Apr 24 12:24:05 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:05 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:06 CEST 2025:El humano H24 entra a la zona común.
+Thu Apr 24 12:24:06 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 12:24:06 CEST 2025:H22 Elige tunel 1
+Thu Apr 24 12:24:06 CEST 2025:El humano H22 sale de la zona común.
+Thu Apr 24 12:24:06 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 12:24:06 CEST 2025:El humano H20 entra en la zona insegura
+Thu Apr 24 12:24:07 CEST 2025:El humano H25 entra a la zona común.
+Thu Apr 24 12:24:07 CEST 2025:H23 Elige tunel 1
+Thu Apr 24 12:24:07 CEST 2025:El humano H23 sale de la zona común.
+Thu Apr 24 12:24:07 CEST 2025:El humano H17 entra en la zona insegura
+Thu Apr 24 12:24:07 CEST 2025:El humano H18 entra en la zona insegura
+Thu Apr 24 12:24:08 CEST 2025:H24 Elige tunel 1
+Thu Apr 24 12:24:08 CEST 2025:El humano H24 sale de la zona común.
+Thu Apr 24 12:24:08 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:08 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:08 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:08 CEST 2025:El humano H12 sale de la zona insegura
+Thu Apr 24 12:24:08 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:24:08 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:24:08 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 12:24:08 CEST 2025:El humano H19 entra en la zona insegura
+Thu Apr 24 12:24:09 CEST 2025:El humano H26 entra a la zona común.
+Thu Apr 24 12:24:09 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 12:24:09 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:09 CEST 2025:H25 Elige tunel 1
+Thu Apr 24 12:24:09 CEST 2025:El humano H25 sale de la zona común.
+Thu Apr 24 12:24:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:09 CEST 2025:El humano H27 entra a la zona común.
+Thu Apr 24 12:24:09 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 12:24:09 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:10 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:10 CEST 2025:El humano H25 entra en la zona insegura
+Thu Apr 24 12:24:10 CEST 2025:El humano H28 entra a la zona común.
+Thu Apr 24 12:24:10 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 12:24:10 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:11 CEST 2025:El humano H18 sale de la zona insegura
+Thu Apr 24 12:24:11 CEST 2025:El humano H20 entra en la zona insegura
+Thu Apr 24 12:24:11 CEST 2025:El humano H17 sale de la zona insegura
+Thu Apr 24 12:24:11 CEST 2025:El humano H21 entra en la zona insegura
+Thu Apr 24 12:24:11 CEST 2025:H26 Elige tunel 2
+Thu Apr 24 12:24:11 CEST 2025:El humano H26 sale de la zona común.
+Thu Apr 24 12:24:11 CEST 2025:El humano H29 entra a la zona común.
+Thu Apr 24 12:24:11 CEST 2025:El humano H16 entra en la zona insegura
+Thu Apr 24 12:24:12 CEST 2025:H27 Elige tunel 0
+Thu Apr 24 12:24:12 CEST 2025:El humano H27 sale de la zona común.
+Thu Apr 24 12:24:12 CEST 2025:El humano H14 entra en la zona insegura
+Thu Apr 24 12:24:12 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:24:12 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:24:12 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:12 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:12 CEST 2025:El humano H19 sale de la zona insegura
+Thu Apr 24 12:24:13 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 12:24:13 CEST 2025:H28 Elige tunel 0
+Thu Apr 24 12:24:13 CEST 2025:El humano H30 entra a la zona común.
+Thu Apr 24 12:24:13 CEST 2025:El humano H28 sale de la zona común.
+Thu Apr 24 12:24:13 CEST 2025:El humano H23 entra en la zona insegura
+Thu Apr 24 12:24:13 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 12:24:13 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:13 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:13 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:13 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:14 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 12:24:14 CEST 2025:H6descansa.
+Thu Apr 24 12:24:14 CEST 2025:El humano H31 entra a la zona común.
+Thu Apr 24 12:24:14 CEST 2025:H29 Elige tunel 0
+Thu Apr 24 12:24:14 CEST 2025:El humano H29 sale de la zona común.
+Thu Apr 24 12:24:14 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:14 CEST 2025:El humano H21 sale de la zona insegura
+Thu Apr 24 12:24:14 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 12:24:15 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 12:24:15 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 12:24:15 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 12:24:15 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:H30 Elige tunel 0
+Thu Apr 24 12:24:15 CEST 2025:El humano H30 sale de la zona común.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:15 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 12:24:15 CEST 2025:El humano H32 entra a la zona común.
+Thu Apr 24 12:24:16 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 12:24:16 CEST 2025:El humano H16 sale de la zona insegura
+Thu Apr 24 12:24:16 CEST 2025:El humano H30 entra en la zona insegura
+Thu Apr 24 12:24:16 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 12:24:16 CEST 2025:H6 se come una pieza de comida.
+Thu Apr 24 12:24:16 CEST 2025:H31 Elige tunel 2
+Thu Apr 24 12:24:16 CEST 2025:El humano H31 sale de la zona común.
+Thu Apr 24 12:24:17 CEST 2025:El humano H27 entra en la zona insegura
+Thu Apr 24 12:24:17 CEST 2025:El humano H33 entra a la zona común.
+Thu Apr 24 12:24:17 CEST 2025:El humano H26 entra en la zona insegura
+Thu Apr 24 12:24:17 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:18 CEST 2025:H32 Elige tunel 1
+Thu Apr 24 12:24:18 CEST 2025:El humano H32 sale de la zona común.
+Thu Apr 24 12:24:18 CEST 2025:El humano H23 sale de la zona insegura
+Thu Apr 24 12:24:18 CEST 2025:El humano H25 entra en la zona insegura
+Thu Apr 24 12:24:18 CEST 2025:El humano H28 entra en la zona insegura
+Thu Apr 24 12:24:18 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 12:24:18 CEST 2025:H2descansa.
+Thu Apr 24 12:24:19 CEST 2025:El humano H14 entra en la zona insegura
+Thu Apr 24 12:24:19 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:19 CEST 2025:El humano H34 entra a la zona común.
+Thu Apr 24 12:24:19 CEST 2025:H33 Elige tunel 1
+Thu Apr 24 12:24:19 CEST 2025:El humano H33 sale de la zona común.
+Thu Apr 24 12:24:19 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:19 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:19 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:19 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:19 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 12:24:20 CEST 2025:El humano H20 entra en la zona insegura
+Thu Apr 24 12:24:20 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:20 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:20 CEST 2025:El humano H30 sale de la zona insegura
+Thu Apr 24 12:24:20 CEST 2025:El humano H35 entra a la zona común.
+Thu Apr 24 12:24:20 CEST 2025:El humano H15 entra en la zona insegura
+Thu Apr 24 12:24:21 CEST 2025:H6descansa.
+Thu Apr 24 12:24:21 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 12:24:21 CEST 2025:H11descansa.
+Thu Apr 24 12:24:21 CEST 2025:El humano H36 entra a la zona común.
+Thu Apr 24 12:24:21 CEST 2025:El humano H27 sale de la zona insegura
+Thu Apr 24 12:24:21 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:21 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 12:24:21 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:22 CEST 2025:H34 Elige tunel 2
+Thu Apr 24 12:24:22 CEST 2025:El humano H34 sale de la zona común.
+Thu Apr 24 12:24:22 CEST 2025:El humano H26 sale de la zona insegura
+Thu Apr 24 12:24:22 CEST 2025:El humano H20 entra en la zona insegura
+Thu Apr 24 12:24:22 CEST 2025:El humano H37 entra a la zona común.
+Thu Apr 24 12:24:22 CEST 2025:H2 se come una pieza de comida.
+Thu Apr 24 12:24:22 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 12:24:22 CEST 2025:H7descansa.
+Thu Apr 24 12:24:23 CEST 2025:H35 Elige tunel 1
+Thu Apr 24 12:24:23 CEST 2025:El humano H35 sale de la zona común.
+Thu Apr 24 12:24:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:23 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:23 CEST 2025:El humano H28 sale de la zona insegura
+Thu Apr 24 12:24:23 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:23 CEST 2025:H11 se come una pieza de comida.
+Thu Apr 24 12:24:23 CEST 2025:El humano H38 entra a la zona común.
+Thu Apr 24 12:24:23 CEST 2025:El humano H24 entra en la zona insegura
+Thu Apr 24 12:24:23 CEST 2025:H36 Elige tunel 1
+Thu Apr 24 12:24:23 CEST 2025:El humano H36 sale de la zona común.
+Thu Apr 24 12:24:24 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:24 CEST 2025:El humano H25 entra en la zona insegura
+Thu Apr 24 12:24:24 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:24 CEST 2025:El humano H13 entra en la zona insegura
+Thu Apr 24 12:24:25 CEST 2025:El humano H39 entra a la zona común.
+Thu Apr 24 12:24:25 CEST 2025:El humano H20 entra en la zona insegura
+Thu Apr 24 12:24:25 CEST 2025:H20descansa.
+Thu Apr 24 12:24:25 CEST 2025:H37 Elige tunel 2
+Thu Apr 24 12:24:25 CEST 2025:El humano H37 sale de la zona común.
+Thu Apr 24 12:24:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:25 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:25 CEST 2025:H38 Elige tunel 1
+Thu Apr 24 12:24:25 CEST 2025:El humano H38 sale de la zona común.
+Thu Apr 24 12:24:25 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 12:24:25 CEST 2025:El humano H22 entra en la zona insegura
+Thu Apr 24 12:24:26 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 12:24:26 CEST 2025:El humano H31 entra en la zona insegura
+Thu Apr 24 12:24:26 CEST 2025:H7 se come una pieza de comida.
+Thu Apr 24 12:24:26 CEST 2025:El humano H40 entra a la zona común.
+Thu Apr 24 12:24:26 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 12:24:27 CEST 2025:El humano H41 entra a la zona común.
+Thu Apr 24 12:24:27 CEST 2025:H39 Elige tunel 2
+Thu Apr 24 12:24:27 CEST 2025:El humano H39 sale de la zona común.
+Thu Apr 24 12:24:27 CEST 2025:El humano H14 entra en la zona insegura
+Thu Apr 24 12:24:27 CEST 2025:El humano H12 entra en la zona insegura
+Thu Apr 24 12:24:27 CEST 2025:H20 se come una pieza de comida.
+Thu Apr 24 12:24:28 CEST 2025:H11descansa.
+Thu Apr 24 12:24:28 CEST 2025:El humano H37 entra en la zona insegura
+Thu Apr 24 12:24:28 CEST 2025:H2 Elige tunel 2
+Thu Apr 24 12:24:28 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 12:24:28 CEST 2025:H6 Elige tunel 1
+Thu Apr 24 12:24:28 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 12:24:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:28 CEST 2025:El humano H42 entra a la zona común.
+Thu Apr 24 12:24:28 CEST 2025:El humano H24 sale de la zona insegura
+Thu Apr 24 12:24:28 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 12:24:29 CEST 2025:El humano H22 sale de la zona insegura
+Thu Apr 24 12:24:29 CEST 2025:H40 Elige tunel 1
+Thu Apr 24 12:24:29 CEST 2025:El humano H40 sale de la zona común.
+Thu Apr 24 12:24:29 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:29 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:29 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:29 CEST 2025:El humano H36 entra en la zona insegura
+Thu Apr 24 12:24:29 CEST 2025:H41 Elige tunel 2
+Thu Apr 24 12:24:29 CEST 2025:El humano H41 sale de la zona común.
+Thu Apr 24 12:24:29 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 12:24:29 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:30 CEST 2025:El humano H43 entra a la zona común.
+Thu Apr 24 12:24:30 CEST 2025:El humano H25 entra en la zona insegura
+Thu Apr 24 12:24:30 CEST 2025:El humano H33 entra en la zona insegura
+Thu Apr 24 12:24:30 CEST 2025:El humano H31 sale de la zona insegura
+Thu Apr 24 12:24:30 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:30 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:30 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:30 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:31 CEST 2025:H42 Elige tunel 0
+Thu Apr 24 12:24:31 CEST 2025:El humano H42 sale de la zona común.
+Thu Apr 24 12:24:31 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 12:24:31 CEST 2025:El humano H25 entra en la zona insegura
+Thu Apr 24 12:24:31 CEST 2025:H25descansa.
+Thu Apr 24 12:24:31 CEST 2025:El humano H34 entra en la zona insegura
+Thu Apr 24 12:24:31 CEST 2025:El humano H44 entra a la zona común.
+Thu Apr 24 12:24:31 CEST 2025:El humano H11 entra a la zona común.
+Thu Apr 24 12:24:31 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 12:24:31 CEST 2025:H3descansa.
+Thu Apr 24 12:24:32 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:32 CEST 2025:H43 Elige tunel 2
+Thu Apr 24 12:24:32 CEST 2025:El humano H43 sale de la zona común.
+Thu Apr 24 12:24:32 CEST 2025:H20descansa.
+Thu Apr 24 12:24:32 CEST 2025:El humano H36 sale de la zona insegura
+Thu Apr 24 12:24:32 CEST 2025:El humano H45 entra a la zona común.
+Thu Apr 24 12:24:32 CEST 2025:El humano H18 entra en la zona insegura
+Thu Apr 24 12:24:33 CEST 2025:El humano H37 sale de la zona insegura
+Thu Apr 24 12:24:33 CEST 2025:El humano H14 entra en la zona insegura
+Thu Apr 24 12:24:33 CEST 2025:H14descansa.
+Thu Apr 24 12:24:33 CEST 2025:H7 Elige tunel 2
+Thu Apr 24 12:24:33 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 12:24:33 CEST 2025:El humano H6 sale de la zona insegura
+Thu Apr 24 12:24:33 CEST 2025:El humano H17 entra en la zona insegura
+Thu Apr 24 12:24:34 CEST 2025:H11 Elige tunel 0
+Thu Apr 24 12:24:34 CEST 2025:El humano H11 sale de la zona común.
+Thu Apr 24 12:24:34 CEST 2025:El humano H33 sale de la zona insegura
+Thu Apr 24 12:24:34 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:34 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:34 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:34 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:34 CEST 2025:H44 Elige tunel 2
+Thu Apr 24 12:24:34 CEST 2025:El humano H44 sale de la zona común.
+Thu Apr 24 12:24:34 CEST 2025:H3 se come una pieza de comida.
+Thu Apr 24 12:24:34 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:34 CEST 2025:El humano H46 entra a la zona común.
+Thu Apr 24 12:24:34 CEST 2025:El humano H21 entra en la zona insegura
+Thu Apr 24 12:24:35 CEST 2025:H45 Elige tunel 0
+Thu Apr 24 12:24:35 CEST 2025:El humano H45 sale de la zona común.
+Thu Apr 24 12:24:35 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:35 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:35 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:35 CEST 2025:H25 se come una pieza de comida.
+Thu Apr 24 12:24:35 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:35 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:35 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:35 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:35 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:35 CEST 2025:El humano H34 sale de la zona insegura
+Thu Apr 24 12:24:35 CEST 2025:El humano H29 entra en la zona insegura
+Thu Apr 24 12:24:36 CEST 2025:El humano H45 entra en la zona insegura
+Thu Apr 24 12:24:36 CEST 2025:El humano H47 entra a la zona común.
+Thu Apr 24 12:24:36 CEST 2025:H14 se come una pieza de comida.
+Thu Apr 24 12:24:36 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:36 CEST 2025:El humano H19 entra en la zona insegura
+Thu Apr 24 12:24:37 CEST 2025:El humano H20 entra a la zona común.
+Thu Apr 24 12:24:37 CEST 2025:El humano H42 entra en la zona insegura
+Thu Apr 24 12:24:37 CEST 2025:H46 Elige tunel 0
+Thu Apr 24 12:24:37 CEST 2025:El humano H46 sale de la zona común.
+Thu Apr 24 12:24:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:38 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 12:24:38 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:38 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:38 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:38 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:38 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 12:24:38 CEST 2025:El humano H48 entra a la zona común.
+Thu Apr 24 12:24:38 CEST 2025:El humano H46 entra en la zona insegura
+Thu Apr 24 12:24:38 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 12:24:39 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 12:24:39 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:39 CEST 2025:H47 Elige tunel 0
+Thu Apr 24 12:24:39 CEST 2025:El humano H47 sale de la zona común.
+Thu Apr 24 12:24:39 CEST 2025:El humano H40 entra en la zona insegura
+Thu Apr 24 12:24:39 CEST 2025:El humano H29 sale de la zona insegura
+Thu Apr 24 12:24:39 CEST 2025:H25descansa.
+Thu Apr 24 12:24:39 CEST 2025:El humano H49 entra a la zona común.
+Thu Apr 24 12:24:39 CEST 2025:El humano H41 entra en la zona insegura
+Thu Apr 24 12:24:39 CEST 2025:H14descansa.
+Thu Apr 24 12:24:39 CEST 2025:H20 Elige tunel 1
+Thu Apr 24 12:24:39 CEST 2025:El humano H20 sale de la zona común.
+Thu Apr 24 12:24:40 CEST 2025:El humano H23 entra en la zona insegura
+Thu Apr 24 12:24:40 CEST 2025:El humano H38 entra en la zona insegura
+Thu Apr 24 12:24:40 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 12:24:41 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:41 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:41 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:41 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:41 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 12:24:41 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 12:24:41 CEST 2025:H48 Elige tunel 2
+Thu Apr 24 12:24:41 CEST 2025:El humano H48 sale de la zona común.
+Thu Apr 24 12:24:41 CEST 2025:El humano H42 sale de la zona insegura
+Thu Apr 24 12:24:41 CEST 2025:El humano H45 sale de la zona insegura
+Thu Apr 24 12:24:41 CEST 2025:El humano H39 entra en la zona insegura
+Thu Apr 24 12:24:41 CEST 2025:El humano H50 entra a la zona común.
+Thu Apr 24 12:24:41 CEST 2025:El humano H46 sale de la zona insegura
+Thu Apr 24 12:24:42 CEST 2025:El humano H19 entra en la zona insegura
+Thu Apr 24 12:24:42 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:42 CEST 2025:H49 Elige tunel 0
+Thu Apr 24 12:24:42 CEST 2025:El humano H49 sale de la zona común.
+Thu Apr 24 12:24:42 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:42 CEST 2025:El humano H51 entra a la zona común.
+Thu Apr 24 12:24:42 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:42 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:42 CEST 2025:El humano H11 sale de la zona insegura
+Thu Apr 24 12:24:43 CEST 2025:El humano H16 entra en la zona insegura
+Thu Apr 24 12:24:43 CEST 2025:El humano H25 entra a la zona común.
+Thu Apr 24 12:24:43 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:43 CEST 2025:El humano H52 entra a la zona común.
+Thu Apr 24 12:24:43 CEST 2025:El humano H40 sale de la zona insegura
+Thu Apr 24 12:24:43 CEST 2025:El humano H14 entra a la zona común.
+Thu Apr 24 12:24:43 CEST 2025:H50 Elige tunel 2
+Thu Apr 24 12:24:43 CEST 2025:El humano H50 sale de la zona común.
+Thu Apr 24 12:24:44 CEST 2025:El humano H32 entra en la zona insegura
+Thu Apr 24 12:24:44 CEST 2025:El humano H41 sale de la zona insegura
+Thu Apr 24 12:24:44 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:45 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 12:24:45 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:45 CEST 2025:El humano H53 entra a la zona común.
+Thu Apr 24 12:24:45 CEST 2025:H51 Elige tunel 1
+Thu Apr 24 12:24:45 CEST 2025:El humano H51 sale de la zona común.
+Thu Apr 24 12:24:45 CEST 2025:El humano H38 sale de la zona insegura
+Thu Apr 24 12:24:45 CEST 2025:H25 Elige tunel 1
+Thu Apr 24 12:24:45 CEST 2025:El humano H25 sale de la zona común.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:El humano H7 sale de la zona insegura
+Thu Apr 24 12:24:45 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:45 CEST 2025:H52 Elige tunel 1
+Thu Apr 24 12:24:45 CEST 2025:El humano H52 sale de la zona común.
+Thu Apr 24 12:24:45 CEST 2025:El humano H39 sale de la zona insegura
+Thu Apr 24 12:24:46 CEST 2025:El humano H35 entra en la zona insegura
+Thu Apr 24 12:24:46 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:46 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:46 CEST 2025:H14 Elige tunel 0
+Thu Apr 24 12:24:46 CEST 2025:El humano H14 sale de la zona común.
+Thu Apr 24 12:24:47 CEST 2025:El humano H30 entra en la zona insegura
+Thu Apr 24 12:24:47 CEST 2025:El humano H32 sale de la zona insegura
+Thu Apr 24 12:24:47 CEST 2025:El humano H54 entra a la zona común.
+Thu Apr 24 12:24:47 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 12:24:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 12:24:47 CEST 2025:H53 Elige tunel 2
+Thu Apr 24 12:24:47 CEST 2025:El humano H53 sale de la zona común.
+Thu Apr 24 12:24:48 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 12:24:48 CEST 2025:El humano H25 entra en la zona insegura
+Thu Apr 24 12:24:48 CEST 2025:El humano H55 entra a la zona común.
+Thu Apr 24 15:36:35 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:35 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 15:36:36 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 15:36:36 CEST 2025:H1 Elige tunel 1
+Thu Apr 24 15:36:36 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 15:36:37 CEST 2025:H2 Elige tunel 2
+Thu Apr 24 15:36:37 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 15:36:37 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:36:37 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:37 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 15:36:38 CEST 2025:H3 Elige tunel 0
+Thu Apr 24 15:36:38 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 15:36:39 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 15:36:40 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:36:40 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:41 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 15:36:41 CEST 2025:H4 Elige tunel 1
+Thu Apr 24 15:36:41 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 15:36:42 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 15:36:42 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:36:42 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:43 CEST 2025:H5 Elige tunel 1
+Thu Apr 24 15:36:43 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 15:36:43 CEST 2025:H6 Elige tunel 1
+Thu Apr 24 15:36:43 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 15:36:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:43 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:43 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 15:36:44 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:36:44 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 15:36:44 CEST 2025:H7 Elige tunel 0
+Thu Apr 24 15:36:44 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 15:36:45 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:36:45 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:36:45 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:45 CEST 2025:H8 Elige tunel 2
+Thu Apr 24 15:36:45 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 15:36:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:45 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 15:36:46 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:36:46 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 15:36:46 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 15:36:47 CEST 2025:H9 Elige tunel 1
+Thu Apr 24 15:36:47 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 15:36:47 CEST 2025:El humano H11 entra a la zona común.
+Thu Apr 24 15:36:47 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:36:47 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:47 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:36:47 CEST 2025:El humano H6 sale de la zona insegura
+Thu Apr 24 15:36:48 CEST 2025:H10 Elige tunel 1
+Thu Apr 24 15:36:48 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 15:36:48 CEST 2025:El humano H1 sale de la zona insegura
+Thu Apr 24 15:36:48 CEST 2025:El humano H12 entra a la zona común.
+Thu Apr 24 15:36:48 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 15:36:48 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:36:49 CEST 2025:H11 Elige tunel 2
+Thu Apr 24 15:36:49 CEST 2025:El humano H11 sale de la zona común.
+Thu Apr 24 15:36:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:49 CEST 2025:El humano H13 entra a la zona común.
+Thu Apr 24 15:36:49 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:36:49 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:36:49 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:36:50 CEST 2025:El humano H11 entra en la zona insegura
+Thu Apr 24 15:36:50 CEST 2025:H12 Elige tunel 1
+Thu Apr 24 15:36:50 CEST 2025:El humano H12 sale de la zona común.
+Thu Apr 24 15:36:51 CEST 2025:El humano H8 sale de la zona insegura
+Thu Apr 24 15:36:51 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:36:51 CEST 2025:El humano H14 entra a la zona común.
+Thu Apr 24 15:36:51 CEST 2025:El humano H3 sale de la zona insegura
+Thu Apr 24 15:36:51 CEST 2025:El zombie Z3 entra en la zona insegura
+Thu Apr 24 15:36:51 CEST 2025:H13 Elige tunel 2
+Thu Apr 24 15:36:51 CEST 2025:El humano H13 sale de la zona común.
+Thu Apr 24 15:36:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:36:51 CEST 2025:El humano H4 sale de la zona insegura
+Thu Apr 24 15:36:52 CEST 2025:El humano H7 sale de la zona insegura
+Thu Apr 24 15:36:52 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:36:52 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:36:52 CEST 2025:H14 Elige tunel 2
+Thu Apr 24 15:36:52 CEST 2025:El humano H14 sale de la zona común.
+Thu Apr 24 15:36:52 CEST 2025:El humano H13 entra en la zona insegura
+Thu Apr 24 15:37:22 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:22 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 15:37:23 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 15:37:23 CEST 2025:H1 Elige tunel 2
+Thu Apr 24 15:37:23 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 15:37:24 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:24 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:24 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 15:37:25 CEST 2025:H2 Elige tunel 1
+Thu Apr 24 15:37:25 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 15:37:25 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 15:37:26 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 15:37:26 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 15:37:26 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:26 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:27 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 15:37:27 CEST 2025:H4 Elige tunel 1
+Thu Apr 24 15:37:27 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 15:37:28 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 15:37:29 CEST 2025:H5 Elige tunel 0
+Thu Apr 24 15:37:29 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 15:37:29 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:29 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:29 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 15:37:30 CEST 2025:H6 Elige tunel 2
+Thu Apr 24 15:37:30 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 15:37:30 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:30 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:30 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:31 CEST 2025:H7 Elige tunel 0
+Thu Apr 24 15:37:31 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 15:37:31 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 15:37:31 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:37:31 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:31 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:32 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:37:32 CEST 2025:H8 Elige tunel 0
+Thu Apr 24 15:37:32 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 15:37:33 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 15:37:33 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:37:34 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:34 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:34 CEST 2025:H9 Elige tunel 0
+Thu Apr 24 15:37:34 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 15:37:34 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:34 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:34 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:34 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 15:37:35 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 15:37:35 CEST 2025:H10 Elige tunel 2
+Thu Apr 24 15:37:35 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 15:37:36 CEST 2025:El humano H6 sale de la zona insegura
+Thu Apr 24 15:37:36 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:37:37 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:37 CEST 2025:El humano H2 sale de la zona insegura
+Thu Apr 24 15:37:37 CEST 2025:El humano H1 sale de la zona insegura
+Thu Apr 24 15:37:37 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:37 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:37 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:37:38 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:37:38 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:39 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:37:39 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:39 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:39 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:40 CEST 2025:El humano H9 sale de la zona insegura
+Thu Apr 24 15:37:40 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 15:37:40 CEST 2025:El humano H3 sale de la zona insegura
+Thu Apr 24 15:37:41 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:41 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:41 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:41 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:41 CEST 2025:El humano H4 sale de la zona insegura
+Thu Apr 24 15:37:42 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:42 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 15:37:42 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:37:42 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:37:42 CEST 2025:El humano H5 sale de la zona insegura
+Thu Apr 24 15:37:43 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:43 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:37:44 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:44 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:44 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:44 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:44 CEST 2025:El humano H8 sale de la zona insegura
+Thu Apr 24 15:37:45 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:37:46 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:47 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:37:47 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:48 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:37:49 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:37:50 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:37:51 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:37:51 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:51 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:52 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:37:52 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:53 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:37:54 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 15:37:55 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:37:56 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:37:56 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:57 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:37:57 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:37:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:37:58 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:37:58 CEST 2025:H2descansa.
+Thu Apr 24 15:37:59 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:37:59 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:38:00 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:38:00 CEST 2025:H6descansa.
+Thu Apr 24 15:38:00 CEST 2025:H2 se come una pieza de comida.
+Thu Apr 24 15:38:01 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:38:02 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:38:02 CEST 2025:H6 se come una pieza de comida.
+Thu Apr 24 15:38:03 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:38:04 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 15:38:04 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:38:05 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:38:05 CEST 2025:H3descansa.
+Thu Apr 24 15:38:05 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 15:44:57 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:44:57 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 15:44:58 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 15:44:58 CEST 2025:H1 Elige tunel 0
+Thu Apr 24 15:44:58 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 15:44:59 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:44:59 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:45:00 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 15:45:00 CEST 2025:H2 Elige tunel 1
+Thu Apr 24 15:45:00 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 15:45:01 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 15:45:01 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 15:45:01 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 15:45:02 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:45:02 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:45:02 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 15:45:03 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 15:45:03 CEST 2025:H4 Elige tunel 2
+Thu Apr 24 15:45:03 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 15:45:03 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 15:45:04 CEST 2025:H5 Elige tunel 2
+Thu Apr 24 15:45:04 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 15:45:05 CEST 2025:H7 Elige tunel 1
+Thu Apr 24 15:45:05 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 15:45:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:05 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:05 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 15:45:05 CEST 2025:H6 Elige tunel 0
+Thu Apr 24 15:45:05 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 15:45:05 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:45:05 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:45:05 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 15:45:06 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 15:45:06 CEST 2025:H8 Elige tunel 1
+Thu Apr 24 15:45:06 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 15:45:07 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:45:07 CEST 2025:H9 Elige tunel 1
+Thu Apr 24 15:45:07 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 15:45:07 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:07 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:07 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:07 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 15:45:08 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:45:08 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:45:08 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:45:09 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 15:45:09 CEST 2025:H10 Elige tunel 1
+Thu Apr 24 15:45:09 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 15:45:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:09 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:09 CEST 2025:El humano H7 sale de la zona insegura
+Thu Apr 24 15:45:10 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:45:10 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 15:45:10 CEST 2025:El humano H2 sale de la zona insegura
+Thu Apr 24 15:45:11 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:11 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:45:11 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:45:11 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:45:12 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:12 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:12 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:45:13 CEST 2025:El humano H3 sale de la zona insegura
+Thu Apr 24 15:45:13 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 15:45:13 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 15:45:13 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 15:45:13 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 15:45:14 CEST 2025:El humano H9 sale de la zona insegura
+Thu Apr 24 15:45:14 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:14 CEST 2025:El humano H10 sale de la zona insegura
+Thu Apr 24 15:45:14 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:45:14 CEST 2025:El humano H6 sale de la zona insegura
+Thu Apr 24 15:45:15 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:15 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:15 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 15:45:15 CEST 2025:El humano H1 sale de la zona insegura
+Thu Apr 24 15:45:15 CEST 2025:El humano H4 sale de la zona insegura
+Thu Apr 24 15:45:16 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:16 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 15:45:16 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:16 CEST 2025:El humano H8 sale de la zona insegura
+Thu Apr 24 15:45:17 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:45:17 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:17 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:17 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:18 CEST 2025:El humano H5 sale de la zona insegura
+Thu Apr 24 15:45:18 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 15:45:19 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:20 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:45:21 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:45:22 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 15:45:23 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 15:45:23 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:24 CEST 2025:El humano H7 entra en la zona insegura
+Thu Apr 24 15:45:24 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:25 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 15:45:25 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:26 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 15:45:26 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:26 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:26 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:26 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 15:45:27 CEST 2025:El humano H10 entra en la zona insegura
+Thu Apr 24 15:45:28 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 15:45:29 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 15:45:30 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 15:45:30 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:31 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 15:45:31 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 15:45:32 CEST 2025:El humano H9 entra en la zona insegura
+Thu Apr 24 17:14:18 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:14:18 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 17:14:18 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 17:14:19 CEST 2025:H1 Elige tunel 2
+Thu Apr 24 17:14:19 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 17:14:20 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:14:20 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:14:20 CEST 2025:H2 Elige tunel 2
+Thu Apr 24 17:14:20 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 17:14:20 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 17:14:22 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 17:14:22 CEST 2025:H3 Elige tunel 1
+Thu Apr 24 17:14:22 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 17:14:22 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 17:14:22 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:14:22 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:14:23 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 17:14:23 CEST 2025:H4 Elige tunel 0
+Thu Apr 24 17:14:23 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 17:14:24 CEST 2025:H5 Elige tunel 2
+Thu Apr 24 17:14:24 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 17:14:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:14:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:14:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:14:24 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 17:14:24 CEST 2025:H6 Elige tunel 0
+Thu Apr 24 17:14:24 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 17:14:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:14:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:14:24 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:14:25 CEST 2025:El humano H5 entra en la zona insegura
+Thu Apr 24 17:14:25 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:14:25 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:14:25 CEST 2025:H7 Elige tunel 0
+Thu Apr 24 17:14:25 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 17:14:25 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 17:14:26 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 17:14:26 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 17:14:26 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 17:14:26 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 17:14:27 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 17:14:27 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 17:14:27 CEST 2025:H8 Elige tunel 1
+Thu Apr 24 17:14:27 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 17:14:27 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 17:14:28 CEST 2025:H10 Elige tunel 1
+Thu Apr 24 17:14:28 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 17:14:28 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:14:28 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:14:28 CEST 2025:H9 Elige tunel 1
+Thu Apr 24 17:14:28 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 17:14:29 CEST 2025:El humano H6 sale de la zona insegura
+Thu Apr 24 17:14:59 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:14:59 CEST 2025:El humano H1 entra a la zona común.
+Thu Apr 24 17:15:00 CEST 2025:H1 Elige tunel 0
+Thu Apr 24 17:15:00 CEST 2025:El humano H1 sale de la zona común.
+Thu Apr 24 17:15:01 CEST 2025:El humano H2 entra a la zona común.
+Thu Apr 24 17:15:02 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:15:02 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:15:02 CEST 2025:H2 Elige tunel 0
+Thu Apr 24 17:15:02 CEST 2025:El humano H2 sale de la zona común.
+Thu Apr 24 17:15:02 CEST 2025:El humano H3 entra a la zona común.
+Thu Apr 24 17:15:03 CEST 2025:El humano H4 entra a la zona común.
+Thu Apr 24 17:15:04 CEST 2025:H4 Elige tunel 1
+Thu Apr 24 17:15:04 CEST 2025:El humano H4 sale de la zona común.
+Thu Apr 24 17:15:04 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:15:04 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:15:04 CEST 2025:H3 Elige tunel 0
+Thu Apr 24 17:15:04 CEST 2025:El humano H3 sale de la zona común.
+Thu Apr 24 17:15:04 CEST 2025:El humano H5 entra a la zona común.
+Thu Apr 24 17:15:05 CEST 2025:El humano H6 entra a la zona común.
+Thu Apr 24 17:15:06 CEST 2025:H5 Elige tunel 2
+Thu Apr 24 17:15:06 CEST 2025:El humano H5 sale de la zona común.
+Thu Apr 24 17:15:06 CEST 2025:El humano H7 entra a la zona común.
+Thu Apr 24 17:15:07 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:15:07 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:15:07 CEST 2025:H6 Elige tunel 1
+Thu Apr 24 17:15:07 CEST 2025:El humano H6 sale de la zona común.
+Thu Apr 24 17:15:07 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:07 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:07 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:08 CEST 2025:El humano H6 entra en la zona insegura
+Thu Apr 24 17:15:08 CEST 2025:El humano H8 entra a la zona común.
+Thu Apr 24 17:15:08 CEST 2025:H7 Elige tunel 0
+Thu Apr 24 17:15:08 CEST 2025:El humano H7 sale de la zona común.
+Thu Apr 24 17:15:09 CEST 2025:El humano H4 entra en la zona insegura
+Thu Apr 24 17:15:09 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:15:09 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:15:09 CEST 2025:El humano H9 entra a la zona común.
+Thu Apr 24 17:15:10 CEST 2025:El humano H3 entra en la zona insegura
+Thu Apr 24 17:15:10 CEST 2025:H8 Elige tunel 0
+Thu Apr 24 17:15:10 CEST 2025:El humano H8 sale de la zona común.
+Thu Apr 24 17:15:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:10 CEST 2025:H9 Elige tunel 0
+Thu Apr 24 17:15:10 CEST 2025:El humano H9 sale de la zona común.
+Thu Apr 24 17:15:11 CEST 2025:El humano H8 entra en la zona insegura
+Thu Apr 24 17:15:11 CEST 2025:El humano H10 entra a la zona común.
+Thu Apr 24 17:15:11 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:15:11 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:15:12 CEST 2025:El humano H1 entra en la zona insegura
+Thu Apr 24 17:15:12 CEST 2025:H10 Elige tunel 0
+Thu Apr 24 17:15:12 CEST 2025:El humano H10 sale de la zona común.
+Thu Apr 24 17:15:12 CEST 2025:El humano H6 sale de la zona insegura
+Thu Apr 24 17:15:13 CEST 2025:El humano H2 entra en la zona insegura
+Thu Apr 24 17:15:13 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 17:15:14 CEST 2025:El zombie Z0 sale de la zona insegura
+Thu Apr 24 17:15:14 CEST 2025:El zombie Z0 entra en la zona insegura
+Thu Apr 24 17:15:15 CEST 2025:El humano H3 sale de la zona insegura
+Thu Apr 24 17:15:15 CEST 2025:El humano H8 sale de la zona insegura
+Thu Apr 24 17:15:15 CEST 2025:El zombie Z8 entra en la zona insegura
+Thu Apr 24 17:15:16 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Thu Apr 24 17:15:16 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:16 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:16 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Thu Apr 24 17:15:16 CEST 2025:El humano H1 sale de la zona insegura
+Fri Apr 25 08:56:47 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:56:47 CEST 2025:El humano H1 entra a la zona común.
+Fri Apr 25 08:56:47 CEST 2025:El humano H2 entra a la zona común.
+Fri Apr 25 08:56:48 CEST 2025:El humano H3 entra a la zona común.
+Fri Apr 25 08:56:48 CEST 2025:H2 Elige tunel 2
+Fri Apr 25 08:56:48 CEST 2025:El humano H2 sale de la zona común.
+Fri Apr 25 08:56:49 CEST 2025:H1 Elige tunel 1
+Fri Apr 25 08:56:49 CEST 2025:El humano H1 sale de la zona común.
+Fri Apr 25 08:56:49 CEST 2025:El humano H4 entra a la zona común.
+Fri Apr 25 08:56:49 CEST 2025:H3 Elige tunel 1
+Fri Apr 25 08:56:49 CEST 2025:El humano H3 sale de la zona común.
+Fri Apr 25 08:56:49 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:56:49 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:56:50 CEST 2025:El humano H5 entra a la zona común.
+Fri Apr 25 08:56:51 CEST 2025:H4 Elige tunel 0
+Fri Apr 25 08:56:51 CEST 2025:El humano H4 sale de la zona común.
+Fri Apr 25 08:56:52 CEST 2025:H5 Elige tunel 1
+Fri Apr 25 08:56:52 CEST 2025:El humano H5 sale de la zona común.
+Fri Apr 25 08:56:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:52 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:52 CEST 2025:El humano H6 entra a la zona común.
+Fri Apr 25 08:56:52 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:56:52 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:56:53 CEST 2025:El humano H5 entra en la zona insegura
+Fri Apr 25 08:56:53 CEST 2025:El humano H7 entra a la zona común.
+Fri Apr 25 08:56:53 CEST 2025:H6 Elige tunel 2
+Fri Apr 25 08:56:53 CEST 2025:El humano H6 sale de la zona común.
+Fri Apr 25 08:56:54 CEST 2025:El humano H2 entra en la zona insegura
+Fri Apr 25 08:56:54 CEST 2025:H7 Elige tunel 2
+Fri Apr 25 08:56:54 CEST 2025:El humano H7 sale de la zona común.
+Fri Apr 25 08:56:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:54 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:54 CEST 2025:El humano H8 entra a la zona común.
+Fri Apr 25 08:56:55 CEST 2025:El humano H1 entra en la zona insegura
+Fri Apr 25 08:56:55 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:56:55 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:56:55 CEST 2025:El humano H7 entra en la zona insegura
+Fri Apr 25 08:56:56 CEST 2025:El humano H9 entra a la zona común.
+Fri Apr 25 08:56:56 CEST 2025:H8 Elige tunel 2
+Fri Apr 25 08:56:56 CEST 2025:El humano H8 sale de la zona común.
+Fri Apr 25 08:56:56 CEST 2025:El humano H5 sale de la zona insegura
+Fri Apr 25 08:56:56 CEST 2025:El humano H3 entra en la zona insegura
+Fri Apr 25 08:56:56 CEST 2025:El humano H10 entra a la zona común.
+Fri Apr 25 08:56:57 CEST 2025:El humano H2 sale de la zona insegura
+Fri Apr 25 08:56:57 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:56:57 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:56:57 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:56:57 CEST 2025:El humano H5 entra a la zona común.
+Fri Apr 25 08:56:57 CEST 2025:El humano H6 entra en la zona insegura
+Fri Apr 25 08:56:57 CEST 2025:H9 Elige tunel 0
+Fri Apr 25 08:56:57 CEST 2025:El humano H9 sale de la zona común.
+Fri Apr 25 08:56:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:57 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:58 CEST 2025:El humano H7 entra a la zona común.
+Fri Apr 25 08:56:58 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:56:58 CEST 2025:El humano H2 entra a la zona común.
+Fri Apr 25 08:56:58 CEST 2025:H10 Elige tunel 1
+Fri Apr 25 08:56:58 CEST 2025:El humano H10 sale de la zona común.
+Fri Apr 25 08:56:58 CEST 2025:El humano H9 entra en la zona insegura
+Fri Apr 25 08:56:59 CEST 2025:H5 Elige tunel 0
+Fri Apr 25 08:56:59 CEST 2025:El humano H5 sale de la zona común.
+Fri Apr 25 08:56:59 CEST 2025:H7 Elige tunel 0
+Fri Apr 25 08:56:59 CEST 2025:El humano H7 sale de la zona común.
+Fri Apr 25 08:56:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:59 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:56:59 CEST 2025:El humano H1 sale de la zona insegura
+Fri Apr 25 08:56:59 CEST 2025:El humano H4 entra en la zona insegura
+Fri Apr 25 08:57:00 CEST 2025:H2 Elige tunel 0
+Fri Apr 25 08:57:00 CEST 2025:El humano H2 sale de la zona común.
+Fri Apr 25 08:57:00 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:00 CEST 2025:El humano H1 entra a la zona común.
+Fri Apr 25 08:57:00 CEST 2025:El humano H8 entra en la zona insegura
+Fri Apr 25 08:57:01 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:57:01 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:57:01 CEST 2025:El humano H3 sale de la zona insegura
+Fri Apr 25 08:57:01 CEST 2025:H1 Elige tunel 1
+Fri Apr 25 08:57:01 CEST 2025:El humano H1 sale de la zona común.
+Fri Apr 25 08:57:01 CEST 2025:El humano H4 entra a la zona común.
+Fri Apr 25 08:57:01 CEST 2025:El humano H7 entra en la zona insegura
+Fri Apr 25 08:57:02 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:02 CEST 2025:El humano H3 entra a la zona común.
+Fri Apr 25 08:57:02 CEST 2025:El humano H9 sale de la zona insegura
+Fri Apr 25 08:57:02 CEST 2025:El humano H6 sale de la zona insegura
+Fri Apr 25 08:57:02 CEST 2025:El humano H10 entra en la zona insegura
+Fri Apr 25 08:57:02 CEST 2025:H4 Elige tunel 0
+Fri Apr 25 08:57:02 CEST 2025:El humano H4 sale de la zona común.
+Fri Apr 25 08:57:03 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:03 CEST 2025:El humano H6 entra a la zona común.
+Fri Apr 25 08:57:03 CEST 2025:H3 Elige tunel 0
+Fri Apr 25 08:57:03 CEST 2025:El humano H3 sale de la zona común.
+Fri Apr 25 08:57:03 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:03 CEST 2025:El humano H9 entra a la zona común.
+Fri Apr 25 08:57:04 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:57:04 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:57:04 CEST 2025:El humano H8 sale de la zona insegura
+Fri Apr 25 08:57:04 CEST 2025:H6 Elige tunel 2
+Fri Apr 25 08:57:04 CEST 2025:El humano H6 sale de la zona común.
+Fri Apr 25 08:57:04 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:04 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:04 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:04 CEST 2025:El humano H5 entra en la zona insegura
+Fri Apr 25 08:57:05 CEST 2025:H9 Elige tunel 2
+Fri Apr 25 08:57:05 CEST 2025:El humano H9 sale de la zona común.
+Fri Apr 25 08:57:05 CEST 2025:El humano H6 entra en la zona insegura
+Fri Apr 25 08:57:05 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:05 CEST 2025:El humano H8 entra a la zona común.
+Fri Apr 25 08:57:06 CEST 2025:El humano H2 entra en la zona insegura
+Fri Apr 25 08:57:06 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:57:06 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:57:07 CEST 2025:El humano H7 sale de la zona insegura
+Fri Apr 25 08:57:07 CEST 2025:El zombie Z7 entra en la zona insegura
+Fri Apr 25 08:57:07 CEST 2025:El humano H4 entra en la zona insegura
+Fri Apr 25 08:57:07 CEST 2025:H8 Elige tunel 0
+Fri Apr 25 08:57:07 CEST 2025:El humano H8 sale de la zona común.
+Fri Apr 25 08:57:07 CEST 2025:El humano H10 sale de la zona insegura
+Fri Apr 25 08:57:08 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:08 CEST 2025:El humano H10 entra a la zona común.
+Fri Apr 25 08:57:09 CEST 2025:El humano H5 sale de la zona insegura
+Fri Apr 25 08:57:09 CEST 2025:El humano H6 sale de la zona insegura
+Fri Apr 25 08:57:10 CEST 2025:H10 Elige tunel 1
+Fri Apr 25 08:57:10 CEST 2025:El humano H10 sale de la zona común.
+Fri Apr 25 08:57:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:10 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:10 CEST 2025:El humano H5 entra a la zona común.
+Fri Apr 25 08:57:10 CEST 2025:El humano H2 sale de la zona insegura
+Fri Apr 25 08:57:10 CEST 2025:El humano H4 sale de la zona insegura
+Fri Apr 25 08:57:10 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:10 CEST 2025:El humano H6 entra a la zona común.
+Fri Apr 25 08:57:11 CEST 2025:El zombie Z7 sale de la zona insegura
+Fri Apr 25 08:57:11 CEST 2025:El zombie Z7 entra en la zona insegura
+Fri Apr 25 08:57:11 CEST 2025:H5 Elige tunel 0
+Fri Apr 25 08:57:11 CEST 2025:El humano H5 sale de la zona común.
+Fri Apr 25 08:57:11 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:11 CEST 2025:El humano H2 entra a la zona común.
+Fri Apr 25 08:57:12 CEST 2025:H6 Elige tunel 2
+Fri Apr 25 08:57:12 CEST 2025:El humano H6 sale de la zona común.
+Fri Apr 25 08:57:12 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 08:57:12 CEST 2025:El humano H4 entra a la zona común.
+Fri Apr 25 08:57:13 CEST 2025:H2 Elige tunel 2
+Fri Apr 25 08:57:13 CEST 2025:El humano H2 sale de la zona común.
+Fri Apr 25 08:57:13 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:13 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:13 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 08:57:13 CEST 2025:El humano H10 entra en la zona insegura
+Fri Apr 25 08:57:13 CEST 2025:El zombie Z7 sale de la zona insegura
+Fri Apr 25 08:57:13 CEST 2025:El zombie Z7 entra en la zona insegura
+Fri Apr 25 08:57:14 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:57:14 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:57:14 CEST 2025:H4 Elige tunel 2
+Fri Apr 25 08:57:14 CEST 2025:El humano H4 sale de la zona común.
+Fri Apr 25 08:57:14 CEST 2025:El humano H2 entra en la zona insegura
+Fri Apr 25 08:57:14 CEST 2025:El humano H9 entra en la zona insegura
+Fri Apr 25 08:57:15 CEST 2025:El humano H10 entra a la zona común.
+Fri Apr 25 08:57:15 CEST 2025:El humano H3 entra en la zona insegura
+Fri Apr 25 08:57:15 CEST 2025:El humano H8 entra en la zona insegura
+Fri Apr 25 08:57:16 CEST 2025:El zombie Z7 sale de la zona insegura
+Fri Apr 25 08:57:16 CEST 2025:El zombie Z7 entra en la zona insegura
+Fri Apr 25 08:57:16 CEST 2025:H10 Elige tunel 2
+Fri Apr 25 08:57:16 CEST 2025:El humano H10 sale de la zona común.
+Fri Apr 25 08:57:16 CEST 2025:El humano H5 entra en la zona insegura
+Fri Apr 25 08:57:17 CEST 2025:El zombie Z0 sale de la zona insegura
+Fri Apr 25 08:57:17 CEST 2025:El zombie Z0 entra en la zona insegura
+Fri Apr 25 08:57:17 CEST 2025:El humano H2 entra a la zona común.
+Fri Apr 25 11:08:05 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:05 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 11:08:07 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 11:08:07 CEST 2025:H0001 Elige tunel 0
+Fri Apr 25 11:08:07 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 11:08:08 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 11:08:08 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:08 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 11:08:08 CEST 2025:H0002 Elige tunel 1
+Fri Apr 25 11:08:08 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 11:08:09 CEST 2025:H0003 Elige tunel 1
+Fri Apr 25 11:08:09 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 11:08:10 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 11:08:10 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 11:08:10 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:11 CEST 2025:H0004 Elige tunel 2
+Fri Apr 25 11:08:11 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 11:08:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:12 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 11:08:12 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 11:08:12 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:12 CEST 2025:El humano H0004 entra en la zona insegura
+Fri Apr 25 11:08:13 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 11:08:13 CEST 2025:H0005 Elige tunel 1
+Fri Apr 25 11:08:13 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 11:08:13 CEST 2025:El humano H0001 entra en la zona insegura
+Fri Apr 25 11:08:14 CEST 2025:El humano H0007 entra a la zona común.
+Fri Apr 25 11:08:14 CEST 2025:H0006 Elige tunel 0
+Fri Apr 25 11:08:14 CEST 2025:El humano H0006 sale de la zona común.
+Fri Apr 25 11:08:14 CEST 2025:El humano H0002 entra en la zona insegura
+Fri Apr 25 11:08:15 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 11:08:15 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:15 CEST 2025:H0007 Elige tunel 0
+Fri Apr 25 11:08:15 CEST 2025:El humano H0007 sale de la zona común.
+Fri Apr 25 11:08:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:15 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:15 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 11:08:16 CEST 2025:El humano H0004 sale de la zona insegura
+Fri Apr 25 11:08:16 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 11:08:16 CEST 2025:El humano H0007 entra en la zona insegura
+Fri Apr 25 11:08:16 CEST 2025:El humano H0009 entra a la zona común.
+Fri Apr 25 11:08:17 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 11:08:17 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 11:08:17 CEST 2025:H0008 Elige tunel 0
+Fri Apr 25 11:08:17 CEST 2025:El humano H0008 sale de la zona común.
+Fri Apr 25 11:08:17 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 11:08:18 CEST 2025:H0002 Elige tunel 1
+Fri Apr 25 11:08:18 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 11:08:18 CEST 2025:H0009 Elige tunel 1
+Fri Apr 25 11:08:18 CEST 2025:El humano H0009 sale de la zona común.
+Fri Apr 25 11:08:18 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 11:08:18 CEST 2025:El humano H0001 sale de la zona insegura
+Fri Apr 25 11:08:18 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 11:08:18 CEST 2025:H0004 Elige tunel 1
+Fri Apr 25 11:08:18 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 11:08:19 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 11:08:19 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:19 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 11:08:19 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 11:08:19 CEST 2025:El humano H0007 sale de la zona insegura
+Fri Apr 25 11:08:19 CEST 2025:H0010 Elige tunel 1
+Fri Apr 25 11:08:19 CEST 2025:El humano H0010 sale de la zona común.
+Fri Apr 25 11:08:19 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:19 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:19 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:20 CEST 2025:El humano H0005 sale de la zona insegura
+Fri Apr 25 11:08:20 CEST 2025:El zombie Z5 entra en la zona insegura
+Fri Apr 25 11:08:20 CEST 2025:El humano H0003 sale de la zona insegura
+Fri Apr 25 11:08:20 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 11:08:20 CEST 2025:El humano H0007 entra a la zona común.
+Fri Apr 25 11:08:20 CEST 2025:El humano H0010 entra en la zona insegura
+Fri Apr 25 11:08:21 CEST 2025:H0001 Elige tunel 1
+Fri Apr 25 11:08:21 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 11:08:21 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 11:08:21 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 11:08:21 CEST 2025:El humano H0002 entra en la zona insegura
+Fri Apr 25 11:08:22 CEST 2025:H0007 Elige tunel 1
+Fri Apr 25 11:08:22 CEST 2025:El humano H0007 sale de la zona común.
+Fri Apr 25 11:08:22 CEST 2025:El humano H0009 entra en la zona insegura
+Fri Apr 25 11:08:23 CEST 2025:El zombie Z5 sale de la zona insegura
+Fri Apr 25 11:08:23 CEST 2025:El zombie Z5 entra en la zona insegura
+Fri Apr 25 11:08:23 CEST 2025:H0003 Elige tunel 1
+Fri Apr 25 11:08:23 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 11:08:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:23 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 11:08:24 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 11:08:25 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 11:08:25 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 11:08:25 CEST 2025:El humano H0008 entra en la zona insegura
+Fri Apr 25 11:08:25 CEST 2025:El zombie Z5 sale de la zona insegura
+Fri Apr 25 11:08:25 CEST 2025:El zombie Z5 entra en la zona insegura
+Fri Apr 25 11:08:26 CEST 2025:El humano H0002 sale de la zona insegura
+Fri Apr 25 11:08:26 CEST 2025:El humano H0003 sale de la zona insegura
+Fri Apr 25 11:08:26 CEST 2025:El zombie Z3 entra en la zona insegura
+Fri Apr 25 11:08:26 CEST 2025:El humano H0007 entra en la zona insegura
+Fri Apr 25 11:08:26 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 11:08:26 CEST 2025:El humano H0009 sale de la zona insegura
+Fri Apr 25 11:08:27 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 11:08:27 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:03:28 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:28 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 13:03:29 CEST 2025:H0001 Elige tunel 1
+Fri Apr 25 13:03:29 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 13:03:30 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:03:30 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:30 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:31 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:03:32 CEST 2025:H0002 Elige tunel 0
+Fri Apr 25 13:03:32 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 13:03:33 CEST 2025:H0003 Elige tunel 1
+Fri Apr 25 13:03:33 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:03:33 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:33 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:33 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 13:03:34 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:34 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 13:03:35 CEST 2025:H0004 Elige tunel 0
+Fri Apr 25 13:03:35 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 13:03:35 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 13:03:35 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:35 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:35 CEST 2025:H0001 Elige tunel 1
+Fri Apr 25 13:03:35 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 13:03:36 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:03:36 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 13:03:37 CEST 2025:H0005 Elige tunel 2
+Fri Apr 25 13:03:37 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:37 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:37 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 13:03:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:37 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:37 CEST 2025:H0002 Elige tunel 0
+Fri Apr 25 13:03:37 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 13:03:37 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:03:38 CEST 2025:El humano H0007 entra a la zona común.
+Fri Apr 25 13:03:38 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 13:03:38 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:38 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:38 CEST 2025:H0006 Elige tunel 2
+Fri Apr 25 13:03:38 CEST 2025:El humano H0006 sale de la zona común.
+Fri Apr 25 13:03:38 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:38 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:38 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:38 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 13:03:39 CEST 2025:H0003 Elige tunel 2
+Fri Apr 25 13:03:39 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:03:39 CEST 2025:El humano H0002 entra en la zona insegura
+Fri Apr 25 13:03:39 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:39 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:39 CEST 2025:H0007 Elige tunel 2
+Fri Apr 25 13:03:39 CEST 2025:El humano H0007 sale de la zona común.
+Fri Apr 25 13:03:39 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 13:03:39 CEST 2025:El humano H0006 entra en la zona insegura
+Fri Apr 25 13:03:40 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 13:03:40 CEST 2025:El humano H0009 entra a la zona común.
+Fri Apr 25 13:03:40 CEST 2025:H0008 Elige tunel 2
+Fri Apr 25 13:03:40 CEST 2025:El humano H0008 sale de la zona común.
+Fri Apr 25 13:03:40 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:40 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:40 CEST 2025:El humano H0001 entra en la zona insegura
+Fri Apr 25 13:03:41 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 13:03:41 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:03:41 CEST 2025:H0004 Elige tunel 1
+Fri Apr 25 13:03:41 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 13:03:41 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 13:03:41 CEST 2025:El humano H0004 entra en la zona insegura
+Fri Apr 25 13:03:41 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:41 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:42 CEST 2025:H0009 Elige tunel 0
+Fri Apr 25 13:03:42 CEST 2025:El humano H0009 sale de la zona común.
+Fri Apr 25 13:03:42 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 13:03:42 CEST 2025:H0002 Elige tunel 0
+Fri Apr 25 13:03:42 CEST 2025:H0005 Elige tunel 1
+Fri Apr 25 13:03:42 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 13:03:42 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 13:03:42 CEST 2025:El humano H0005 sale de la zona insegura
+Fri Apr 25 13:03:42 CEST 2025:El humano H0006 sale de la zona insegura
+Fri Apr 25 13:03:43 CEST 2025:H0010 Elige tunel 1
+Fri Apr 25 13:03:43 CEST 2025:El humano H0010 sale de la zona común.
+Fri Apr 25 13:03:43 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:43 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:43 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:03:43 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 13:03:43 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:03:44 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 13:03:44 CEST 2025:H0006 Elige tunel 1
+Fri Apr 25 13:03:44 CEST 2025:El humano H0006 sale de la zona común.
+Fri Apr 25 13:03:44 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:44 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:44 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:44 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:44 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:44 CEST 2025:El humano H0007 entra a la zona común.
+Fri Apr 25 13:03:44 CEST 2025:El humano H0003 sale de la zona insegura
+Fri Apr 25 13:03:45 CEST 2025:El humano H0006 entra en la zona insegura
+Fri Apr 25 13:03:45 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 13:03:45 CEST 2025:El humano H0001 sale de la zona insegura
+Fri Apr 25 13:03:45 CEST 2025:H0005 Elige tunel 2
+Fri Apr 25 13:03:45 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 13:03:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:45 CEST 2025:H0006 Elige tunel 0
+Fri Apr 25 13:03:45 CEST 2025:El humano H0006 sale de la zona común.
+Fri Apr 25 13:03:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:45 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:45 CEST 2025:H0007 Elige tunel 0
+Fri Apr 25 13:03:45 CEST 2025:El humano H0007 sale de la zona común.
+Fri Apr 25 13:03:45 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:03:45 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:03:45 CEST 2025:El humano H0009 entra a la zona común.
+Fri Apr 25 13:03:45 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:45 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:46 CEST 2025:El humano H0002 entra en la zona insegura
+Fri Apr 25 13:03:46 CEST 2025:H0008 Elige tunel 0
+Fri Apr 25 13:03:46 CEST 2025:El humano H0008 sale de la zona común.
+Fri Apr 25 13:03:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:46 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:46 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:03:46 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 13:03:46 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:46 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:46 CEST 2025:El humano H0006 entra en la zona insegura
+Fri Apr 25 13:03:46 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 13:03:46 CEST 2025:El humano H0004 sale de la zona insegura
+Fri Apr 25 13:03:46 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 13:03:47 CEST 2025:El humano H0004 entra en la zona insegura
+Fri Apr 25 13:03:47 CEST 2025:El humano H0008 entra en la zona insegura
+Fri Apr 25 13:03:47 CEST 2025:H0003 Elige tunel 0
+Fri Apr 25 13:03:47 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:03:47 CEST 2025:H0009 Elige tunel 0
+Fri Apr 25 13:03:47 CEST 2025:El humano H0009 sale de la zona común.
+Fri Apr 25 13:03:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:47 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:47 CEST 2025:El humano H0008 entra en la zona insegura
+Fri Apr 25 13:03:47 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:03:47 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 13:03:47 CEST 2025:El humano H0007 entra en la zona insegura
+Fri Apr 25 13:03:47 CEST 2025:H0010 Elige tunel 0
+Fri Apr 25 13:03:47 CEST 2025:El humano H0010 sale de la zona común.
+Fri Apr 25 13:03:48 CEST 2025:El humano H0001 entra en la zona insegura
+Fri Apr 25 13:03:48 CEST 2025:H0001 Elige tunel 2
+Fri Apr 25 13:03:48 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 13:03:48 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:48 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:48 CEST 2025:El humano H0009 entra en la zona insegura
+Fri Apr 25 13:03:48 CEST 2025:El humano H0009 entra en la zona insegura
+Fri Apr 25 13:03:48 CEST 2025:El humano H0010 entra en la zona insegura
+Fri Apr 25 13:03:48 CEST 2025:El humano H0006 sale de la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:H0004 Elige tunel 1
+Fri Apr 25 13:03:49 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 13:03:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:49 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:03:49 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 13:03:49 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:El humano H0002 sale de la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:El humano H0006 sale de la zona insegura
+Fri Apr 25 13:03:49 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:03:49 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 13:04:59 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:04:59 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 13:05:00 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:05:01 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:05:01 CEST 2025:H0002 Elige tunel 2
+Fri Apr 25 13:05:01 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 13:05:01 CEST 2025:H0001 Elige tunel 2
+Fri Apr 25 13:05:01 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 13:05:02 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:02 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:03 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 13:05:03 CEST 2025:H0003 Elige tunel 2
+Fri Apr 25 13:05:03 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:05:04 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 13:05:04 CEST 2025:H0004 Elige tunel 1
+Fri Apr 25 13:05:04 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 13:05:05 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:05 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:05 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 13:05:05 CEST 2025:H0005 Elige tunel 1
+Fri Apr 25 13:05:05 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 13:05:06 CEST 2025:H0006 Elige tunel 2
+Fri Apr 25 13:05:06 CEST 2025:El humano H0006 sale de la zona común.
+Fri Apr 25 13:05:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:06 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:06 CEST 2025:El humano H0007 entra a la zona común.
+Fri Apr 25 13:05:07 CEST 2025:El humano H0006 entra en la zona insegura
+Fri Apr 25 13:05:07 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 13:05:07 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:07 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:08 CEST 2025:H0007 Elige tunel 1
+Fri Apr 25 13:05:08 CEST 2025:El humano H0007 sale de la zona común.
+Fri Apr 25 13:05:08 CEST 2025:El humano H0004 entra en la zona insegura
+Fri Apr 25 13:05:09 CEST 2025:El humano H0009 entra a la zona común.
+Fri Apr 25 13:05:09 CEST 2025:El humano H0006 entra a la zona común.
+Fri Apr 25 13:05:09 CEST 2025:H0008 Elige tunel 2
+Fri Apr 25 13:05:09 CEST 2025:El humano H0008 sale de la zona común.
+Fri Apr 25 13:05:09 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 13:05:10 CEST 2025:H0009 Elige tunel 1
+Fri Apr 25 13:05:10 CEST 2025:El humano H0009 sale de la zona común.
+Fri Apr 25 13:05:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:10 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:10 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 13:05:11 CEST 2025:H0006 Elige tunel 0
+Fri Apr 25 13:05:11 CEST 2025:El humano H0006 sale de la zona común.
+Fri Apr 25 13:05:11 CEST 2025:El humano H0009 entra en la zona insegura
+Fri Apr 25 13:05:11 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:11 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:11 CEST 2025:H0010 Elige tunel 0
+Fri Apr 25 13:05:11 CEST 2025:El humano H0010 sale de la zona común.
+Fri Apr 25 13:05:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:11 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:12 CEST 2025:El humano H0002 entra en la zona insegura
+Fri Apr 25 13:05:12 CEST 2025:El humano H0004 sale de la zona insegura
+Fri Apr 25 13:05:12 CEST 2025:El humano H0009 sale de la zona insegura
+Fri Apr 25 13:05:12 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:12 CEST 2025:El humano H0010 entra en la zona insegura
+Fri Apr 25 13:05:12 CEST 2025:El humano H0005 sale de la zona insegura
+Fri Apr 25 13:05:13 CEST 2025:El humano H0001 entra en la zona insegura
+Fri Apr 25 13:05:13 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:13 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 13:05:13 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 13:05:14 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:14 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 13:05:14 CEST 2025:El humano H0008 entra en la zona insegura
+Fri Apr 25 13:05:15 CEST 2025:H0004 Elige tunel 0
+Fri Apr 25 13:05:15 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 13:05:15 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:15 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:15 CEST 2025:El humano H0002 sale de la zona insegura
+Fri Apr 25 13:05:15 CEST 2025:El humano H0010 sale de la zona insegura
+Fri Apr 25 13:05:16 CEST 2025:H0005 Elige tunel 1
+Fri Apr 25 13:05:16 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 13:05:16 CEST 2025:El humano H0001 sale de la zona insegura
+Fri Apr 25 13:05:16 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:16 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:05:16 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:16 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 13:05:16 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 13:05:17 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:17 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 13:05:18 CEST 2025:El humano H0003 sale de la zona insegura
+Fri Apr 25 13:05:18 CEST 2025:H0010 Elige tunel 0
+Fri Apr 25 13:05:18 CEST 2025:El humano H0010 sale de la zona común.
+Fri Apr 25 13:05:18 CEST 2025:H0008 Elige tunel 2
+Fri Apr 25 13:05:18 CEST 2025:El humano H0008 sale de la zona común.
+Fri Apr 25 13:05:18 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:18 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:18 CEST 2025:H0002 Elige tunel 1
+Fri Apr 25 13:05:18 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 13:05:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:18 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:19 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:19 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:05:19 CEST 2025:H0001 Elige tunel 0
+Fri Apr 25 13:05:19 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 13:05:19 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:19 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:20 CEST 2025:El humano H0002 entra en la zona insegura
+Fri Apr 25 13:05:21 CEST 2025:H0003 Elige tunel 0
+Fri Apr 25 13:05:21 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:05:21 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:21 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:21 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:21 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 13:05:21 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:21 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:22 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 13:05:22 CEST 2025:El humano H0010 entra en la zona insegura
+Fri Apr 25 13:05:22 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:22 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:22 CEST 2025:El humano H0002 entra a la zona común.
+Fri Apr 25 13:05:22 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:05:23 CEST 2025:El humano H0006 entra en la zona insegura
+Fri Apr 25 13:05:24 CEST 2025:El humano H0008 entra en la zona insegura
+Fri Apr 25 13:05:24 CEST 2025:H0002 Elige tunel 1
+Fri Apr 25 13:05:24 CEST 2025:El humano H0002 sale de la zona común.
+Fri Apr 25 13:05:24 CEST 2025:H0003 Elige tunel 1
+Fri Apr 25 13:05:24 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:05:24 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:24 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:25 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:25 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:25 CEST 2025:El humano H0005 sale de la zona insegura
+Fri Apr 25 13:05:25 CEST 2025:El humano H0006 sale de la zona insegura
+Fri Apr 25 13:05:25 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:25 CEST 2025:El humano H0010 sale de la zona insegura
+Fri Apr 25 13:05:26 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:26 CEST 2025:El humano H0005 entra a la zona común.
+Fri Apr 25 13:05:27 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:27 CEST 2025:El humano H0010 entra a la zona común.
+Fri Apr 25 13:05:28 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:28 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:28 CEST 2025:H0005 Elige tunel 1
+Fri Apr 25 13:05:28 CEST 2025:El humano H0005 sale de la zona común.
+Fri Apr 25 13:05:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:28 CEST 2025:El humano H0008 sale de la zona insegura
+Fri Apr 25 13:05:28 CEST 2025:H0010 Elige tunel 0
+Fri Apr 25 13:05:28 CEST 2025:El humano H0010 sale de la zona común.
+Fri Apr 25 13:05:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:28 CEST 2025:Se han alcanzado 3 humanos esperando para entrar al túnel.
+Fri Apr 25 13:05:28 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:28 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:29 CEST 2025:El humano H0005 entra en la zona insegura
+Fri Apr 25 13:05:29 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:29 CEST 2025:El humano H0008 entra a la zona común.
+Fri Apr 25 13:05:29 CEST 2025:El humano H0010 entra en la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El humano H0001 entra en la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El humano H0007 entra en la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:30 CEST 2025:H0008 Elige tunel 1
+Fri Apr 25 13:05:30 CEST 2025:El humano H0008 sale de la zona común.
+Fri Apr 25 13:05:31 CEST 2025:El humano H0003 entra en la zona insegura
+Fri Apr 25 13:05:31 CEST 2025:El humano H0004 entra en la zona insegura
+Fri Apr 25 13:05:31 CEST 2025:El humano H0010 sale de la zona insegura
+Fri Apr 25 13:05:31 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:31 CEST 2025:El humano H0005 sale de la zona insegura
+Fri Apr 25 13:05:31 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:32 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:32 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:34 CEST 2025:El zombie Z0010 sale de la zona insegura
+Fri Apr 25 13:05:34 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:34 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:34 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:34 CEST 2025:El humano H0004 entra a la zona común.
+Fri Apr 25 13:05:34 CEST 2025:El humano H0003 sale de la zona insegura
+Fri Apr 25 13:05:34 CEST 2025:El humano H0007 sale de la zona insegura
+Fri Apr 25 13:05:35 CEST 2025:El humano H0001 entra a la zona común.
+Fri Apr 25 13:05:35 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:35 CEST 2025:El humano H0003 entra a la zona común.
+Fri Apr 25 13:05:35 CEST 2025:H0004 Elige tunel 0
+Fri Apr 25 13:05:35 CEST 2025:El humano H0004 sale de la zona común.
+Fri Apr 25 13:05:35 CEST 2025:Se añaden 2 piezas de comida a disposición del refugio
+Fri Apr 25 13:05:35 CEST 2025:El humano H0007 entra a la zona común.
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:H0001 Elige tunel 2
+Fri Apr 25 13:05:36 CEST 2025:El humano H0001 sale de la zona común.
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:36 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:37 CEST 2025:H0003 Elige tunel 2
+Fri Apr 25 13:05:37 CEST 2025:El humano H0003 sale de la zona común.
+Fri Apr 25 13:05:37 CEST 2025:H0007 Elige tunel 1
+Fri Apr 25 13:05:37 CEST 2025:El humano H0007 sale de la zona común.
+Fri Apr 25 13:05:38 CEST 2025:El zombie Z0010 sale de la zona insegura
+Fri Apr 25 13:05:38 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:38 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:38 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:39 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:39 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:39 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:39 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:39 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:39 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:40 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:40 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:41 CEST 2025:El zombie Z0010 sale de la zona insegura
+Fri Apr 25 13:05:41 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:42 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:42 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:42 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:42 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:42 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:42 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:43 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:43 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:43 CEST 2025:El zombie Z0010 sale de la zona insegura
+Fri Apr 25 13:05:43 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:44 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:44 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:44 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:44 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:45 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:45 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:46 CEST 2025:El zombie Z0010 sale de la zona insegura
+Fri Apr 25 13:05:46 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:46 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:46 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:46 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:46 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:47 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:47 CEST 2025:El zombie Z0000 entra en la zona insegura
+Fri Apr 25 13:05:47 CEST 2025:El zombie Z0009 sale de la zona insegura
+Fri Apr 25 13:05:47 CEST 2025:El zombie Z0009 entra en la zona insegura
+Fri Apr 25 13:05:48 CEST 2025:El zombie Z0010 sale de la zona insegura
+Fri Apr 25 13:05:48 CEST 2025:El zombie Z0010 entra en la zona insegura
+Fri Apr 25 13:05:48 CEST 2025:El zombie Z0006 sale de la zona insegura
+Fri Apr 25 13:05:48 CEST 2025:El zombie Z0006 entra en la zona insegura
+Fri Apr 25 13:05:49 CEST 2025:El zombie Z0005 sale de la zona insegura
+Fri Apr 25 13:05:49 CEST 2025:El zombie Z0005 entra en la zona insegura
+Fri Apr 25 13:05:49 CEST 2025:El zombie Z0000 sale de la zona insegura
+Fri Apr 25 13:05:49 CEST 2025:El zombie Z0000 entra en la zona insegura

@@ -3,6 +3,7 @@ package com.example.trabajofinal;
 import Clases.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.GridPane;
@@ -11,6 +12,8 @@ import javafx.stage.Stage;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.concurrent.atomic.AtomicReference;
+
+import static java.lang.Thread.sleep;
 
 public class ControladorPantallaJuego implements Initializable {
     @FXML
@@ -45,6 +48,9 @@ public class ControladorPantallaJuego implements Initializable {
     @FXML
     private TextArea zona;
 
+    @FXML
+    private Button play;
+
 
 
 
@@ -67,17 +73,21 @@ public class ControladorPantallaJuego implements Initializable {
             tunel[i].nTunel = i + 1;
 
         }
-        Refugio refugio = new Refugio(20, tunel,zona, comedor, ncomida, camas);
+        Refugio refugio = new Refugio(20, tunel, zona, comedor, ncomida, camas);
         //Zombie zombie = new Zombie(zona);
         //AtomicReference zombie0 = new AtomicReference(zombie);
         //System.out.println(zombie.getName());
 
         Zombie z = new Zombie(0000, zonas);
         z.start();
-        for (int i = 1; i <= 12; i++) {
+        for (int i = 1; i <= 10; i++) {
             Humano humano = new Humano(i, refugio);
-            System.out.println(humano.getName());
             humano.start();
+            try {
+                sleep((int)(Math.random() * 1500) + 500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
         /*for (int i = 0; i < 3; i++) {
@@ -100,12 +110,6 @@ public class ControladorPantallaJuego implements Initializable {
             }
         }*/
 
-
-
-
-
-
-
     }
 
     @Override
@@ -119,6 +123,10 @@ public class ControladorPantallaJuego implements Initializable {
 
     @FXML
     protected void play() {
-        comienzo();
+        play.setOnAction(actionEvent -> {
+            new Thread(() -> {
+                comienzo();
+            }).start();
+        });
     }
 }

@@ -24,52 +24,39 @@ public class Refugio {
     ListaThreads camas;
     Label contadorComida;
 
+    private static Logger log = new Logger("apocalipsis.txt");
 
     private ListaThreads humanos;
 
     public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas) {
-        this.zona =new ListaThreads(zona);
+        this.zona = new ListaThreads(zona);
         this.comedor = new ListaThreads(comedor);
         this.camas = new ListaThreads(camas);
+        this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
 
         this.contadorComida = contadorComida;
-        contadorComida.setText(String.valueOf(comida));
+        Platform.runLater(() ->
+                contadorComida.setText(String.valueOf(comida)));
 
         for (int i = 0; i < 4; i++) {
             accesoTunel[i] = new CyclicBarrier(3);
             this.tuneles = tuneles;
         }
-        this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
     }
 
-    public void entrarTunel(int n, Humano h) {
-
-        try {
-            accesoTunel[n].await();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        } catch (BrokenBarrierException e) {
-            throw new RuntimeException(e);
-        }
-        // Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel
-        //h.move()
-        tuneles[n].paso(h,true);
-
-    }
     public void entrarTunel(int n, Humano h, boolean entra) {
 
         try {
             accesoTunel[n].await();
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } catch (BrokenBarrierException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         // Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel
-        //h.move()
+        log.escribir("Se han alcanzado 3 humanos esperando para entrar al túnel.");
         System.out.println("Pasa al tunel" + n + " "+ h.getName());
-        tuneles[n]. paso(h,entra);
-
+        tuneles[n].paso(h,entra);
     }
 
     public void entrarZona(Humano humano, boolean entra) {
@@ -83,7 +70,7 @@ public class Refugio {
                 System.out.println(humano.getName() + " ha salido de la zona común.");
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } finally {
             cerrojo.unlock();
         }
@@ -92,10 +79,10 @@ public class Refugio {
     public synchronized void setComida(int n){
 
         comida.release(n);
+        log.escribir("Se añaden 2 piezas de comida a disposición del refugio");
         Platform.runLater(() ->
                 contadorComida.setText(String.valueOf(comida.availablePermits()))
         );
-
     }
 
     public void comer(Humano h, int n){
@@ -103,6 +90,7 @@ public class Refugio {
         try {
             comedor.meter(h);
             comida.acquire(n);
+            log.escribir(h.getName() + " se come una pieza de comida.");
             System.out.println("--------- COMIDA: " + comida.availablePermits());
 
             Platform.runLater(() ->
@@ -111,7 +99,7 @@ public class Refugio {
             Thread.sleep(3000+ (int)(Math.random()*2000));
             comedor.sacar(h);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
             //System.out.println(comida.availablePermits());
@@ -122,9 +110,10 @@ public class Refugio {
     public void descansa(Humano h, boolean largo){ // El booleano de largo es para cuando le ataquen que tiene que dormir más tiempo
         camas.meter(h);
         try {
+            log.escribir(h.getName() + "descansa.");
             Thread.sleep((largo? 3000: 2000) +(int)(Math.random()* 2000));
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         camas.sacar(h);
     }

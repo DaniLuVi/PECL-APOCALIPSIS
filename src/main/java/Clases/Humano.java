@@ -8,17 +8,21 @@ public class Humano extends Thread{
     private Refugio refugio;
     private Exchanger<Boolean> exchanger = new Exchanger<>();
 
+    private static Logger log;
+
     public Humano(int nombre, Refugio refugio) {
-        super("H" +nombre);
+        super("H" + String.format("%04d", nombre));
         this.id = nombre;
         this.refugio = refugio;
+        //this.start();
+        log = new Logger("apocalipsis.txt");
     }
 
 
 //Voy a ir factorizando
     private int buscar(int n){
 
-        if (n == -1){n = (int)( Math.random()*4); }
+        if (n == -1){n = (int)( Math.random() * 3); }       // lo he cambiado de 4 a 3 pq es entre 0 y 3: 0,1,2,3 (4 tuneles)
         System.out.println(this.getName()+"Elige tunel " +n);
         refugio.entrarTunel(n, this, false);
         try{Thread.sleep(3000 + (int) (2000* Math.random()));
@@ -31,6 +35,7 @@ public class Humano extends Thread{
            return 1; // Tod0 ha ido bien
         } catch (InterruptedException e){
             try {
+
 
                 boolean resultado = exchanger.exchange(true);
                 //boolean ataque = false;
@@ -90,13 +95,17 @@ public class Humano extends Thread{
            */
 
             refugio.entrarZona(this, true);
-
+            log.escribir("El humano " + this.getName() + " entra a la zona común.");
             try {
                 Thread.sleep((int)(Math.random() * 1000) + 1000);
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             }       // esta es la entrada a la zona común antes de elegir el túnel
+
+            n = (int)(Math.random() * 3);       // lo he cambiado de 4 a 3 pq es entre 0 y 3: 0,1,2,3 (4 tuneles)
+            log.escribir(this.getName() + " Elige tunel " + n);
             refugio.entrarZona(this, false);
+            log.escribir("El humano " + this.getName() + " sale de la zona común.");
             n = buscar(-1);
             if(n==0){break;}// Si n es 2 es que ha sido atacado y ha sobrevivido.
             // Y si es 1 es que no ha habido ataque
@@ -115,7 +124,11 @@ public class Humano extends Thread{
                 } catch (InterruptedException ex) {
                     throw new RuntimeException(ex);
                 }
-            } // Ha sido atacado.*/
+            } // Ha sido atacado.
+
+            refugio.entrarTunel(n, this, false);
+            refugio.tuneles[n].paso(this,false);    // entra del tunel al refugio
+            // se va a la zona de descanso
             refugio.descansa(this, false);
             refugio.comer(this, 1);
             if (n == 2){refugio.descansa(this, true);}
@@ -126,29 +139,10 @@ public class Humano extends Thread{
             }   // se come una pieza de comida
 
 
-        }
-    }
-
+     */   }
+    }   // hay que ver que el comportamiento de los humanos lo hace adecuadamente, porque al principio me parece que al ejecutar no se muestran en la ona común antes de ir a los túneles
     public int getid() {
         System.out.println("Mi id es: " + this.id);
         return this.id;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

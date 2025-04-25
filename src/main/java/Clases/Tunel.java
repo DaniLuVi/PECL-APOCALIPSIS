@@ -35,21 +35,19 @@ public class Tunel {
             pasando.setText(h.getName());
             Thread.sleep(1000); // Simula el estar pasando el tunel
 
-            System.out.println("Termina de entrar en "+ nTunel+ " " + entra +" "+ h.getName());
+            System.out.println("Sale del tunel "+ nTunel+ " " + entra +" "+ h.getName());
             pasando.setText(null);
-            if (!entra){zona.entrar(h,false);}
+            if (!entra){zona.entrar(h,false);}  // revisar pq creo que no están saliendo correctamete de la zona insegura (puede ser que los booleanos sean al revés, pero tengo que verlo un poco mas)
             if (fuera.isEmpty()) {esperaDentro.signalAll();}
 
         }
-        catch(Exception e){/*System.out.println(e);*/}
+        catch(Exception e){System.out.println(e);}
         finally  { c.unlock();}
-
-
 
     }
     public synchronized void encolar(Humano h, boolean entra){
-        if (entra) {fuera.meter(h); System.out.println("Encolado fuera"+ h.getName());}
-        else {dentro.meter(h);System.out.println("Encolado dentro"+ h.getName());} // Para mostrarlo en pantalla
+        if (entra) {fuera.meter(h); System.out.println("Encolado fuera "+ h.getName());}
+        else {dentro.meter(h);System.out.println("Encolado dentro "+ h.getName());} // Para mostrarlo en pantalla
     }
     public synchronized void desencolar(Humano h, boolean entra){
         if (entra) {
@@ -60,8 +58,6 @@ public class Tunel {
         else {dentro.sacar(h); System.out.println("Desencolado dentro "+ h.getName());}
 
     }
-
-
 }
 
 

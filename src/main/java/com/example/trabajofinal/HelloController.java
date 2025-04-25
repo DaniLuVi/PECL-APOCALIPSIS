@@ -25,6 +25,7 @@ public class HelloController implements Initializable {
             Scene scene = new Scene(fxmlLoader.load());
             stage.setScene(scene);
             stage.setTitle("Pantalla de juego");
+            stage.setMaximized(true);
             ControladorPantallaJuego controlador = fxmlLoader.getController();
             controlador.setStage(stage);
             stage.show();

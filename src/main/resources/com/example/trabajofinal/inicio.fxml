@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
@@ -9,7 +10,7 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <VBox prefHeight="110.0" prefWidth="345.0">
+   <VBox prefHeight="242.0" prefWidth="535.0">
       <children>
       
           <Label fx:id="welcomeText" prefHeight="26.0" prefWidth="286.0" text="APOCALIPSIS ZOMBIE" textAlignment="RIGHT">
@@ -20,15 +21,19 @@
                <Insets bottom="100.0" top="1000.0" />
             </opaqueInsets>
             <VBox.margin>
-               <Insets left="200.0" />
+               <Insets bottom="20.0" left="200.0" />
             </VBox.margin>
          </Label>
+          <ImageView fitHeight="157.0" fitWidth="359.0" preserveRatio="true">
+            <image>
+               <Image url="@../../../images/apocalipsis.jpg" />
+            </image></ImageView>
           <Button onAction="#iniciarJuego" text="Iniciar juego" textAlignment="CENTER">
             <opaqueInsets>
                <Insets top="2000.0" />
             </opaqueInsets>
             <VBox.margin>
-               <Insets left="230.0" top="60.0" />
+               <Insets left="230.0" top="20.0" />
             </VBox.margin>
          </Button>
       </children>

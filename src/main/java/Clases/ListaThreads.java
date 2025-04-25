@@ -14,7 +14,7 @@ public class ListaThreads {
     public ListaThreads(TextArea tf)
     {
         lista=new ArrayList<Thread>();
-        this.txtarea =tf;
+        this.txtarea = tf;
     }
     public synchronized boolean isEmpty(){
         System.out.println(lista+"" +lista.isEmpty());
@@ -36,10 +36,10 @@ public class ListaThreads {
 
     public void imprimir()
     {
-        String contenido="";
+        String contenido = "";
         for(int i=0; i<lista.size(); i++)
         {
-            contenido=contenido+lista.get(i).getName()+" ";
+            contenido = contenido + lista.get(i).getName() + " ";
         }
         final String textoImprimir = contenido.toString();
 

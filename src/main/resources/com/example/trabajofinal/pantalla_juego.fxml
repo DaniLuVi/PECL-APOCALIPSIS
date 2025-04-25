@@ -3,16 +3,30 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
    <children>
       <HBox layoutX="12.0" layoutY="19.0" prefHeight="703.0" prefWidth="1130.0">
          <children>
             <VBox prefHeight="312.0" prefWidth="208.0">
                <HBox.margin>
-                  <Insets right="30.0" />
+                  <Insets left="100.0" right="100.0" />
                </HBox.margin>
                <children>
+                  <Label text="Refugio">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="70.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Zona Común">
+                     <VBox.margin>
+                        <Insets left="70.0" />
+                     </VBox.margin>
+                  </Label>
                   <TextArea fx:id="zona" prefHeight="200.0" prefWidth="200.0" />
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="222.0" text="Comedor" textAlignment="CENTER" />
                   <HBox prefHeight="17.0" prefWidth="208.0">
@@ -28,7 +42,7 @@
             </VBox>
             <VBox prefHeight="312.0" prefWidth="201.0">
                <HBox.margin>
-                  <Insets right="30.0" />
+                  <Insets right="100.0" />
                </HBox.margin>
                <children>
                   <GridPane fx:id="tuneles" prefHeight="477.0" prefWidth="224.0">
@@ -57,14 +71,31 @@
                         <TextArea fx:id="izquierda4" prefHeight="122.0" prefWidth="110.0" GridPane.rowIndex="4" />
                         <TextArea fx:id="dentro4" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                         <TextArea fx:id="fuera4" prefHeight="119.0" prefWidth="92.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="76.0" text="Tuneles" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="76.0" text="Tuneles" GridPane.columnIndex="1">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                           <GridPane.margin>
+                              <Insets bottom="20.0" />
+                           </GridPane.margin></Label>
                      </children>
                   </GridPane>
-                  <Button mnemonicParsing="false" onAction="#play" text="Jugar" textAlignment="CENTER" />
+                  <Button fx:id="play" mnemonicParsing="false" onAction="#play" text="Jugar" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets left="50.0" top="70.0" />
+                     </VBox.margin></Button>
                </children>
             </VBox>
             <VBox prefHeight="312.0" prefWidth="200.0">
                <children>
+                  <Label text="Zona insegura">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="40.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
                   <TextArea fx:id="exterior1" prefHeight="200.0" prefWidth="200.0" />
                   <TextArea fx:id="exterior2" prefHeight="200.0" prefWidth="200.0" />
                   <TextArea fx:id="exterior3" prefHeight="200.0" prefWidth="200.0" />
