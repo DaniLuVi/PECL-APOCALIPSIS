@@ -34,7 +34,7 @@ public class Zombie extends Thread{
                 zonas[numero_zona].entrar(this,false);
                 elegido = zonas[numero_zona].getVictima();
                 if (elegido != null) {
-                    System.out.println("----------------" + elegido.getName() +"----------------");
+                    System.out.println("---------------- ELEGIDO: " + elegido.getName() +"----------------");
                     if(morder(elegido)){
                         muertes++;
                         zonas[numero_zona].entrar(elegido, true);

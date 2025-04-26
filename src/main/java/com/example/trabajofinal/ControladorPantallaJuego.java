@@ -28,6 +28,8 @@ public class ControladorPantallaJuego implements Initializable {
     private TextArea comedor;
     @FXML
     private TextArea camas;
+    @FXML
+    private TextArea[] esperando;
 
     @FXML
     private Label ncomida;
@@ -47,6 +49,8 @@ public class ControladorPantallaJuego implements Initializable {
     private TextArea exterior1,exterior2,exterior3,exterior4;
     @FXML
     private TextArea zona;
+    @FXML
+    private TextArea esperando1, esperando2, esperando3, esperando4;
 
     @FXML
     private Button play;
@@ -61,6 +65,7 @@ public class ControladorPantallaJuego implements Initializable {
     private Stage scene;
 
     private void comienzo() {
+        esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
         izquierda = new TextArea[]{izquierda1, izquierda2, izquierda3, izquierda4};
         fuera = new TextArea[]{fuera1, fuera2, fuera3, fuera4};
@@ -69,7 +74,7 @@ public class ControladorPantallaJuego implements Initializable {
         Tunel[] tunel = new Tunel[4];
         for (int i = 0; i < 4; i++) {
             zonas[i] = new ZonaInsegura(exterior[i]);
-            tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], zonas[i]);
+            tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i]);
             tunel[i].nTunel = i + 1;
 
         }
@@ -90,25 +95,6 @@ public class ControladorPantallaJuego implements Initializable {
             }
         }
 
-        /*for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 4; j++) {
-                // Aquí podrías instanciar tu LetrasColoresGrid
-                //LetrasColoresGrid customComponent = new LetrasColoresGrid();
-                //mainGrid.add(customComponent, i, j);
-                // Ejemplo simplificado con un Label
-                Label placeholder = new Label("Celda " + i + "," + j);
-                placeholder.setId(i + "_"+ j);
-                placeholder.setText("Celda"+ i +","+j);
-                placeholder.setMinSize(100, 60); // Tamaño mínimo para visualización
-                placeholder.setStyle("-fx-border-color: black; -fx-text-alignment: center;");
-                tuneles.add(placeholder, i, j);
-                if (i == 0) izquierdaTunel[j] = placeholder;
-                if (i == 1)centroTunel[j] = placeholder;
-                if (i == 2)fueraTunel [j] = placeholder;
-
-
-            }
-        }*/
 
     }
 

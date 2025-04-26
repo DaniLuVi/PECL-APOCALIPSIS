@@ -16,12 +16,13 @@ public class Refugio {
 
     private Lock cerrojo = new ReentrantLock();
 
-    private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
+    //private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
     private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
     ListaThreads zona;
     ListaThreads comedor;
     ListaThreads camas;
+    //ListaThreads[] esperandoTunel;
     Label contadorComida;
 
     private static Logger log = new Logger("apocalipsis.txt");
@@ -32,6 +33,7 @@ public class Refugio {
         this.zona = new ListaThreads(zona);
         this.comedor = new ListaThreads(comedor);
         this.camas = new ListaThreads(camas);
+
         this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
 
         this.contadorComida = contadorComida;
@@ -39,14 +41,16 @@ public class Refugio {
                 contadorComida.setText(String.valueOf(comida)));
 
         for (int i = 0; i < 4; i++) {
-            accesoTunel[i] = new CyclicBarrier(3);
+            //accesoTunel[i] = new CyclicBarrier(3);
             this.tuneles = tuneles;
+            //this.esperandoTunel[i] = new ListaThreads(esperandoTunel);
         }
     }
 
-    public void entrarTunel(int n, Humano h, boolean entra) {
+    /*public void entrarTunel(int n, Humano h, boolean entra) {
 
         try {
+            esperandoTunel[n].meter(h);
             accesoTunel[n].await();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -57,7 +61,7 @@ public class Refugio {
         log.escribir("Se han alcanzado 3 humanos esperando para entrar al túnel.");
         System.out.println("Pasa al tunel" + n + " "+ h.getName());
         tuneles[n].paso(h,entra);
-    }
+    }   // esto deberia de ir en la clase tunel para que se vaya actualizando de manera correcta en la interfaz*/
 
     public void entrarZona(Humano humano, boolean entra) {
         cerrojo.lock();
@@ -117,10 +121,5 @@ public class Refugio {
         }
         camas.sacar(h);
     }
-
-
-
-
-
 
 }
