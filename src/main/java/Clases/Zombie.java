@@ -56,7 +56,6 @@ public class Zombie extends Thread{
 
     public boolean morder(Humano h){
         try{
-            h.interrupt();
             Thread.sleep((int)(500 + Math.random() * 1000));
 
             boolean b = Math.random() * 3 > 2;
