@@ -22,7 +22,8 @@ public class Humano extends Thread{
 //Voy a ir factorizando
     private int buscar(int n){
 
-        if (n == -1){n = (int)( Math.random() * 3); }       // lo he cambiado de 4 a 3 pq es entre 0 y 3: 0,1,2,3 (4 tuneles)
+        if (n == -1){n = (int)( Math.random() * 4); }       // lo he cambiado de 4 a 3 pq es entre 0 y 3: 0,1,2,3 (4 tuneles)
+        //Efectivamente por eso es un 4.
         System.out.println(this.getName()+"Elige tunel " +n);
         log.escribir(this.getName() + " Elige tunel " + n);
         refugio.tuneles[n].entrarTunel(n, this, false);
