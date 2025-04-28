@@ -46,7 +46,9 @@ public class ZonaInsegura {
 //        c.lock();
         try {
             if (humanos.isEmpty()){return null;}
-            return humanos.remove((int) (Math.random() * humanos.size()));
+            Humano h = humanos.remove((int) (Math.random() * humanos.size()));
+            h.interrupt();
+            return h;
         }catch (Exception e){System.out.println(e);}
         //finally {c.unlock();}
         return null;
