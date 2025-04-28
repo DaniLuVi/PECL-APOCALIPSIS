@@ -14,6 +14,7 @@ public class ZonaInsegura {
     ListaThreads zona;
     LinkedList<Humano> humanos = new LinkedList<>();
 
+    private static Logger log = new Logger("apocalipsis.txt");
 
     public ZonaInsegura(TextArea txt){
         zona = new ListaThreads(txt);
@@ -22,28 +23,40 @@ public class ZonaInsegura {
 
     public void entrar(Humano h, boolean sale){
         c2.lock();
-        if (!sale){
-            humanos.add(h);
-            zona.meter(h);
-        } else {
-            humanos.remove(h);
-            zona.sacar(h);
+        try {
+            if (!sale){
+                humanos.add(h);
+                zona.meter(h);
+                log.escribir("El humano " + h.getName() + " entra en la zona insegura");
+            } else {
+                humanos.remove(h);
+                zona.sacar(h);
+                log.escribir("El humano " + h.getName() + " sale de la zona insegura");
+            }
+        } finally {
+            c2.unlock();
         }
-
-        c2.unlock();
     }
     public synchronized void entrar(Zombie h, boolean sale){
         //c2.lock();
-        if (sale){
-            zona.sacar(h);
-        } else {
-            zona.meter(h);
+        try {
+            if (sale){
+                zona.sacar(h);
+                log.escribir("El zombie " + h.getName() + " sale de la zona insegura");
+
+            } else {
+                zona.meter(h);
+                log.escribir("El zombie " + h.getName() + " entra en la zona insegura");
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
+
       //  c2.unlock();
     }
 
     public synchronized Humano getVictima(){
-//        c.lock();
+        //c.lock();
         try {
             if (humanos.isEmpty()){return null;}
             Humano h = humanos.remove((int) (Math.random() * humanos.size()));
@@ -67,22 +80,6 @@ public class ZonaInsegura {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /*public synchronized void encolar(Humano h, boolean entra){
         if (entra) {fuera.add(h); System.out.println("Encolado fuera"+ h.getName());}
         else {dentro.add(h);System.out.println("Encolado dentro"+ h.getName());} // Para mostrarlo en pantalla
@@ -97,8 +94,6 @@ public class ZonaInsegura {
 
     }
 */
-
-
 
 
 

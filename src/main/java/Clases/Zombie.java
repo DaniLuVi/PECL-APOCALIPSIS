@@ -4,7 +4,6 @@ import javafx.scene.control.TableColumn;
 
 public class Zombie extends Thread{
 
-    private String nombre;
     private ZonaInsegura[] zonas;
     private int muertes = 0;
 
@@ -57,7 +56,8 @@ public class Zombie extends Thread{
 
     public boolean morder(Humano h){
         try{
-            Thread.sleep((int)(500 + Math.random()*1000));
+            h.interrupt();
+            Thread.sleep((int)(500 + Math.random() * 1000));
 
             boolean b = Math.random() * 3 > 2;
             System.out.println("valor de b:" + b);
