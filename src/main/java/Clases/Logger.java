@@ -32,13 +32,4 @@ public class Logger {
             c.unlock();
         }
     }
-
-    public static void main(String[] args){
-        Logger log = new Logger("apocalipsis.txt");
-        log.escribir("Esto es una prueba");
-        log.escribir("Esto es una prueba2");
-        log.escribir("Esto es una prueba3");
-
-    }
-
 }
