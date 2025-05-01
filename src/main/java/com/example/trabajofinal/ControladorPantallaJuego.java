@@ -56,12 +56,6 @@ public class ControladorPantallaJuego implements Initializable {
     private Button play;
 
 
-
-
-
-    private Label[] izquierdaTunel = new Label[4];
-    private Label[] fueraTunel = new Label[4];
-
     private Stage scene;
 
     private void comienzo() {
@@ -79,13 +73,10 @@ public class ControladorPantallaJuego implements Initializable {
 
         }
         Refugio refugio = new Refugio(20, tunel, zona, comedor, ncomida, camas);
-        //Zombie zombie = new Zombie(zona);
-        //AtomicReference zombie0 = new AtomicReference(zombie);
-        //System.out.println(zombie.getName());
 
-        Zombie z = new Zombie(0000, zonas);
+        Zombie z = new Zombie(0, zonas);
         z.start();
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10000; i++) {
             Humano humano = new Humano(i, refugio);
             humano.start();
             try {
@@ -94,8 +85,6 @@ public class ControladorPantallaJuego implements Initializable {
                 e.printStackTrace();
             }
         }
-
-
     }
 
     @Override

@@ -41,27 +41,10 @@ public class Refugio {
                 contadorComida.setText(String.valueOf(comida)));
 
         for (int i = 0; i < 4; i++) {
-            //accesoTunel[i] = new CyclicBarrier(3);
             this.tuneles = tuneles;
-            //this.esperandoTunel[i] = new ListaThreads(esperandoTunel);
         }
     }
 
-    /*public void entrarTunel(int n, Humano h, boolean entra) {
-
-        try {
-            esperandoTunel[n].meter(h);
-            accesoTunel[n].await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (BrokenBarrierException e) {
-            e.printStackTrace();
-        }
-        // Se han alcanado los 3 supervivientes esperando, se desplazan para entrar al tunel
-        log.escribir("Se han alcanzado 3 humanos esperando para entrar al túnel.");
-        System.out.println("Pasa al tunel" + n + " "+ h.getName());
-        tuneles[n].paso(h,entra);
-    }   // esto deberia de ir en la clase tunel para que se vaya actualizando de manera correcta en la interfaz*/
 
     public void entrarZona(Humano humano, boolean entra) {
         cerrojo.lock();
@@ -106,10 +89,7 @@ public class Refugio {
             e.printStackTrace();
         }
 
-            //System.out.println(comida.availablePermits());
-
     }
-
 
     public void descansa(Humano h, boolean largo){ // El booleano de largo es para cuando le ataquen que tiene que dormir más tiempo
         camas.meter(h);
@@ -121,5 +101,4 @@ public class Refugio {
         }
         camas.sacar(h);
     }
-
 }

@@ -13,7 +13,6 @@ public class Logger {
     private static String ruta = "apocalipsis.txt";
     private static Lock c = new ReentrantLock();
     private static File log;
-    private static FileWriter escribir;
 
     public Logger(String ruta){
         this.ruta = ruta;
@@ -32,13 +31,4 @@ public class Logger {
             c.unlock();
         }
     }
-
-    public static void main(String[] args){
-        Logger log = new Logger("apocalipsis.txt");
-        log.escribir("Esto es una prueba");
-        log.escribir("Esto es una prueba2");
-        log.escribir("Esto es una prueba3");
-
-    }
-
 }

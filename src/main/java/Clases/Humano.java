@@ -14,7 +14,6 @@ public class Humano extends Thread{
         super("H" + String.format("%04d", nombre));
         this.id = nombre;
         this.refugio = refugio;
-        //this.start();
         log = new Logger("apocalipsis.txt");
     }
 
@@ -22,7 +21,7 @@ public class Humano extends Thread{
 //Voy a ir factorizando
     private int buscar(int n){
 
-        if (n == -1){n = (int)( Math.random() * 4); }       // lo he cambiado de 4 a 3 pq es entre 0 y 3: 0,1,2,3 (4 tuneles)
+        if (n == -1){n = (int)( Math.random() * 4); }
         System.out.println(this.getName()+"Elige tunel " +n);
         log.escribir(this.getName() + " Elige tunel " + n);
         refugio.tuneles[n].entrarTunel(n, this, false);
@@ -38,7 +37,6 @@ public class Humano extends Thread{
         } catch (InterruptedException e){
             try {
                 boolean resultado = exchanger.exchange(true);
-                //boolean ataque = false;
                 if (resultado == true){
                     System.out.println("He muerto.");
                     log.escribir(this.getName() + ": He muerto.");
@@ -71,11 +69,7 @@ public class Humano extends Thread{
 
     public void run() {
         int n;
-        int tmp;
-//        while (true){
-//            this.buscar(-1);
-//            if (1 +2 == 39) break;
-//        }
+
         while(true) {
 
             refugio.entrarZona(this, true);
@@ -101,9 +95,9 @@ public class Humano extends Thread{
                 throw new RuntimeException(e);
             }   // se come una pieza de comida
 
-
         }
-    }   // hay que ver que el comportamiento de los humanos lo hace adecuadamente
+    }
+
     public int getid() {
         System.out.println("Mi id es: " + this.id);
         return this.id;

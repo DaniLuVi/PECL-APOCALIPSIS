@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
+<AnchorPane prefHeight="797.0" prefWidth="1335.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
    <children>
-      <HBox layoutX="12.0" layoutY="19.0" prefHeight="703.0" prefWidth="1130.0">
+      <HBox layoutX="9.0" layoutY="28.0" prefHeight="719.0" prefWidth="1437.0">
          <children>
             <VBox prefHeight="700.0" prefWidth="243.0">
                <HBox.margin>
@@ -26,33 +26,48 @@
                      <VBox.margin>
                         <Insets left="85.0" />
                      </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                   </Label>
                   <TextArea fx:id="zona" prefHeight="200.0" prefWidth="200.0" />
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="222.0" text="Comedor" textAlignment="CENTER">
                      <padding>
-                        <Insets left="15.0" top="20.0" />
+                        <Insets left="15.0" top="10.0" />
                      </padding></Label>
                   <HBox prefHeight="17.0" prefWidth="208.0">
                      <children>
-                        <Label prefHeight="17.0" prefWidth="105.0" text="Víveres sobrante: " />
-                        <Label fx:id="ncomida" alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="111.0" text="Label" />
+                        <Label prefHeight="17.0" prefWidth="105.0" text="Víveres sobrante: ">
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding></Label>
+                        <Label fx:id="ncomida" alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="111.0" text="Label">
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding></Label>
                      </children>
                   </HBox>
                   <TextArea fx:id="comedor" prefHeight="200.0" prefWidth="200.0" />
-                  <Label text="Camas" />
+                  <Label prefHeight="22.0" prefWidth="245.0" text="Camas">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="100.0" />
+                     </padding></Label>
                   <TextArea fx:id="camas" prefHeight="200.0" prefWidth="200.0" />
                </children>
             </VBox>
-            <VBox prefHeight="702.0" prefWidth="299.0">
+            <VBox prefHeight="688.0" prefWidth="545.0">
                <HBox.margin>
                   <Insets right="140.0" />
                </HBox.margin>
                <children>
-                  <GridPane fx:id="tuneles" prefHeight="548.0" prefWidth="295.0">
+                  <GridPane fx:id="tuneles" prefHeight="548.0" prefWidth="427.0">
                     <columnConstraints>
-                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="20.0" prefWidth="100.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="20.0" prefWidth="100.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="20.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="186.6" minWidth="20.0" prefWidth="186.6" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.4" minWidth="20.0" prefWidth="167.8" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="191.0" minWidth="20.0" prefWidth="191.0" />
                     </columnConstraints>
                     <rowConstraints>
                       <RowConstraints />
@@ -70,7 +85,7 @@
                         <TextArea fx:id="fuera3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                         <TextArea fx:id="esperando4" prefHeight="122.0" prefWidth="110.0" GridPane.rowIndex="4" />
                         <TextArea fx:id="fuera4" prefHeight="119.0" prefWidth="92.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="76.0" text="Tuneles" GridPane.columnIndex="1">
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="190.0" text="Tuneles" GridPane.columnIndex="1">
                            <font>
                               <Font name="System Bold Italic" size="18.0" />
                            </font>
@@ -105,15 +120,15 @@
                   </GridPane>
                   <Button fx:id="play" mnemonicParsing="false" onAction="#play" text="Jugar" textAlignment="CENTER">
                      <VBox.margin>
-                        <Insets left="128.0" top="90.0" />
+                        <Insets left="250.0" top="90.0" />
                      </VBox.margin></Button>
                </children>
             </VBox>
-            <VBox prefHeight="312.0" prefWidth="200.0">
+            <VBox prefHeight="696.0" prefWidth="253.0">
                <children>
                   <Label text="Zona insegura">
                      <VBox.margin>
-                        <Insets bottom="20.0" left="40.0" />
+                        <Insets bottom="20.0" left="70.0" />
                      </VBox.margin>
                      <font>
                         <Font name="System Bold Italic" size="18.0" />

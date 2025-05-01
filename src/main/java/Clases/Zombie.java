@@ -8,11 +8,12 @@ public class Zombie extends Thread{
     private int muertes = 0;
 
     public Zombie(int id, ZonaInsegura[] zonas) {
-        this.setName( "Z" + id);
+        this.setName( "Z" + String.format("%04d", id));
         this.zonas = zonas;
     }
+
     public Zombie(int id, ZonaInsegura[] zonas, int n ) {
-        this.setName( "Z" + id);
+        this.setName( "Z" + String.format("%04d", id));
         this.zonas = zonas;
         zonas[n].entrar(this, false);
         try {
@@ -23,7 +24,6 @@ public class Zombie extends Thread{
         zonas[n].entrar(this, true);
 
     }
-
 
     public void run() {
         try {
@@ -37,14 +37,12 @@ public class Zombie extends Thread{
                 if (elegido != null) {
                     System.out.println("----------------" + elegido.getName()+"----------------");
                     if(morder(elegido)){
-
-                        muertes++;
+                        muertes = zonas[numero_zona].sumarMuerte(this.getName(), muertes);  // he creado un metodo que lo sume estando en exclusión mutua la variable, en vez de que haga muertes++ (que podría perderse alguno durante la ejecución)
                         zonas[numero_zona].entrar(elegido, true);
                         new Zombie(elegido.getid(), zonas, numero_zona).start();
 
                         elegido.join();
                     }
-
                 }
                 Thread.sleep(2000+ (int)(Math.random()*1000));
                 zonas[numero_zona].entrar(this, true);
@@ -65,10 +63,7 @@ public class Zombie extends Thread{
         } catch (InterruptedException e) {throw new RuntimeException(e);}
     }
 
-
-
-
-
-
-
+    public int getMuertes() {
+        return muertes;
+    }   // para la parte de distribuida cuando se pidan las muertes que lleva un zombie
 }

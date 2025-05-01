@@ -38,7 +38,6 @@ public class ZonaInsegura {
         }
     }
     public synchronized void entrar(Zombie h, boolean sale){
-        //c2.lock();
         try {
             if (sale){
                 zona.sacar(h);
@@ -51,23 +50,17 @@ public class ZonaInsegura {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-
-      //  c2.unlock();
     }
 
     public synchronized Humano getVictima(){
-        //c.lock();
         try {
             if (humanos.isEmpty()){return null;}
             Humano h = humanos.remove((int) (Math.random() * humanos.size()));
             h.interrupt();
             return h;
         }catch (Exception e){System.out.println(e);}
-        //finally {c.unlock();}
         return null;
     }
-
-
 
     public synchronized Humano obtenerAleatorio() {
         if (humanos.isEmpty()) {
@@ -77,25 +70,16 @@ public class ZonaInsegura {
         return humanos.get(indice);
     }
 
-
-
-
-    /*public synchronized void encolar(Humano h, boolean entra){
-        if (entra) {fuera.add(h); System.out.println("Encolado fuera"+ h.getName());}
-        else {dentro.add(h);System.out.println("Encolado dentro"+ h.getName());} // Para mostrarlo en pantalla
-    }
-    public synchronized void desencolar(Humano h, boolean entra){
-        if (entra) {
-            fuera.remove(h);
-            System.out.println("Desencolado fuera"+ h.getName());
-            //Codigo que lo mueva al refugio puede ser aqui o en el propio humano
+    public int sumarMuerte(String nombre, int muerte) {
+        c.lock();
+        try {
+            muerte++;
+            log.escribir("Se ha añadido una muerte al zombie " + nombre);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
+            c.unlock();
         }
-        else {dentro.remove(h); System.out.println("Desencolado dentro "+ h.getName());}
-
+        return muerte;
     }
-*/
-
-
-
-
 }
