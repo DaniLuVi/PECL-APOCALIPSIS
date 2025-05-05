@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" prefHeight="288.0" prefWidth="583.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.HelloController">
+<VBox alignment="CENTER" prefHeight="288.0" prefWidth="583.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -28,7 +28,7 @@
             <image>
                <Image url="@../../../images/apocalipsis.jpg" />
             </image></ImageView>
-          <Button onAction="#iniciarJuego" text="Iniciar juego" textAlignment="CENTER">
+          <Button fx:id="miBoton" onAction="#iniciarJuego" text="Iniciar juego" textAlignment="CENTER">
             <opaqueInsets>
                <Insets top="2000.0" />
             </opaqueInsets>

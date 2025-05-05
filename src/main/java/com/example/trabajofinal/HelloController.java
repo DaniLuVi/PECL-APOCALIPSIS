@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
@@ -14,6 +15,9 @@ import java.util.ResourceBundle;
 public class HelloController implements Initializable {
     @FXML
     private Label welcomeText;
+
+    @FXML
+    private Button miBoton;
 
     private static Logger log;
 
@@ -29,6 +33,12 @@ public class HelloController implements Initializable {
             ControladorPantallaJuego controlador = fxmlLoader.getController();
             controlador.setStage(stage);
             stage.show();
+
+            // Cerrar la ventana actual
+            // Se obtiene el Stage actual desde el botón (o cualquier nodo del scene graph)
+            Stage stageActual = (Stage) miBoton.getScene().getWindow();
+            stageActual.close();
+
         } catch (Exception e) {
             System.out.println(e);
         }
