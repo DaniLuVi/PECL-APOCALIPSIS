@@ -45,7 +45,6 @@ public class Refugio {
         }
     }
 
-
     public void entrarZona(Humano humano, boolean entra) {
         cerrojo.lock();
         try {
@@ -94,11 +93,15 @@ public class Refugio {
     public void descansa(Humano h, boolean largo){ // El booleano de largo es para cuando le ataquen que tiene que dormir más tiempo
         camas.meter(h);
         try {
-            log.escribir(h.getName() + "descansa.");
+            log.escribir(h.getName() + " descansa.");
             Thread.sleep((largo? 3000: 2000) +(int)(Math.random()* 2000));
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         camas.sacar(h);
+    }
+
+    public int getHumanosEnRefugio() {
+        return 0;
     }
 }

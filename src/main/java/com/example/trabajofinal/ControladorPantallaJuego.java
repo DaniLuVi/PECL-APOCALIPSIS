@@ -78,7 +78,6 @@ public class ControladorPantallaJuego implements Initializable {
             zonas[i] = new ZonaInsegura(exterior[i],p );
             tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i], p);
             tunel[i].nTunel = i + 1;
-
         }
         refugio = new Refugio(2, tunel, zona, comedor, ncomida, camas,p );
 
@@ -98,15 +97,6 @@ public class ControladorPantallaJuego implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
-    }
-
-    public void setStage(Stage s) {
-        this.scene = s;
-    }
-
-    @FXML
-    protected void play() {
         play.setOnAction(actionEvent -> {
             new Thread(() -> {
                 comienzo();
@@ -135,4 +125,9 @@ public class ControladorPantallaJuego implements Initializable {
 
 
     }
+
+    public void setStage(Stage s) {
+        this.scene = s;
+    }
+
 }

@@ -118,7 +118,7 @@
                         </VBox>
                      </children>
                   </GridPane>
-                  <Button fx:id="play" mnemonicParsing="false" onAction="#play" text="Jugar" textAlignment="CENTER">
+                  <Button fx:id="play" mnemonicParsing="false" text="Jugar" textAlignment="CENTER">
                      <VBox.margin>
                         <Insets left="250.0" top="90.0" />
                      </VBox.margin></Button>
