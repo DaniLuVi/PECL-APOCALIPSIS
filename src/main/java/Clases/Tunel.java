@@ -17,18 +17,19 @@ public class Tunel {
     private ListaThreads fuera;
     private TextArea pasando;
     private ZonaInsegura zona;
-
+    private Paso p;
     private CyclicBarrier accesoTunel = new CyclicBarrier(3);
     private ListaThreads esperandoTunel;
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    public Tunel(TextArea izq, TextArea drc, TextArea in, TextArea esperandoTunel, ZonaInsegura zona){
-        fuera = new ListaThreads(drc);
-        dentro = new ListaThreads(izq);
+    public Tunel(TextArea izq, TextArea drc, TextArea in, TextArea esperandoTunel, ZonaInsegura zona, Paso p){
+        fuera = new ListaThreads(drc, p);
+        dentro = new ListaThreads(izq,p );
         pasando = in;
         this.zona = zona;
-        this.esperandoTunel = new ListaThreads(esperandoTunel);
+        this.esperandoTunel = new ListaThreads(esperandoTunel,p);
+        this.p = p;
     }
 
     public void entrarTunel(int n, Humano h, boolean entra) {
@@ -53,14 +54,16 @@ public class Tunel {
             encolar(h, entra);
             c.lock();
             if(!entra){while (!fuera.isEmpty()) {esperaDentro.await();}} // Si no entra espera hasta que todos los de fuera hayan pasado.
-            //Si entra
+
             esperandoTunel.sacar(h);
             System.out.println("Comienza a entrar en "+ nTunel+ " " + entra +" "+ h.getName());
             desencolar(h,entra);
+            p.mirar();
             pasando.setText(h.getName());
             Thread.sleep(1000); // Simula el estar pasando el tunel
 
             System.out.println("Sale del tunel "+ nTunel+ " " + entra +" "+ h.getName());
+            p.mirar();
             pasando.setText(null);
             if (!entra){zona.entrar(h,false);}  // revisar pq creo que no están saliendo correctamete de la zona insegura (puede ser que los booleanos sean al revés, pero tengo que verlo un poco mas)
             if (fuera.isEmpty()) {esperaDentro.signalAll();}

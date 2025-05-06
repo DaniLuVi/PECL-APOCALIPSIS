@@ -7,7 +7,7 @@ public class Zombie extends Thread{
     private ZonaInsegura[] zonas;
     private int muertes = 0;
 
-    public Zombie(int id, ZonaInsegura[] zonas) {
+    public Zombie(int id, ZonaInsegura[] zonas, ) {
         this.setName( "Z" + String.format("%04d", id));
         this.zonas = zonas;
     }

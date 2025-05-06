@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="797.0" prefWidth="1335.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
+<AnchorPane prefHeight="797.0" prefWidth="1335.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorPantallaJuego">
    <children>
       <HBox layoutX="9.0" layoutY="28.0" prefHeight="719.0" prefWidth="1437.0">
          <children>
@@ -122,6 +122,8 @@
                      <VBox.margin>
                         <Insets left="250.0" top="90.0" />
                      </VBox.margin></Button>
+                  <Button fx:id="sumacomida" mnemonicParsing="false" onAction="#sumacomida" text="Suma 1 de comida" />
+                  <Button fx:id="pausa" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#pausa" text="Pausar" textAlignment="CENTER" />
                </children>
             </VBox>
             <VBox prefHeight="696.0" prefWidth="253.0">

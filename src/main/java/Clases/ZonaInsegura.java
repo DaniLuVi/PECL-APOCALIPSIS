@@ -16,8 +16,8 @@ public class ZonaInsegura {
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    public ZonaInsegura(TextArea txt){
-        zona = new ListaThreads(txt);
+    public ZonaInsegura(TextArea txt, Paso p){
+        zona = new ListaThreads(txt, p);
     }
 
 

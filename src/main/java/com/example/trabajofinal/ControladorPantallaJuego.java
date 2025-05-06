@@ -54,11 +54,19 @@ public class ControladorPantallaJuego implements Initializable {
 
     @FXML
     private Button play;
+    @FXML
+    private Button pausa;
 
+    Paso p;
+    @FXML
+    private Button sumacomida;
+
+    private Refugio refugio;
 
     private Stage scene;
 
     private void comienzo() {
+        p = new Paso();
         esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
         izquierda = new TextArea[]{izquierda1, izquierda2, izquierda3, izquierda4};
@@ -67,16 +75,17 @@ public class ControladorPantallaJuego implements Initializable {
         ZonaInsegura[] zonas = new ZonaInsegura[4];
         Tunel[] tunel = new Tunel[4];
         for (int i = 0; i < 4; i++) {
-            zonas[i] = new ZonaInsegura(exterior[i]);
-            tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i]);
+            zonas[i] = new ZonaInsegura(exterior[i],p );
+            tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i], p);
             tunel[i].nTunel = i + 1;
 
         }
-        Refugio refugio = new Refugio(20, tunel, zona, comedor, ncomida, camas);
+        refugio = new Refugio(2, tunel, zona, comedor, ncomida, camas,p );
 
         Zombie z = new Zombie(0, zonas);
         z.start();
         for (int i = 1; i <= 10000; i++) {
+            p.mirar();
             Humano humano = new Humano(i, refugio);
             humano.start();
             try {
@@ -103,5 +112,27 @@ public class ControladorPantallaJuego implements Initializable {
                 comienzo();
             }).start();
         });
+    }
+
+    @FXML
+    protected void sumacomida(){
+        refugio.comida.release();
+
+
+    }
+
+
+    @FXML
+    protected void pausa(){
+        if (p.isCerrado()){
+            p.abrir();
+            pausa.setText("Pausar");
+        }
+        else{
+            p.cerrar();
+            pausa.setText("Continuar");
+        }
+
+
     }
 }

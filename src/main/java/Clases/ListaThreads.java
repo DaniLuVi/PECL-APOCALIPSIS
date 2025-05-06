@@ -10,11 +10,13 @@ import javafx.scene.control.TextArea;
 public class ListaThreads {
     ArrayList<Thread> lista;
     TextArea txtarea;
+    Paso p;
 
-    public ListaThreads(TextArea tf)
+    public ListaThreads(TextArea tf, Paso p)
     {
         lista=new ArrayList<Thread>();
         this.txtarea = tf;
+        this.p = p;
     }
     public synchronized boolean isEmpty(){
         System.out.println(lista+"" +lista.isEmpty());
@@ -24,18 +26,21 @@ public class ListaThreads {
 
     public synchronized void meter(Thread t)
     {
+        p.mirar();
         lista.add(t);
         imprimir();
     }
 
     public synchronized void sacar(Thread t)
     {
+        p.mirar();
         lista.remove(t);
         imprimir();
     }
 
     public void imprimir()
     {
+        p.mirar();
         String contenido = "";
         for(int i=0; i<lista.size(); i++)
         {

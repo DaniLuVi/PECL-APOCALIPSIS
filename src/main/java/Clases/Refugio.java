@@ -17,7 +17,7 @@ public class Refugio {
     private Lock cerrojo = new ReentrantLock();
 
     //private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
-    private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
+    public Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
     ListaThreads zona;
     ListaThreads comedor;
@@ -29,10 +29,10 @@ public class Refugio {
 
     private ListaThreads humanos;
 
-    public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas) {
-        this.zona = new ListaThreads(zona);
-        this.comedor = new ListaThreads(comedor);
-        this.camas = new ListaThreads(camas);
+    public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas, Paso p) {
+        this.zona = new ListaThreads(zona,p);
+        this.comedor = new ListaThreads(comedor,p);
+        this.camas = new ListaThreads(camas,p );
 
         this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
 
