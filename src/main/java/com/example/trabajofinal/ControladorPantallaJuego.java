@@ -10,6 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.net.URL;
+import java.rmi.RemoteException;
 import java.util.ResourceBundle;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -57,7 +58,7 @@ public class ControladorPantallaJuego implements Initializable {
     @FXML
     private Button pausa;
 
-    Paso p;
+    private Paso p;
     @FXML
     private Button sumacomida;
 
@@ -65,7 +66,7 @@ public class ControladorPantallaJuego implements Initializable {
 
     private Stage scene;
 
-    private void comienzo() {
+    private void comienzo() throws RemoteException {
         p = new Paso();
         esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
@@ -77,9 +78,9 @@ public class ControladorPantallaJuego implements Initializable {
         for (int i = 0; i < 4; i++) {
             zonas[i] = new ZonaInsegura(exterior[i],p );
             tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i], p);
-            tunel[i].nTunel = i + 1;
+            tunel[i].setnTunel(i + 1);
         }
-        refugio = new Refugio(2, tunel, zona, comedor, ncomida, camas,p );
+        refugio = new Refugio(20, tunel, zona, comedor, ncomida, camas,p );
 
         Zombie z = new Zombie(0, zonas);
         z.start();
@@ -99,16 +100,18 @@ public class ControladorPantallaJuego implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         play.setOnAction(actionEvent -> {
             new Thread(() -> {
-                comienzo();
+                try {
+                    comienzo();
+                } catch (RemoteException e) {
+                    throw new RuntimeException(e);
+                }
             }).start();
         });
     }
 
     @FXML
     protected void sumacomida(){
-        refugio.comida.release();
-
-
+        refugio.getComida().release();
     }
 
 

@@ -19,8 +19,6 @@ public class HelloController implements Initializable {
     @FXML
     private Button miBoton;
 
-    private static Logger log;
-
     @FXML
     protected void iniciarJuego() {
         Stage stage = new Stage();

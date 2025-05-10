@@ -2,21 +2,25 @@ package Clases;
 
 import javafx.scene.control.TextArea;
 
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ZonaInsegura {
-    Lock c = new ReentrantLock();
-    Lock c2 = new ReentrantLock();
+public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInsegura {
+    private Lock c = new ReentrantLock();
+    private Lock c2 = new ReentrantLock();
 
-    ListaThreads zona;
-    LinkedList<Humano> humanos = new LinkedList<>();
+    private ListaThreads zona;
+    private LinkedList<Humano> humanos = new LinkedList<>();
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    public ZonaInsegura(TextArea txt, Paso p){
+    public ZonaInsegura() throws RemoteException {}
+
+    public ZonaInsegura(TextArea txt, Paso p) throws RemoteException{
         zona = new ListaThreads(txt, p);
     }
 
@@ -81,5 +85,13 @@ public class ZonaInsegura {
             c.unlock();
         }
         return muerte;
+    }
+
+    public int getHumanosEnZonaInsegura() throws RemoteException{
+        return humanos.size();
+    }
+
+    public int getZombiesEnZonaInsegura() throws RemoteException {
+        return (zona.getLista().size() - getHumanosEnZonaInsegura());
     }
 }

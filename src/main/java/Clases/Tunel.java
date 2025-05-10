@@ -3,15 +3,17 @@ package Clases;
 import javafx.scene.control.TextArea;
 
 
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Tunel {
+public class Tunel extends UnicastRemoteObject implements RemotaTunel {
     private Lock c = new ReentrantLock();
-    public  int nTunel;
+    private  int nTunel;
     private Condition esperaDentro = c.newCondition();
     private ListaThreads dentro; //Si se puede ver cuantos hay en espera en cada condition podria valer con ellos
     private ListaThreads fuera;
@@ -23,7 +25,9 @@ public class Tunel {
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    public Tunel(TextArea izq, TextArea drc, TextArea in, TextArea esperandoTunel, ZonaInsegura zona, Paso p){
+    public Tunel() throws RemoteException {}
+
+    public Tunel(TextArea izq, TextArea drc, TextArea in, TextArea esperandoTunel, ZonaInsegura zona, Paso p) throws RemoteException{
         fuera = new ListaThreads(drc, p);
         dentro = new ListaThreads(izq,p );
         pasando = in;
@@ -85,6 +89,18 @@ public class Tunel {
         }
         else {dentro.sacar(h); System.out.println("Desencolado dentro "+ h.getName());}
 
+    }
+
+    public int getnTunel() {
+        return nTunel;
+    }
+
+    public void setnTunel(int nTunel) {
+        this.nTunel = nTunel;
+    }
+
+    public int getHumanosEnTuneles() throws RemoteException{
+        return esperandoTunel.getLista().size() + dentro.getLista().size() + fuera.getLista().size() + pasando.getLength();
     }
 }
 

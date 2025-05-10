@@ -4,6 +4,8 @@ import javafx.application.Platform;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.BrokenBarrierException;
@@ -12,24 +14,26 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Lock;
 
-public class Refugio {
+public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
 
     private Lock cerrojo = new ReentrantLock();
 
     //private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
-    public Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
+    private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
-    ListaThreads zona;
-    ListaThreads comedor;
-    ListaThreads camas;
+    private ListaThreads zona;
+    private ListaThreads comedor;
+    private ListaThreads camas;
     //ListaThreads[] esperandoTunel;
-    Label contadorComida;
+    private Label contadorComida;
 
     private static Logger log = new Logger("apocalipsis.txt");
 
     private ListaThreads humanos;
 
-    public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas, Paso p) {
+    public Refugio() throws RemoteException {}
+
+    public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas, Paso p) throws RemoteException{
         this.zona = new ListaThreads(zona,p);
         this.comedor = new ListaThreads(comedor,p);
         this.camas = new ListaThreads(camas,p );
@@ -39,7 +43,7 @@ public class Refugio {
         this.contadorComida = contadorComida;
         Platform.runLater(() ->
                 contadorComida.setText(String.valueOf(comida)));
-
+        // esto no se si es necesario
         for (int i = 0; i < 4; i++) {
             this.tuneles = tuneles;
         }
@@ -101,7 +105,11 @@ public class Refugio {
         camas.sacar(h);
     }
 
-    public int getHumanosEnRefugio() {
-        return 0;
+    public Semaphore getComida() {
+        return comida;
+    }
+
+    public int getHumanosEnRefugio() throws RemoteException{
+        return humanos.getLista().size();
     }
 }

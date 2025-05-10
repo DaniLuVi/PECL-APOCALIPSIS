@@ -8,7 +8,7 @@ import javafx.application.Platform;
 import javafx.scene.control.TextArea;
 
 public class ListaThreads {
-    ArrayList<Thread> lista;
+    private ArrayList<Thread> lista;
     TextArea txtarea;
     Paso p;
 
@@ -52,4 +52,6 @@ public class ListaThreads {
             txtarea.setText(textoImprimir);
         });
     }
+
+    public ArrayList<Thread> getLista(){return lista;}
 }

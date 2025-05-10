@@ -10,7 +10,9 @@ module com.example.trabajofinal {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.rmi;
 
+    exports Clases to java.rmi;
     opens com.example.trabajofinal to javafx.fxml;
     exports com.example.trabajofinal;
 }
