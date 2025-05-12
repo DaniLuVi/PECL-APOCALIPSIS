@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Tunel extends UnicastRemoteObject implements RemotaTunel {
     private Lock c = new ReentrantLock();
-    private  int nTunel;
+    private int nTunel;
     private Condition esperaDentro = c.newCondition();
     private ListaThreads dentro; //Si se puede ver cuantos hay en espera en cada condition podria valer con ellos
     private ListaThreads fuera;
@@ -24,8 +24,6 @@ public class Tunel extends UnicastRemoteObject implements RemotaTunel {
     private ListaThreads esperandoTunel;
 
     private static Logger log = new Logger("apocalipsis.txt");
-
-    public Tunel() throws RemoteException {}
 
     public Tunel(TextArea izq, TextArea drc, TextArea in, TextArea esperandoTunel, ZonaInsegura zona, Paso p) throws RemoteException{
         fuera = new ListaThreads(drc, p);
@@ -50,7 +48,7 @@ public class Tunel extends UnicastRemoteObject implements RemotaTunel {
         log.escribir("Se han alcanzado 3 humanos esperando para entrar al túnel.");
         System.out.println("Pasa al tunel" + n + " "+ h.getName());
         this.paso(h,entra);
-    }   // esto deberia de ir en la clase tunel para que se vaya actualizando de manera correcta en la interfaz
+    }
 
     public void paso(Humano h, boolean entra){
         try{

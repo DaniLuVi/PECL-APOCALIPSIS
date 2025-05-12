@@ -18,8 +18,6 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    public ZonaInsegura() throws RemoteException {}
-
     public ZonaInsegura(TextArea txt, Paso p) throws RemoteException{
         zona = new ListaThreads(txt, p);
     }
@@ -72,7 +70,7 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
         }
         int indice = (int)(Math.random()*humanos.size());
         return humanos.get(indice);
-    }
+    }   // ¿ este metodo lo vamos a utilizar en algo?
 
     public int sumarMuerte(String nombre, int muerte) {
         c.lock();

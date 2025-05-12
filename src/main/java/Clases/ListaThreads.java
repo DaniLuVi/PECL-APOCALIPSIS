@@ -1,16 +1,13 @@
 package Clases;
 
-
-
 import java.util.ArrayList;
-
 import javafx.application.Platform;
 import javafx.scene.control.TextArea;
 
 public class ListaThreads {
     private ArrayList<Thread> lista;
-    TextArea txtarea;
-    Paso p;
+    private TextArea txtarea;
+    private Paso p;
 
     public ListaThreads(TextArea tf, Paso p)
     {

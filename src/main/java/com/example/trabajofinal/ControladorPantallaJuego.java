@@ -9,8 +9,12 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
+import java.net.MalformedURLException;
 import java.net.URL;
+import java.rmi.Naming;
 import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.ResourceBundle;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -79,8 +83,26 @@ public class ControladorPantallaJuego implements Initializable {
             zonas[i] = new ZonaInsegura(exterior[i],p );
             tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i], p);
             tunel[i].setnTunel(i + 1);
+
+            Registry registroZona = LocateRegistry.createRegistry(1099);
+            Registry registroTunel = LocateRegistry.createRegistry(1100);
+
+            try {
+                Naming.rebind("//127.0.0.1/ObjetoZona", zonas[i]);
+                Naming.rebind("//127.0.0.1/ObjetoTunel", tunel[i]);
+            } catch (MalformedURLException e) {
+                throw new RuntimeException(e);
+            }
         }
         refugio = new Refugio(20, tunel, zona, comedor, ncomida, camas,p );
+
+        Registry registroRefugio = LocateRegistry.createRegistry(1101);
+
+        try {
+            Naming.rebind("//127.0.0.1/ObjetoRefugio", refugio);
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
 
         Zombie z = new Zombie(0, zonas);
         z.start();

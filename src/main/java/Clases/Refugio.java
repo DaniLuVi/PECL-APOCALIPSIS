@@ -29,10 +29,6 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    private ListaThreads humanos;
-
-    public Refugio() throws RemoteException {}
-
     public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas, Paso p) throws RemoteException{
         this.zona = new ListaThreads(zona,p);
         this.comedor = new ListaThreads(comedor,p);
@@ -110,6 +106,6 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
     }
 
     public int getHumanosEnRefugio() throws RemoteException{
-        return humanos.getLista().size();
+        return zona.getLista().size() + comedor.getLista().size() + camas.getLista().size();
     }
 }
