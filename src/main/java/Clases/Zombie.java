@@ -2,6 +2,8 @@ package Clases;
 
 import javafx.scene.control.TableColumn;
 
+import static com.example.trabajofinal.ControladorPantallaJuego.remoto;
+
 public class Zombie extends Thread{
 
     private ZonaInsegura[] zonas;
@@ -37,7 +39,10 @@ public class Zombie extends Thread{
                 if (elegido != null) {
                     System.out.println("----------------" + elegido.getName()+"----------------");
                     if(morder(elegido)){
-                        muertes = zonas[numero_zona].sumarMuerte(this.getName(), muertes);  // he creado un metodo que lo sume estando en exclusión mutua la variable, en vez de que haga muertes++ (que podría perderse alguno durante la ejecución)
+                        //muertes = zonas[numero_zona].sumarMuerte(this.getName(), muertes);  // he creado un metodo que lo sume estando en exclusión mutua la variable, en vez de que haga muertes++ (que podría perderse alguno durante la ejecución)
+                        // Yo creo que no es necesario hacer eso, nadie usa la variable de muertes, solo el propio zombie, puede actualizarla tranquilamente él mismo y ya cuando tenga que utilizarla en exclusión.
+                        // Voy a hacerlo sin usar lo de zonas a ver si no hay problemas mientras,
+                        remoto.checkPodio(this , ++muertes);
                         zonas[numero_zona].entrar(elegido, true);
                         new Zombie(elegido.getid(), zonas, numero_zona).start();
 

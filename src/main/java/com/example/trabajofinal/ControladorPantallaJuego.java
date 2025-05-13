@@ -67,10 +67,26 @@ public class ControladorPantallaJuego implements Initializable {
     private Button sumacomida;
 
     private Refugio refugio;
+    public static ClaseRemota remoto;
+
+    static {
+        try {
+            remoto = new ClaseRemota();
+        } catch (RemoteException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     private Stage scene;
 
     private void comienzo() throws RemoteException {
+
+        try {
+            Registry registry = LocateRegistry.createRegistry(1099);
+            Naming.rebind("EstadoApocalipsis", remoto);
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
         p = new Paso();
         esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
@@ -80,11 +96,12 @@ public class ControladorPantallaJuego implements Initializable {
         ZonaInsegura[] zonas = new ZonaInsegura[4];
         Tunel[] tunel = new Tunel[4];
         for (int i = 0; i < 4; i++) {
-            zonas[i] = new ZonaInsegura(exterior[i],p );
+            zonas[i] = new ZonaInsegura(exterior[i],p, i );
             tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i], p);
             tunel[i].setnTunel(i + 1);
 
-            Registry registroZona = LocateRegistry.createRegistry(1099);
+
+            /*Registry registroZona = LocateRegistry.createRegistry(1099);
             Registry registroTunel = LocateRegistry.createRegistry(1100);
 
             try {
@@ -92,17 +109,17 @@ public class ControladorPantallaJuego implements Initializable {
                 Naming.rebind("//127.0.0.1/ObjetoTunel", tunel[i]);
             } catch (MalformedURLException e) {
                 throw new RuntimeException(e);
-            }
+            }*/
         }
         refugio = new Refugio(20, tunel, zona, comedor, ncomida, camas,p );
 
-        Registry registroRefugio = LocateRegistry.createRegistry(1101);
+        //Registry registroRefugio = LocateRegistry.createRegistry(1101);
 
-        try {
+        /*try {
             Naming.rebind("//127.0.0.1/ObjetoRefugio", refugio);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
-        }
+        }*/
 
         Zombie z = new Zombie(0, zonas);
         z.start();
@@ -133,7 +150,7 @@ public class ControladorPantallaJuego implements Initializable {
 
     @FXML
     protected void sumacomida(){
-        refugio.getComida().release();
+        refugio.setComida(1);
     }
 
 

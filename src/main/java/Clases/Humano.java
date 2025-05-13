@@ -22,7 +22,7 @@ public class Humano extends Thread{
     private int buscar(int n){
 
         if (n == -1){n = (int)( Math.random() * 4); }
-        System.out.println(this.getName()+"Elige tunel " +n);
+        System.out.println(this.getName()+" Elige el tunel " +n);
         log.escribir(this.getName() + " Elige tunel " + n);
         refugio.tuneles[n].entrarTunel(n, this, false);
         try{Thread.sleep(3000 + (int) (2000* Math.random()));

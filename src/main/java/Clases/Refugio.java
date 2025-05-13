@@ -14,12 +14,14 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Lock;
 
+import static com.example.trabajofinal.ControladorPantallaJuego.remoto;
+
 public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
 
     private Lock cerrojo = new ReentrantLock();
 
     //private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
-    private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
+    private  Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
     Tunel tuneles[] = new Tunel[4];
     private ListaThreads zona;
     private ListaThreads comedor;
@@ -50,9 +52,11 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
         try {
             if (entra) {
                 zona.meter(humano);
+                actualizarRemoto();
                 System.out.println(humano.getName() + " ha entrado a la zona común.");
             } else {
                 zona.sacar(humano);
+                actualizarRemoto();
                 System.out.println(humano.getName() + " ha salido de la zona común.");
             }
         } catch (Exception e) {
@@ -75,6 +79,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
 
         try {
             comedor.meter(h);
+            actualizarRemoto();
             comida.acquire(n);
             log.escribir(h.getName() + " se come una pieza de comida.");
             System.out.println("--------- COMIDA: " + comida.availablePermits());
@@ -84,6 +89,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
             );
             Thread.sleep(3000+ (int)(Math.random()*2000));
             comedor.sacar(h);
+            actualizarRemoto();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -92,6 +98,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
 
     public void descansa(Humano h, boolean largo){ // El booleano de largo es para cuando le ataquen que tiene que dormir más tiempo
         camas.meter(h);
+        actualizarRemoto();
         try {
             log.escribir(h.getName() + " descansa.");
             Thread.sleep((largo? 3000: 2000) +(int)(Math.random()* 2000));
@@ -99,6 +106,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
             e.printStackTrace();
         }
         camas.sacar(h);
+        actualizarRemoto();
     }
 
     public Semaphore getComida() {
@@ -107,5 +115,14 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
 
     public int getHumanosEnRefugio() throws RemoteException{
         return zona.getLista().size() + comedor.getLista().size() + camas.getLista().size();
+    }
+
+    private void actualizarRemoto(){
+    // Lo he puesto en todos lados pero realmente con ponerlo al entrar y salir de la zona común valdría por que solo pueden entrar y salir desde ahí, el resto de movimientos son internos al refugio.
+        try {
+            remoto.setHumanosRefugio(getHumanosEnRefugio());
+        } catch (RemoteException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

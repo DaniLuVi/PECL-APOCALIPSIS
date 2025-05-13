@@ -9,17 +9,21 @@ import java.util.List;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+import static com.example.trabajofinal.ControladorPantallaJuego.remoto;
+
 public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInsegura {
     private Lock c = new ReentrantLock();
     private Lock c2 = new ReentrantLock();
 
     private ListaThreads zona;
     private LinkedList<Humano> humanos = new LinkedList<>();
+    private int nZona;
 
     private static Logger log = new Logger("apocalipsis.txt");
 
-    public ZonaInsegura(TextArea txt, Paso p) throws RemoteException{
+    public ZonaInsegura(TextArea txt, Paso p,int i) throws RemoteException{
         zona = new ListaThreads(txt, p);
+        this.nZona = i;
     }
 
 
@@ -29,10 +33,12 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
             if (!sale){
                 humanos.add(h);
                 zona.meter(h);
+                remoto.setHumanosPorZona(nZona, humanos.size());
                 log.escribir("El humano " + h.getName() + " entra en la zona insegura");
             } else {
                 humanos.remove(h);
                 zona.sacar(h);
+                remoto.setHumanosPorZona(nZona, humanos.size());
                 log.escribir("El humano " + h.getName() + " sale de la zona insegura");
             }
         } finally {
@@ -43,10 +49,12 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
         try {
             if (sale){
                 zona.sacar(h);
+                remoto.setZombiesPorZona(nZona, getZombiesEnZonaInsegura());
                 log.escribir("El zombie " + h.getName() + " sale de la zona insegura");
 
             } else {
                 zona.meter(h);
+                remoto.setZombiesPorZona(nZona, getZombiesEnZonaInsegura());
                 log.escribir("El zombie " + h.getName() + " entra en la zona insegura");
             }
         } catch (Exception e) {
@@ -90,6 +98,8 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
     }
 
     public int getZombiesEnZonaInsegura() throws RemoteException {
-        return (zona.getLista().size() - getHumanosEnZonaInsegura());
+        return (zona.getLista().size() - humanos.size());
     }
+
+
 }
