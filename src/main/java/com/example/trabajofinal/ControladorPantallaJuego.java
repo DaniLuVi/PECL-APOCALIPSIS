@@ -66,7 +66,16 @@ public class ControladorPantallaJuego implements Initializable {
     private Button sumacomida;
 
     private Refugio refugio;
-    public static ClaseRemota remoto = new ClaseRemota(p,b);
+    //public static ClaseRemota remoto = new ClaseRemota(p,b);
+    public static ClaseRemota remoto;
+
+    static {
+        try {
+            remoto = new ClaseRemota();
+        } catch (RemoteException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
     private Stage scene;

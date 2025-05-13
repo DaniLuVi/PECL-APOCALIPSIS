@@ -108,7 +108,4 @@ public class ControladorInterfazRemota implements Initializable {
         }
     }
 
-
-
-
 }

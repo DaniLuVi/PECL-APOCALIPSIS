@@ -22,9 +22,6 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     private Paso p;
     private Button b;
 
-    private Lock[] cerrojos = new ReentrantLock[10]; // Un cerrojo para cada contador, o usar los contadores atómicos.
-
-
     public ClaseRemota() throws RemoteException{
         for (int i = 0; i < 14; i++) {
             cerrojos[i] = new ReentrantLock();
