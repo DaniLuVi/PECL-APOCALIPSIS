@@ -89,6 +89,7 @@ public class ControladorPantallaJuego implements Initializable {
         }
         p = new Paso();
         esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
+
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
         izquierda = new TextArea[]{izquierda1, izquierda2, izquierda3, izquierda4};
         fuera = new TextArea[]{fuera1, fuera2, fuera3, fuera4};
@@ -164,7 +165,6 @@ public class ControladorPantallaJuego implements Initializable {
             p.cerrar();
             pausa.setText("Continuar");
         }
-
 
     }
 

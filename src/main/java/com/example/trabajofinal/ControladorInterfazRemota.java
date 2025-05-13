@@ -1,6 +1,7 @@
 package com.example.trabajofinal;
 
 import Clases.InterfazRemota;
+import Clases.Zombie;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextArea;
@@ -55,9 +56,24 @@ public class ControladorInterfazRemota implements Initializable {
 
     }
     public void bucletmp(){
+        Zombie[] podio = new Zombie[3];
+        int[] zombiesPorZona = new int[]{0,0,0,0};
+        int[] humanosPorZona = new int[]{0,0,0,0};
+        int humanosRefugio = 0;
         while (true) {
             try {
-                info.setText(interfazRemota.getInfo());
+                podio = interfazRemota.getPodio();
+                zombiesPorZona = interfazRemota.getZombiesPorZona();
+                humanosPorZona = interfazRemota.getHumanosPorZona();
+                humanosRefugio = interfazRemota.getHumanosRefugio();
+            } catch (RemoteException e) {
+                throw new RuntimeException(e);
+            }
+
+            try {
+
+                info.setText("Humanos en las zonas:" + humanosPorZona
+                );
                 System.out.println(interfazRemota.getInfo());
             } catch (RemoteException e) {
                 throw new RuntimeException(e);

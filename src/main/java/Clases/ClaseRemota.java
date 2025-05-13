@@ -14,6 +14,7 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     private Lock[] cerrojos = new ReentrantLock[10]; // Un cerrojo para cada contador, o usar los contadores atómicos.
 
 
+
     public ClaseRemota() throws RemoteException{
         for (int i = 0; i < 10; i++) {
             cerrojos[i] = new ReentrantLock();
@@ -28,10 +29,11 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     public void checkPodio(Zombie z, int muertes){
         try{
             cerrojos[0].lock();
+             if (podio[0] == null ){podio[0] = z;}
+             else if (muertes> podio[0].getMuertes()){ if(podio[0].getName().equals(z.getName())){}podio[2] = podio[1]; podio[1] = podio[0]; podio[0] = z;}
+             else if (podio[1] == null || muertes> podio[1].getMuertes()){if (podio[1].getName().equals(z.getName())) {}podio[2] = podio[1]; podio[1] = z; }
+             else if (podio[2] == null || (muertes> podio[2].getMuertes() && !podio[2].getName().equals(z.getName()))){podio[2] = z;}
 
-            if (podio[2] == null || muertes> podio[2].getMuertes()){podio[2] = z;}
-            else if (podio[1] == null || muertes> podio[1].getMuertes()){podio[2] = podio[1]; podio[1] = z; }
-            else if (podio[0] == null || muertes> podio[0].getMuertes()){podio[2] = podio[1]; podio[1] = podio[0]; podio[0] = z;}
         // actualizarVista()
         } catch (Exception e){}
         finally {
@@ -90,8 +92,8 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
             return zombiesPorZona;
         } catch (Exception e){}
         finally {
-            for (int i = 4; i >0; i++) {
-                cerrojos[1+i].lock();
+            for (int i = 0; i < 4; i++) {
+                cerrojos[1+i].unlock();
             }
         }
     return null;
@@ -105,8 +107,8 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
             return humanosPorZona;
         } catch (Exception e){}
         finally {
-            for (int i = 4; i >0; i++) {
-                cerrojos[5+i].lock();
+            for (int i = 0; i < 4; i++) {
+                cerrojos[5+i].unlock();
             }
         }
     return null;
