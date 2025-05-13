@@ -23,6 +23,7 @@ public class Tunel{
     private ZonaInsegura zona;
     private Paso p;
     private CyclicBarrier accesoTunel = new CyclicBarrier(3);
+
     private ListaThreads esperandoTunel;
 
     private static Logger log = new Logger("apocalipsis.txt");

@@ -2,6 +2,7 @@ package com.example.trabajofinal;
 
 import Clases.InterfazRemota;
 import javafx.application.Platform;
+import Clases.Zombie;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.TextArea;
@@ -74,6 +75,10 @@ public class ControladorInterfazRemota implements Initializable {
 
     }
     public void bucletmp(){
+        Zombie[] podio = new Zombie[3];
+        int[] zombiesPorZona = new int[]{0,0,0,0};
+        int[] humanosPorZona = new int[]{0,0,0,0};
+        int humanosRefugio = 0;
         while (true) {
             try {
                     Platform.runLater(() -> {
@@ -102,4 +107,8 @@ public class ControladorInterfazRemota implements Initializable {
 
         }
     }
+
+
+
+
 }

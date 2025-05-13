@@ -16,7 +16,6 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.ResourceBundle;
-import java.util.concurrent.atomic.AtomicReference;
 
 import static java.lang.Thread.sleep;
 
@@ -67,15 +66,8 @@ public class ControladorPantallaJuego implements Initializable {
     private Button sumacomida;
 
     private Refugio refugio;
-    public static ClaseRemota remoto;
+    public static ClaseRemota remoto = new ClaseRemota(p,b);
 
-    static {
-        try {
-            remoto = new ClaseRemota();
-        } catch (RemoteException e) {
-            throw new RuntimeException(e);
-        }
-    }
 
     private Stage scene;
 
@@ -89,6 +81,7 @@ public class ControladorPantallaJuego implements Initializable {
         }
         p = new Paso();
         esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
+
         dentro = new TextArea[]{dentro1, dentro2, dentro3, dentro4};
         izquierda = new TextArea[]{izquierda1, izquierda2, izquierda3, izquierda4};
         fuera = new TextArea[]{fuera1, fuera2, fuera3, fuera4};
@@ -156,17 +149,18 @@ public class ControladorPantallaJuego implements Initializable {
 
 
     @FXML
-    protected void pausa(){
-        if (p.isCerrado()){
+    public void pausa() {
+        if (p.isCerrado()) {
             p.abrir();
             pausa.setText("Pausar");
-        }
-        else{
+        } else {
             p.cerrar();
             pausa.setText("Continuar");
         }
-
-
+    }
+    public boolean llamarPausa() {
+        pausa();
+        return p.isCerrado();
     }
 
     public void setStage(Stage s) {

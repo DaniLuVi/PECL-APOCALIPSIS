@@ -1,5 +1,9 @@
 package Clases;
 
+import com.example.trabajofinal.ControladorPantallaJuego;
+import javafx.application.Platform;
+import javafx.scene.control.Button;
+
 import com.example.trabajofinal.ControladorInterfazRemota;
 
 import java.rmi.RemoteException;
@@ -15,9 +19,21 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     private int[] humanosPorZona = new int[]{0,0,0,0};
     private int humanosRefugio = 0;
     private Lock[] cerrojos = new ReentrantLock[14]; // Un cerrojo para cada contador, o usar los contadores atómicos.
+    private Paso p;
+    private Button b;
+
+    private Lock[] cerrojos = new ReentrantLock[10]; // Un cerrojo para cada contador, o usar los contadores atómicos.
+
 
     public ClaseRemota() throws RemoteException{
         for (int i = 0; i < 14; i++) {
+            cerrojos[i] = new ReentrantLock();
+        }
+    }
+    public ClaseRemota(Paso p, Button b) throws RemoteException{
+        this.p = p;
+        this.b = b;
+        for (int i = 0; i < 10; i++) {
             cerrojos[i] = new ReentrantLock();
         }
     }
@@ -30,10 +46,11 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     public void checkPodio(Zombie z, int muertes){
         try{
             cerrojos[0].lock();
+             if (podio[0] == null ){podio[0] = z;}
+             else if (muertes> podio[0].getMuertes()){ if(podio[0].getName().equals(z.getName())){}podio[2] = podio[1]; podio[1] = podio[0]; podio[0] = z;}
+             else if (podio[1] == null || muertes> podio[1].getMuertes()){if (podio[1].getName().equals(z.getName())) {}podio[2] = podio[1]; podio[1] = z; }
+             else if (podio[2] == null || (muertes> podio[2].getMuertes() && !podio[2].getName().equals(z.getName()))){podio[2] = z;}
 
-            if (podio[2] == null || muertes> podio[2].getMuertes()){podio[2] = z;}
-            else if (podio[1] == null || muertes> podio[1].getMuertes()){podio[2] = podio[1]; podio[1] = z; }
-            else if (podio[0] == null || muertes> podio[0].getMuertes()){podio[2] = podio[1]; podio[1] = podio[0]; podio[0] = z;}
         // actualizarVista()
         } catch (Exception e){}
         finally {
@@ -84,10 +101,14 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
         }
     }
 
-    public Zombie[] getPodio() {
+    public String[] getPodio() {
         try {
             cerrojos[0].lock();
-            return podio;
+            String[] podiotmp = new String[3];
+            for (int i = 0; i < 3; i++) {
+                podiotmp[i] = podio[i].getName() + podio[i].getMuertes();
+            }
+            return podiotmp;
         } catch (Exception e){}
         finally {
             cerrojos[0].unlock();
@@ -170,5 +191,8 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
                 ", humanosPorZona=" + Arrays.toString(humanosPorZona) +
                 ", humanosRefugio=" + humanosRefugio +
                 '}';
+    }
+    public void pausa(){
+
     }
 }

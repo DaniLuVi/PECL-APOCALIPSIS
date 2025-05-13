@@ -25,13 +25,15 @@ public class Refugio{
     private ListaThreads comedor;
     private ListaThreads camas;
     private Label contadorComida;
+    private Paso p;
+
     private static Logger log = new Logger("apocalipsis.txt");
 
     public Refugio(int comida, Tunel[] tuneles, TextArea zona, TextArea comedor, Label contadorComida, TextArea camas, Paso p) throws RemoteException{
         this.zona = new ListaThreads(zona,p);
         this.comedor = new ListaThreads(comedor,p);
         this.camas = new ListaThreads(camas,p );
-
+        this.p = p;
         this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
 
         this.contadorComida = contadorComida;
@@ -120,5 +122,9 @@ public class Refugio{
     private void actualizarRemoto(){
     // Lo he puesto en todos lados pero realmente con ponerlo al entrar y salir de la zona común valdría por que solo pueden entrar y salir desde ahí, el resto de movimientos son internos al refugio.
         remoto.setHumanosRefugio(getHumanosEnRefugio());
+    }
+
+    public Paso getP() {
+        return p;
     }
 }

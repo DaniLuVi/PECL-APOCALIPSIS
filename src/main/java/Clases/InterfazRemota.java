@@ -31,6 +31,7 @@ public interface InterfazRemota extends Remote {
 
     public String getInfo()  throws RemoteException;
 
+    public void pausa() throws RemoteException;
 
 
 }
