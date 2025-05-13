@@ -62,15 +62,6 @@ public class ControladorInterfazRemota implements Initializable {
         int humanosRefugio = 0;
         while (true) {
             try {
-                podio = interfazRemota.getPodio();
-                zombiesPorZona = interfazRemota.getZombiesPorZona();
-                humanosPorZona = interfazRemota.getHumanosPorZona();
-                humanosRefugio = interfazRemota.getHumanosRefugio();
-            } catch (RemoteException e) {
-                throw new RuntimeException(e);
-            }
-
-            try {
 
                 info.setText("Humanos en las zonas:" + humanosPorZona
                 );

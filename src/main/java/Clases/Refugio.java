@@ -28,6 +28,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
     private ListaThreads camas;
     //ListaThreads[] esperandoTunel;
     private Label contadorComida;
+    private Paso p;
 
     private static Logger log = new Logger("apocalipsis.txt");
 
@@ -35,7 +36,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
         this.zona = new ListaThreads(zona,p);
         this.comedor = new ListaThreads(comedor,p);
         this.camas = new ListaThreads(camas,p );
-
+        this.p = p;
         this.comida = new Semaphore(comida, true); // El que sea fair es para que si no hay comida esperen de forma ordenada
 
         this.contadorComida = contadorComida;
@@ -124,5 +125,9 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
         } catch (RemoteException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public Paso getP() {
+        return p;
     }
 }
