@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import static com.example.trabajofinal.ControladorPantallaJuego.remoto;
 
-public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInsegura {
+public class ZonaInsegura{
     private Lock c = new ReentrantLock();
     private Lock c2 = new ReentrantLock();
 
@@ -25,7 +25,6 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
         zona = new ListaThreads(txt, p);
         this.nZona = i;
     }
-
 
     public void entrar(Humano h, boolean sale){
         c2.lock();
@@ -72,14 +71,6 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
         return null;
     }
 
-    public synchronized Humano obtenerAleatorio() {
-        if (humanos.isEmpty()) {
-            return null; // Retorna null si la lista está vacía
-        }
-        int indice = (int)(Math.random()*humanos.size());
-        return humanos.get(indice);
-    }   // ¿ este metodo lo vamos a utilizar en algo?
-
     public int sumarMuerte(String nombre, int muerte) {
         c.lock();
         try {
@@ -93,11 +84,11 @@ public class ZonaInsegura extends UnicastRemoteObject implements RemotaZonaInseg
         return muerte;
     }
 
-    public int getHumanosEnZonaInsegura() throws RemoteException{
+    public int getHumanosEnZonaInsegura(){
         return humanos.size();
     }
 
-    public int getZombiesEnZonaInsegura() throws RemoteException {
+    public int getZombiesEnZonaInsegura(){
         return (zona.getLista().size() - humanos.size());
     }
 

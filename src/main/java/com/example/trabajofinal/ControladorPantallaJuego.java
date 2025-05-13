@@ -150,6 +150,7 @@ public class ControladorPantallaJuego implements Initializable {
 
     @FXML
     protected void sumacomida(){
+        //refugio.getComida().release();
         refugio.setComida(1);
     }
 

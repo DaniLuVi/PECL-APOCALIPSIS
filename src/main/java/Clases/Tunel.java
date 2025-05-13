@@ -11,7 +11,9 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Tunel extends UnicastRemoteObject implements RemotaTunel {
+import static com.example.trabajofinal.ControladorPantallaJuego.remoto;
+
+public class Tunel{
     private Lock c = new ReentrantLock();
     private int nTunel;
     private Condition esperaDentro = c.newCondition();
@@ -38,6 +40,7 @@ public class Tunel extends UnicastRemoteObject implements RemotaTunel {
 
         try {
             esperandoTunel.meter(h);
+            actualizar();
             accesoTunel.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -58,16 +61,19 @@ public class Tunel extends UnicastRemoteObject implements RemotaTunel {
             if(!entra){while (!fuera.isEmpty()) {esperaDentro.await();}} // Si no entra espera hasta que todos los de fuera hayan pasado.
 
             esperandoTunel.sacar(h);
+            actualizar();
             System.out.println("Comienza a entrar en "+ nTunel+ " " + entra +" "+ h.getName());
             desencolar(h,entra);
             p.mirar();
             pasando.setText(h.getName());
+            actualizar();
             Thread.sleep(1000); // Simula el estar pasando el tunel
 
             System.out.println("Sale del tunel "+ nTunel+ " " + entra +" "+ h.getName());
             p.mirar();
             pasando.setText(null);
-            if (!entra){zona.entrar(h,false);}  // revisar pq creo que no están saliendo correctamete de la zona insegura (puede ser que los booleanos sean al revés, pero tengo que verlo un poco mas)
+            actualizar();
+            if (!entra){zona.entrar(h,false);}
             if (fuera.isEmpty()) {esperaDentro.signalAll();}
 
         }
@@ -75,17 +81,19 @@ public class Tunel extends UnicastRemoteObject implements RemotaTunel {
         finally  { c.unlock();}
 
     }
-    public synchronized void encolar(Humano h, boolean entra){
-        if (entra) {fuera.meter(h); System.out.println("Encolado fuera "+ h.getName());}
-        else {dentro.meter(h);System.out.println("Encolado dentro "+ h.getName());} // Para mostrarlo en pantalla
+    public synchronized void encolar(Humano h, boolean entra) throws RemoteException{
+        if (entra) {fuera.meter(h); actualizar(); System.out.println("Encolado fuera "+ h.getName());}
+        else {dentro.meter(h); actualizar(); System.out.println("Encolado dentro "+ h.getName());
+        } // Para mostrarlo en pantalla
     }
     public synchronized void desencolar(Humano h, boolean entra){
         if (entra) {
             fuera.sacar(h);
+            actualizar();
             System.out.println("Desencolado fuera"+ h.getName());
             //Codigo que lo mueva al refugio puede ser aqui o en el propio humano
         }
-        else {dentro.sacar(h); System.out.println("Desencolado dentro "+ h.getName());}
+        else {dentro.sacar(h); actualizar(); System.out.println("Desencolado dentro "+ h.getName());}
 
     }
 
@@ -97,8 +105,12 @@ public class Tunel extends UnicastRemoteObject implements RemotaTunel {
         this.nTunel = nTunel;
     }
 
-    public int getHumanosEnTuneles() throws RemoteException{
+    public int getHumanosEnTuneles(){
         return esperandoTunel.getLista().size() + dentro.getLista().size() + fuera.getLista().size() + pasando.getLength();
+    }
+
+    private void actualizar() {
+        remoto.setHumanosEnTuneles(nTunel, getHumanosEnTuneles());
     }
 }
 
