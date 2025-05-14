@@ -12,15 +12,17 @@ import static com.example.trabajofinal.ControladorPantallaJuego.p;
 
 public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     private Zombie[] podio = new Zombie[3];
+    private int[] humanosEnTuneles = new int[]{0,0,0,0};
     private int[] zombiesPorZona = new int[]{0,0,0,0};
     private int[] humanosPorZona = new int[]{0,0,0,0};
     private int humanosRefugio = 0;
-    private Lock[] cerrojos = new ReentrantLock[10]; // Un cerrojo para cada contador, o usar los contadores atómicos.
+   
 
 
+    private Lock[] cerrojos = new ReentrantLock[14]; // Un cerrojo para cada contador, o usar los contadores atómicos.
 
     public ClaseRemota() throws RemoteException{
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 14; i++) {
             cerrojos[i] = new ReentrantLock();
         }
     }
@@ -96,6 +98,17 @@ for (int i = 0; i < 3; i++) {
 
     }
 
+    public void setHumanosEnTuneles(int tunel, int humanosEnTuneles) {
+        try {
+            cerrojos[10+tunel].lock();
+            this.humanosEnTuneles[tunel] = humanosEnTuneles;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
+            cerrojos[10+tunel].unlock();
+        }
+    }
+
     public String[] getPodio() {
         try {
             cerrojos[0].lock();
@@ -111,30 +124,38 @@ for (int i = 0; i < 3; i++) {
     return null;
     }
 
-    public int[] getZombiesPorZona() {
+    public String[] getZombiesPorZona() {
         try {
             for (int i = 0; i < 4; i++) {
                 cerrojos[1+i].lock();
             }
-            return zombiesPorZona;
+            String[] zombies= new String[4];
+            for (int i = 0; i < 4; i++) {
+                zombies[i] = zombiesPorZona[i]+"";
+            }
+            return zombies;
         } catch (Exception e){}
         finally {
-            for (int i = 0; i < 4; i++) {
+            for (int i = 3; i >= 0; i--) {
                 cerrojos[1+i].unlock();
             }
         }
     return null;
     }
 
-    public int[] getHumanosPorZona() {
+    public String[] getHumanosPorZona() {
         try {
             for (int i = 0; i < 4; i++) {
                 cerrojos[5+i].lock();
             }
-            return humanosPorZona;
+            String[] humanos= new String[4];
+            for (int i = 0; i < 4; i++) {
+                humanos[i] = humanosPorZona[i]+"";
+            }
+            return humanos;
         } catch (Exception e){}
         finally {
-            for (int i = 0; i < 4; i++) {
+            for (int i = 3; i >= 0; i--) {
                 cerrojos[5+i].unlock();
             }
         }
@@ -149,6 +170,26 @@ for (int i = 0; i < 3; i++) {
             cerrojos[9].unlock();
         }
     return 0;
+    }
+
+    public String[] getHumanosEnTuneles() throws RemoteException{
+        try {
+            for (int i = 0; i < 4; i++) {
+                cerrojos[10+i].lock();
+            }
+            String[] humanos = new String[4];
+            for (int i = 0; i < 4; i++) {
+                humanos[i] = humanosEnTuneles[i] + "";
+            }
+            return humanos;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
+            for (int i = 3; i >= 0; i--) {
+                cerrojos[10+i].unlock();
+            }
+        }
+
     }
 
     public String getInfo() {

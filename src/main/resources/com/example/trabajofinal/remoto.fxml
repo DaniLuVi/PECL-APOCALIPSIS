@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorInterfazRemota">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trabajofinal.ControladorInterfazRemota">
    <children>
       <HBox layoutX="31.0" layoutY="66.0" prefHeight="198.0" prefWidth="537.0">
          <children>
@@ -37,26 +37,26 @@
             </VBox>
             <VBox prefHeight="194.0" prefWidth="224.0">
                <children>
-                  <TextField>
+                  <TextField fx:id="textoRefugio">
                      <VBox.margin>
                         <Insets bottom="20.0" />
                      </VBox.margin>
                   </TextField>
                   <HBox prefHeight="32.0" prefWidth="224.0">
                      <children>
-                        <TextField prefHeight="43.0" prefWidth="49.0">
+                        <TextField fx:id="tuneles1" prefHeight="43.0" prefWidth="49.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></TextField>
-                        <TextField prefHeight="39.0" prefWidth="48.0">
+                        <TextField fx:id="tuneles2" prefHeight="39.0" prefWidth="48.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></TextField>
-                        <TextField prefHeight="40.0" prefWidth="50.0">
+                        <TextField fx:id="tuneles3" prefHeight="40.0" prefWidth="50.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></TextField>
-                        <TextField prefHeight="37.0" prefWidth="48.0" />
+                        <TextField fx:id="tuneles4" prefHeight="37.0" prefWidth="48.0" />
                      </children>
                      <VBox.margin>
                         <Insets bottom="20.0" />
@@ -64,19 +64,19 @@
                   </HBox>
                   <HBox prefHeight="32.0" prefWidth="182.0">
                      <children>
-                        <TextField prefHeight="32.0" prefWidth="50.0">
+                        <TextField fx:id="humanosZona1" prefHeight="32.0" prefWidth="50.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></TextField>
-                        <TextField prefHeight="36.0" prefWidth="47.0">
+                        <TextField fx:id="humanosZona2" prefHeight="36.0" prefWidth="47.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></TextField>
-                        <TextField prefHeight="37.0" prefWidth="50.0">
+                        <TextField fx:id="humanosZona3" prefHeight="37.0" prefWidth="50.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin></TextField>
-                        <TextField prefHeight="37.0" prefWidth="47.0" />
+                        <TextField fx:id="humanosZona4" prefHeight="37.0" prefWidth="47.0" />
                      </children>
                      <VBox.margin>
                         <Insets bottom="20.0" />
@@ -84,29 +84,29 @@
                   </HBox>
                   <HBox prefHeight="33.0" prefWidth="224.0">
                      <children>
-                        <TextField prefHeight="36.0" prefWidth="47.0">
+                        <TextField fx:id="zombiesZona1" prefHeight="36.0" prefWidth="47.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin>
                         </TextField>
-                        <TextField prefHeight="36.0" prefWidth="50.0">
+                        <TextField fx:id="zombiesZona2" prefHeight="36.0" prefWidth="50.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin>
                         </TextField>
-                        <TextField prefHeight="34.0" prefWidth="48.0">
+                        <TextField fx:id="zombiesZona3" prefHeight="34.0" prefWidth="48.0">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin>
                         </TextField>
-                        <TextField prefHeight="37.0" prefWidth="48.0" />
+                        <TextField fx:id="zombiesZona4" prefHeight="37.0" prefWidth="48.0" />
                      </children>
                   </HBox>
                </children>
             </VBox>
          </children></HBox>
-      <Button fx:id="pauseRemoto" layoutX="381.0" layoutY="330.0" mnemonicParsing="false" onAction="#botonPausarRemoto" text="Pausar simulación" />
-      <TextField layoutX="67.0" layoutY="307.0" prefHeight="72.0" prefWidth="182.0" />
+      <Button layoutX="381.0" layoutY="330.0" mnemonicParsing="false" onAction="#botonPausarRemoto" text="Pausar simulación" />
+      <TextField fx:id="podio" layoutX="67.0" layoutY="307.0" prefHeight="72.0" prefWidth="182.0" />
       <Label layoutX="110.0" layoutY="279.0" text="Podio de zombies" />
       <TextArea fx:id="info" layoutX="-1.0" layoutY="479.0" prefHeight="200.0" prefWidth="600.0" />
    </children>

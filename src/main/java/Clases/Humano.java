@@ -24,9 +24,9 @@ public class Humano extends Thread{
         if (n == -1){n = (int)( Math.random() * 4); }
         System.out.println(this.getName()+" Elige el tunel " +n);
         log.escribir(this.getName() + " Elige tunel " + n);
-        refugio.tuneles[n].entrarTunel(n, this, false);
+        refugio.getTuneles(n).entrarTunel(n, this, false);
         try{Thread.sleep(3000 + (int) (2000* Math.random()));
-            refugio.tuneles[n].paso(this,true);
+            refugio.getTuneles(n).paso(this,true);
            if(this.isInterrupted()){
                exchanger.exchange(false);
                System.out.println("Me han llamado fuera de tiempo " + this.getName());
@@ -44,7 +44,7 @@ public class Humano extends Thread{
                 }else{
                     System.out.println("Sobrevivo al ataque.");
                     log.escribir(this.getName() + ": Sobrevivo al ataque.");
-                    refugio.tuneles[n].paso(this,true);
+                    refugio.getTuneles(n).paso(this,true);
                     return 2;
                 }
             } catch (InterruptedException ex) {

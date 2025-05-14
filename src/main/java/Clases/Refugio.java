@@ -16,17 +16,14 @@ import java.util.concurrent.locks.Lock;
 
 import static com.example.trabajofinal.ControladorPantallaJuego.remoto;
 
-public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
+public class Refugio{
 
     private Lock cerrojo = new ReentrantLock();
-
-    //private CyclicBarrier accesoTunel[] = new CyclicBarrier[4];
-    private  Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
-    Tunel tuneles[] = new Tunel[4];
+    private Semaphore comida; // El true hace el semafoto Fair y si no queda comida hacen cola por orden de llegada.
+    private Tunel tuneles[] = new Tunel[4];
     private ListaThreads zona;
     private ListaThreads comedor;
     private ListaThreads camas;
-    //ListaThreads[] esperandoTunel;
     private Label contadorComida;
     private Paso p;
 
@@ -42,7 +39,7 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
         this.contadorComida = contadorComida;
         Platform.runLater(() ->
                 contadorComida.setText(String.valueOf(comida)));
-        // esto no se si es necesario
+
         for (int i = 0; i < 4; i++) {
             this.tuneles = tuneles;
         }
@@ -114,17 +111,17 @@ public class Refugio extends UnicastRemoteObject implements RemotaRefugio{
         return comida;
     }
 
-    public int getHumanosEnRefugio() throws RemoteException{
+    public Tunel getTuneles(int n) {
+        return tuneles[n];
+    }
+
+    public int getHumanosEnRefugio(){
         return zona.getLista().size() + comedor.getLista().size() + camas.getLista().size();
     }
 
     private void actualizarRemoto(){
     // Lo he puesto en todos lados pero realmente con ponerlo al entrar y salir de la zona común valdría por que solo pueden entrar y salir desde ahí, el resto de movimientos son internos al refugio.
-        try {
-            remoto.setHumanosRefugio(getHumanosEnRefugio());
-        } catch (RemoteException e) {
-            throw new RuntimeException(e);
-        }
+        remoto.setHumanosRefugio(getHumanosEnRefugio());
     }
 
     public Paso getP() {

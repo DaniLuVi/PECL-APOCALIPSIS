@@ -17,10 +17,17 @@ public interface InterfazRemota extends Remote {
     public void setHumanosRefugio(int humanosRefugio) throws RemoteException;
 
     public int[] getZombiesPorZona() throws RemoteException;
+    public void setHumanosEnTuneles(int tunel, int humanosEnTuneles) throws RemoteException;
 
-    public int[] getHumanosPorZona() throws RemoteException;
+    public String[] getPodio() throws RemoteException;
+
+    public String[] getZombiesPorZona() throws RemoteException;
+
+    public String[] getHumanosPorZona() throws RemoteException;
 
     public int getHumanosRefugio() throws RemoteException;
+
+    public String[] getHumanosEnTuneles() throws RemoteException;
 
     public String getInfo()  throws RemoteException;
 
