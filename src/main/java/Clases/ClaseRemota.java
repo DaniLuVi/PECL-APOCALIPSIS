@@ -16,7 +16,7 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     private int[] zombiesPorZona = new int[]{0,0,0,0};
     private int[] humanosPorZona = new int[]{0,0,0,0};
     private int humanosRefugio = 0;
-   
+    private static Logger log;
 
 
     private Lock[] cerrojos = new ReentrantLock[14]; // Un cerrojo para cada contador, o usar los contadores atómicos.
@@ -229,21 +229,31 @@ for (int i = 0; i < 3; i++) {
     }
 
     public String getInfo() {
+        log.escribir("ClaseRemota{" +
+                "podio=" + Arrays.toString(podio) +
+                ", \nzombiesPorZona=" + Arrays.toString(zombiesPorZona) +
+                ", humanosPorZona=" + Arrays.toString(humanosPorZona) +
+                ", humanosRefugio=" + humanosRefugio +
+                ", humanosEnTuneles=" + Arrays.toString(humanosEnTuneles) +
+                '}');
         return "ClaseRemota{" +
                 "podio=" + Arrays.toString(podio) +
                 ", \nzombiesPorZona=" + Arrays.toString(zombiesPorZona) +
                 ", humanosPorZona=" + Arrays.toString(humanosPorZona) +
                 ", humanosRefugio=" + humanosRefugio +
+                ", humanosEnTuneles=" + Arrays.toString(humanosEnTuneles) +
                 '}';
     }
 
     @Override
     public boolean pausa() throws RemoteException {
         if(p.isCerrado()){
+            //log.escribir("");
             p.abrir();
             return true;
         }
         else {
+            //log.escribir("");
             p.cerrar();
             return false;
         }

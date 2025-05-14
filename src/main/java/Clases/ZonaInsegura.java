@@ -71,19 +71,6 @@ public class ZonaInsegura{
         return null;
     }
 
-    public int sumarMuerte(String nombre, int muerte) {
-        c.lock();
-        try {
-            muerte++;
-            log.escribir("Se ha añadido una muerte al zombie " + nombre);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        } finally {
-            c.unlock();
-        }
-        return muerte;
-    }
-
     public int getHumanosEnZonaInsegura(){
         return humanos.size();
     }
@@ -91,6 +78,4 @@ public class ZonaInsegura{
     public int getZombiesEnZonaInsegura(){
         return (zona.getLista().size() - humanos.size());
     }
-
-
 }

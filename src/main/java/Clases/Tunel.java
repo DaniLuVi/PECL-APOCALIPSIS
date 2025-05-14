@@ -62,19 +62,17 @@ public class Tunel{
             if(!entra){while (!fuera.isEmpty()) {esperaDentro.await();}} // Si no entra espera hasta que todos los de fuera hayan pasado.
 
             esperandoTunel.sacar(h);
-            actualizar();
             System.out.println("Comienza a entrar en "+ nTunel+ " " + entra +" "+ h.getName());
             desencolar(h,entra);
             p.mirar();
             pasando.setText(h.getName());
-            actualizar();
             Thread.sleep(1000); // Simula el estar pasando el tunel
 
             System.out.println("Sale del tunel "+ nTunel+ " " + entra +" "+ h.getName());
             p.mirar();
             pasando.setText(null);
             actualizar();
-            if (!entra){zona.entrar(h,false);}
+            if (!entra){zona.entrar(h,false); actualizar();}
             if (fuera.isEmpty()) {esperaDentro.signalAll();}
 
         }
@@ -82,19 +80,18 @@ public class Tunel{
         finally  { c.unlock();}
 
     }
-    public synchronized void encolar(Humano h, boolean entra) throws RemoteException{
-        if (entra) {fuera.meter(h); actualizar(); System.out.println("Encolado fuera "+ h.getName());}
-        else {dentro.meter(h); actualizar(); System.out.println("Encolado dentro "+ h.getName());
+    public synchronized void encolar(Humano h, boolean entra) {
+        if (entra) {fuera.meter(h);  System.out.println("Encolado fuera "+ h.getName());}
+        else {dentro.meter(h);  System.out.println("Encolado dentro "+ h.getName());
         } // Para mostrarlo en pantalla
     }
     public synchronized void desencolar(Humano h, boolean entra){
         if (entra) {
             fuera.sacar(h);
-            actualizar();
             System.out.println("Desencolado fuera"+ h.getName());
             //Codigo que lo mueva al refugio puede ser aqui o en el propio humano
         }
-        else {dentro.sacar(h); actualizar(); System.out.println("Desencolado dentro "+ h.getName());}
+        else {dentro.sacar(h); System.out.println("Desencolado dentro "+ h.getName());}
 
     }
 
