@@ -61,7 +61,7 @@ public class ControladorPantallaJuego implements Initializable {
     @FXML
     private Button pausa;
 
-    private static Paso p;
+    public static Paso p;
     @FXML
     private Button sumacomida;
 
@@ -141,6 +141,13 @@ public class ControladorPantallaJuego implements Initializable {
                 }
             }).start();
         });
+        try {
+            Registry registry = LocateRegistry.createRegistry(1099);
+
+        Naming.rebind("EstadoApocalipsis", remoto);
+        } catch (RemoteException | MalformedURLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @FXML

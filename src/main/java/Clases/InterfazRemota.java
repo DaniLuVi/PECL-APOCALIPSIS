@@ -16,7 +16,6 @@ public interface InterfazRemota extends Remote {
 
     public void setHumanosRefugio(int humanosRefugio) throws RemoteException;
 
-    public int[] getZombiesPorZona() throws RemoteException;
     public void setHumanosEnTuneles(int tunel, int humanosEnTuneles) throws RemoteException;
 
     public String[] getPodio() throws RemoteException;

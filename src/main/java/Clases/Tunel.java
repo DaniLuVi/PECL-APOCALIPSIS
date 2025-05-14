@@ -111,7 +111,7 @@ public class Tunel{
     }
 
     private void actualizar() {
-        remoto.setHumanosEnTuneles(nTunel, getHumanosEnTuneles());
+        remoto.setHumanosEnTuneles(nTunel-1, getHumanosEnTuneles());
     }
 }
 

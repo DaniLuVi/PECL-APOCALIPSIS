@@ -44,7 +44,7 @@ public class ControladorInterfazRemota implements Initializable {
     protected TextField zombiesZona1, zombiesZona2, zombiesZona3, zombiesZona4;
 
     @FXML
-    protected TextField podio;
+    protected TextArea podioTxt;
 
     protected InterfazRemota interfazRemota;
     @FXML
@@ -56,7 +56,7 @@ public class ControladorInterfazRemota implements Initializable {
             if(interfazRemota.pausa()){
                 pauseRemoto.setText("Detener simulación");
             } else {
-                pauseRemoto.setText("Continuar simulación");
+                    pauseRemoto.setText("Continuar simulación");
             }
         } catch (RemoteException e) {
             throw new RuntimeException(e);
@@ -87,20 +87,29 @@ public class ControladorInterfazRemota implements Initializable {
 
     }
     public void bucletmp(){
-        Zombie[] podio = new Zombie[3];
+        String[] podio = new String[3];
         int[] zombiesPorZona = new int[]{0,0,0,0};
         int[] humanosPorZona = new int[]{0,0,0,0};
         int humanosRefugio = 0;
         while (true) {
             try {
-                    Platform.runLater(() -> {
+                Platform.runLater(() -> {
                         try {
+
                             info.setText(interfazRemota.getInfo());
                             textoRefugio.setText(String.valueOf(interfazRemota.getHumanosRefugio()));
                             for (int j = 0; j < 4; j++) {
                                 textoTuneles[j].setText(interfazRemota.getHumanosEnTuneles()[j]);
                                 humanosZonasInseguras[j].setText(interfazRemota.getHumanosPorZona()[j]);
                                 zombiesZonasInseguras[j].setText(interfazRemota.getZombiesPorZona()[j]);
+                            }
+                            podioTxt.setText(null);
+                            for (String s:  interfazRemota.getPodio()){
+                                if(s != null) {
+                                    podioTxt.appendText(s);
+                                    podioTxt.appendText("\n");
+                                }
+
                             }
                             } catch(RemoteException e){
                                 throw new RuntimeException(e);

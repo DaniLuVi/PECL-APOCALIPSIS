@@ -30,7 +30,43 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
 
 
     public void checkPodio(Zombie z, int muertes) {
-        try {
+
+
+            try {
+                cerrojos[0].lock();
+
+                Zombie[] tempPodio = new Zombie[4];
+                System.arraycopy(podio, 0, tempPodio, 0, 3); // Copia la array podio en la array tmpPodio, como hacerlo elemento a elemento pero más rápido.
+
+                boolean exists = false;
+                for (Zombie existing : podio) {
+                    if (existing != null && existing.getName().equals(z.getName())) {
+                        exists = true;
+                        break;
+                    }
+                }
+
+                // Si no esta en el podio, se añade, y se ordena la lista por muertes
+                if (!exists) {
+                    tempPodio[3] = z;
+                }
+
+                // Reordenar el arreglo temporal por número de muertes en orden descendente
+                Arrays.sort(tempPodio, (a, b) -> {
+                    if (a == null) return 1;
+                    if (b == null) return -1;
+                    return Integer.compare(b.getMuertes(), a.getMuertes());
+                });
+
+                System.arraycopy(tempPodio, 0, podio, 0, 3);
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                cerrojos[0].unlock();
+            }
+
+        /*try {
             cerrojos[0].lock();
 
 for (int i = 0; i < 3; i++) {
@@ -58,13 +94,13 @@ for (int i = 0; i < 3; i++) {
              else if (muertes> podio[0].getMuertes()){ if(podio[0].getName().equals(z.getName())){}podio[2] = podio[1]; podio[1] = podio[0]; podio[0] = z;}
              else if (podio[1] == null || muertes> podio[1].getMuertes()){if (podio[1].getName().equals(z.getName())) {}podio[2] = podio[1]; podio[1] = z; }
              else if (podio[2] == null || (muertes> podio[2].getMuertes() && !podio[2].getName().equals(z.getName()))){podio[2] = z;}
-             */
+             *//*
                 // actualizarVista()
             } catch (Exception e) {
             } finally {
                 cerrojos[0].unlock();
             }
-
+*/
         }
 
     public void setZombiesPorZona(int zona , int zombies) {
@@ -114,7 +150,7 @@ for (int i = 0; i < 3; i++) {
             cerrojos[0].lock();
             String[] podiotmp = new String[3];
             for (int i = 0; i < 3; i++) {
-                podiotmp[i] = podio[i].getName() + podio[i].getMuertes();
+                podiotmp[i] = podio[i] == null ? null : podio[i].getName() + " : " + podio[i].getMuertes();
             }
             return podiotmp;
         } catch (Exception e){}
