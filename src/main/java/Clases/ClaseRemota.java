@@ -1,7 +1,5 @@
 package Clases;
 
-import com.example.trabajofinal.ControladorPantallaJuego;
-import javafx.application.Platform;
 import javafx.scene.control.Button;
 
 import java.rmi.RemoteException;
@@ -10,14 +8,13 @@ import java.util.Arrays;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+import static com.example.trabajofinal.ControladorPantallaJuego.p;
+
 public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
     private Zombie[] podio = new Zombie[3];
     private int[] zombiesPorZona = new int[]{0,0,0,0};
     private int[] humanosPorZona = new int[]{0,0,0,0};
     private int humanosRefugio = 0;
-    private Paso p;
-    private Button b;
-
     private Lock[] cerrojos = new ReentrantLock[10]; // Un cerrojo para cada contador, o usar los contadores atómicos.
 
 
@@ -27,34 +24,46 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
             cerrojos[i] = new ReentrantLock();
         }
     }
-    public ClaseRemota(Paso p, Button b) throws RemoteException{
-        this.p = p;
-        this.b = b;
-        for (int i = 0; i < 10; i++) {
-            cerrojos[i] = new ReentrantLock();
+
+
+
+    public void checkPodio(Zombie z, int muertes) {
+        try {
+            cerrojos[0].lock();
+
+for (int i = 0; i < 3; i++) {
+    // Verificar si el zombie ya está en el podio
+    boolean exists = false;
+    for (Zombie existing : podio) {
+        if (existing != null && existing.getName().equals(z.getName())) {
+            exists = true;
+            break;
         }
     }
-
-    @Override
-    public int mostrarPodio() throws RemoteException {
-        return 0;
+    if (exists) {
+        break; // Si ya está en el podio, no hacemos nada
     }
+    if (podio[i] == null || muertes > podio[i].getMuertes()) {
+        System.arraycopy(podio, i, podio, i + 1, 2 - i);
+        podio[i] = z;
+        break;
+    }
+}
 
-    public void checkPodio(Zombie z, int muertes){
-        try{
-            cerrojos[0].lock();
+
+            /*
              if (podio[0] == null ){podio[0] = z;}
              else if (muertes> podio[0].getMuertes()){ if(podio[0].getName().equals(z.getName())){}podio[2] = podio[1]; podio[1] = podio[0]; podio[0] = z;}
              else if (podio[1] == null || muertes> podio[1].getMuertes()){if (podio[1].getName().equals(z.getName())) {}podio[2] = podio[1]; podio[1] = z; }
              else if (podio[2] == null || (muertes> podio[2].getMuertes() && !podio[2].getName().equals(z.getName()))){podio[2] = z;}
+             */
+                // actualizarVista()
+            } catch (Exception e) {
+            } finally {
+                cerrojos[0].unlock();
+            }
 
-        // actualizarVista()
-        } catch (Exception e){}
-        finally {
-            cerrojos[0].unlock();
         }
-
-    }
 
     public void setZombiesPorZona(int zona , int zombies) {
         try {
@@ -150,7 +159,16 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
                 ", humanosRefugio=" + humanosRefugio +
                 '}';
     }
-    public void pausa(){
 
+    @Override
+    public boolean pausa() throws RemoteException {
+        if(p.isCerrado()){
+            p.abrir();
+            return true;
+        }
+        else {
+            p.cerrar();
+            return false;
+        }
     }
 }

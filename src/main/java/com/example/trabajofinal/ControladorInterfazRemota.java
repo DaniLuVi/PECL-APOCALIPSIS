@@ -4,6 +4,7 @@ import Clases.InterfazRemota;
 import Clases.Zombie;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
@@ -32,9 +33,20 @@ public class ControladorInterfazRemota implements Initializable {
     protected TextField[] zombiesZonasInseguras;
 
     protected InterfazRemota interfazRemota;
+    @FXML
+    protected Button pauseRemoto;
 
     @FXML
     protected void botonPausarRemoto() {
+        try {
+            if(interfazRemota.pausa()){
+                pauseRemoto.setText("Detener simulación");
+            } else {
+                pauseRemoto.setText("Continuar simulación");
+            }
+        } catch (RemoteException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

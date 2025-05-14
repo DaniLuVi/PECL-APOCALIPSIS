@@ -89,11 +89,11 @@ public class Humano extends Thread{
             refugio.descansa(this, false);
             refugio.comer(this, 1);
             if (n == 2){refugio.descansa(this, true);}
-            try {
+            /*try {
                 Thread.sleep(3000 + (int) Math.random() * 2000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
-            }   // se come una pieza de comida
+            }   // se come una pieza de comida*/ // Esto sobra?
 
         }
     }

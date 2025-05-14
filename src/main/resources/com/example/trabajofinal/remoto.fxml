@@ -105,7 +105,7 @@
                </children>
             </VBox>
          </children></HBox>
-      <Button layoutX="381.0" layoutY="330.0" mnemonicParsing="false" onAction="#botonPausarRemoto" text="Pausar simulación" />
+      <Button fx:id="pauseRemoto" layoutX="381.0" layoutY="330.0" mnemonicParsing="false" onAction="#botonPausarRemoto" text="Pausar simulación" />
       <TextField layoutX="67.0" layoutY="307.0" prefHeight="72.0" prefWidth="182.0" />
       <Label layoutX="110.0" layoutY="279.0" text="Podio de zombies" />
       <TextArea fx:id="info" layoutX="-1.0" layoutY="479.0" prefHeight="200.0" prefWidth="600.0" />

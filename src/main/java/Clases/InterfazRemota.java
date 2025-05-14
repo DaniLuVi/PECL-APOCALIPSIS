@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public interface InterfazRemota extends Remote {
 
-    public int mostrarPodio() throws RemoteException;
 
 
     public void checkPodio(Zombie z, int muertes) throws RemoteException;
@@ -17,8 +16,6 @@ public interface InterfazRemota extends Remote {
 
     public void setHumanosRefugio(int humanosRefugio) throws RemoteException;
 
-    public Zombie[] getPodio() throws RemoteException;
-
     public int[] getZombiesPorZona() throws RemoteException;
 
     public int[] getHumanosPorZona() throws RemoteException;
@@ -27,7 +24,7 @@ public interface InterfazRemota extends Remote {
 
     public String getInfo()  throws RemoteException;
 
-    public void pausa() throws RemoteException;
+    public boolean pausa() throws RemoteException;
 
 
 }

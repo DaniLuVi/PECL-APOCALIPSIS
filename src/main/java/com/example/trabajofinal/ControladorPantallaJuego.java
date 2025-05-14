@@ -61,24 +61,30 @@ public class ControladorPantallaJuego implements Initializable {
     @FXML
     private Button pausa;
 
-    private Paso p;
+    public Button getPausa() {
+        return pausa;
+    }
+
+    public static Paso p;
     @FXML
     private Button sumacomida;
 
     private Refugio refugio;
-    public static ClaseRemota remoto = new ClaseRemota(p,b);
+    public static ClaseRemota remoto;
+
+    static {
+        try {
+            remoto = new ClaseRemota();
+        } catch (RemoteException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 
     private Stage scene;
 
     private void comienzo() throws RemoteException {
 
-        try {
-            Registry registry = LocateRegistry.createRegistry(1099);
-            Naming.rebind("EstadoApocalipsis", remoto);
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
-        }
         p = new Paso();
         esperando = new TextArea[]{esperando1, esperando2, esperando3, esperando4};
 
@@ -139,6 +145,12 @@ public class ControladorPantallaJuego implements Initializable {
                 }
             }).start();
         });
+        try {
+            Registry registry = LocateRegistry.createRegistry(1099);
+            Naming.rebind("EstadoApocalipsis", remoto);
+        } catch (MalformedURLException | RemoteException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @FXML
@@ -156,10 +168,6 @@ public class ControladorPantallaJuego implements Initializable {
             p.cerrar();
             pausa.setText("Continuar");
         }
-    }
-    public boolean llamarPausa() {
-        pausa();
-        return p.isCerrado();
     }
 
     public void setStage(Stage s) {
