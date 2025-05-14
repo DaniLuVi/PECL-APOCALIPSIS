@@ -55,7 +55,7 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
                 Arrays.sort(tempPodio, (a, b) -> {
                     if (a == null) return 1;
                     if (b == null) return -1;
-                    return Integer.compare(b.getMuertes(), a.getMuertes());
+                    return Integer.compare(b.getMuertes(), a.getMuertes()); // Es la misma forma que en python ordenar una array con una función lambda.
                 });
 
                 System.arraycopy(tempPodio, 0, podio, 0, 3);

@@ -32,5 +32,4 @@ public interface InterfazRemota extends Remote {
 
     public boolean pausa() throws RemoteException;
 
-
 }

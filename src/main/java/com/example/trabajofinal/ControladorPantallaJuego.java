@@ -94,8 +94,7 @@ public class ControladorPantallaJuego implements Initializable {
             zonas[i] = new ZonaInsegura(exterior[i],p, i );
             tunel[i] = new Tunel(izquierda[i], fuera[i], dentro[i], esperando[i], zonas[i], p);
             tunel[i].setnTunel(i + 1);
-
-
+            
             /*Registry registroZona = LocateRegistry.createRegistry(1099);
             Registry registroTunel = LocateRegistry.createRegistry(1100);
 
