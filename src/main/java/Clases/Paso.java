@@ -59,7 +59,6 @@ public class Paso
     }
     public boolean isCerrado(){
         return cerrado;
-
     }
 
 }
