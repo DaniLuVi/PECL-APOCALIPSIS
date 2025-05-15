@@ -30,8 +30,6 @@ public class ClaseRemota extends UnicastRemoteObject implements InterfazRemota{
 
 
     public void checkPodio(Zombie z, int muertes) {
-
-
             try {
                 cerrojos[0].lock();
 

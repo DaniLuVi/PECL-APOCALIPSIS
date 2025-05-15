@@ -1,0 +1,151 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class ClaseRemota {
+  + ClaseRemota(): 
+  - zombiesPorZona: int[]
+  - humanosEnTuneles: int[]
+  - humanosPorZona: int[]
+  - cerrojos: Lock[]
+  - podio: Zombie[]
+  - humanosRefugio: int
+  + setHumanosRefugio(int): void
+  + setZombiesPorZona(int, int): void
+  + getInfo(): String
+  + checkPodio(Zombie, int): void
+  + getPodio(): String[]
+  + getHumanosRefugio(): int
+  + getZombiesPorZona(): String[]
+  + getHumanosEnTuneles(): String[]
+  + setHumanosEnTuneles(int, int): void
+  + setHumanosPorZona(int, int): void
+  + pausa(): boolean
+  + getHumanosPorZona(): String[]
+}
+class Humano {
+  + Humano(int, Refugio): 
+  - id: int
+  - log: Logger
+  - exchanger: Exchanger<Boolean>
+  - refugio: Refugio
+  + crearZombie(ZonaInsegura[], int): Zombie
+  + getid(): int
+  + morder(boolean): boolean
+  + run(): void
+  - buscar(int): int
+}
+interface InterfazRemota << interface >> {
+  + getInfo(): String
+  + setHumanosRefugio(int): void
+  + setHumanosPorZona(int, int): void
+  + pausa(): boolean
+  + getZombiesPorZona(): String[]
+  + getHumanosPorZona(): String[]
+  + getPodio(): String[]
+  + checkPodio(Zombie, int): void
+  + getHumanosRefugio(): int
+  + getHumanosEnTuneles(): String[]
+  + setZombiesPorZona(int, int): void
+  + setHumanosEnTuneles(int, int): void
+}
+class ListaThreads {
+  + ListaThreads(TextArea, Paso): 
+  - lista: ArrayList<Thread>
+  - p: Paso
+  - txtarea: TextArea
+  + isEmpty(): boolean
+  + sacar(Thread): void
+  + imprimir(): void
+  + getLista(): ArrayList<Thread>
+  + meter(Thread): void
+}
+class Logger {
+  + Logger(String): 
+  - ruta: String
+  - log: File
+  - c: Lock
+  + escribir(String): void
+}
+class Paso {
+  + Paso(): 
+  - cerrado: boolean
+  - cerrojo: Lock
+  - parar: Condition
+  + abrir(): void
+  + isCerrado(): boolean
+  + cerrar(): void
+  + mirar(): void
+}
+class Refugio {
+  + Refugio(int, Tunel[], TextArea, TextArea, Label, TextArea, Paso): 
+  - tuneles: Tunel[]
+  - zona: ListaThreads
+  - comedor: ListaThreads
+  - log: Logger
+  - contadorComida: Label
+  - p: Paso
+  - comida: Semaphore
+  - cerrojo: Lock
+  - camas: ListaThreads
+  + comer(Humano, int): void
+  + descansa(Humano, boolean): void
+  + getTuneles(int): Tunel
+  + getHumanosEnRefugio(): int
+  + entrarZona(Humano, boolean): void
+  + getComida(): Semaphore
+  - actualizarRemoto(): void
+  + getP(): Paso
+  + setComida(int): void
+}
+class Tunel {
+  + Tunel(TextArea, TextArea, TextArea, TextArea, ZonaInsegura, Paso): 
+  - accesoTunel: CyclicBarrier
+  - esperandoTunel: ListaThreads
+  - pasando: TextArea
+  - log: Logger
+  - nTunel: int
+  - dentro: ListaThreads
+  - fuera: ListaThreads
+  - esperaDentro: Condition
+  - p: Paso
+  - c: Lock
+  - zona: ZonaInsegura
+  + setnTunel(int): void
+  + encolar(Humano, boolean): void
+  + entrarTunel(int, Humano, boolean): void
+  + paso(Humano, boolean): void
+  + desencolar(Humano, boolean): void
+  + getnTunel(): int
+  - actualizar(): void
+  + getHumanosEnTuneles(): int
+}
+class Zombie {
+  + Zombie(int, ZonaInsegura[]): 
+  + Zombie(int, ZonaInsegura[], int): 
+  - zonas: ZonaInsegura[]
+  - muertes: int
+  + morder(Humano): boolean
+  + run(): void
+  + getMuertes(): int
+}
+class ZonaInsegura {
+  + ZonaInsegura(TextArea, Paso, int): 
+  - humanos: LinkedList<Humano>
+  - log: Logger
+  - nZona: int
+  - c2: Lock
+  - c: Lock
+  - zona: ListaThreads
+  + getVictima(): Humano
+  + entrar(Zombie, boolean): void
+  + getZombiesEnZonaInsegura(): int
+  + entrar(Humano, boolean): void
+  + getHumanosEnZonaInsegura(): int
+  + sumarMuerte(String, int): int
+}
+
+ClaseRemota     -[#008200,dashed]-^  InterfazRemota 
+@enduml
